@@ -1,0 +1,201 @@
+{
+  "scope": "Historical private-source URLs retained solely for provenance. None is required by the advertised offline entrypoints. No access is granted by publication.",
+  "sources": [
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/CHANGELOG.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/COMPATIBILITY.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/DELIVERY.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/EXAMPLES.md#observed-check-a-saved-fix-against-current-runtime-values",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/EXPERIMENTAL_EXPECTATION_CHECKS.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/EXPERIMENTAL_REQUIREMENT_CHECKS.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/evidence/2026-10-20-tool-recovery.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/examples/ollama_host/README.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/references/history-consolidation.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/references/host-integration.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/references/product-workflows.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/references/skill-evolution.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/AUDIT.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/COSTS.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/DECISION.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/EVALUATOR_REPAIR.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/MANIFEST.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/MAP_QUALIFICATION.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/PLAN.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/REJECTION_DIAGNOSTIC.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/RESEARCH.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/RESULTS.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/SOURCE_ACCESS_AMENDMENT.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/STUDY_DESIGN.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/restart/CHECK.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/certified-information/RESEARCH.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/COMPONENT_MAP.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/COSTS.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/INTEGRATION_CHECK.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/NEXT_RUN.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/PLAN.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/RESEARCH.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/SOURCE_RESEARCH.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/SOURCE_RESEARCH.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/TEST_REVIEW.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/reference/README.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/identity-adaptation/AGGREGATE_CAPACITY_AMENDMENT.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/identity-adaptation/COSTS.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/identity-adaptation/NEXT_RUN.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/identity-adaptation/PILOT_ANALYSIS.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/identity-adaptation/PILOT_AUDIT.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/identity-adaptation/frozen/NEXT_RUN.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/COSTS.json",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/EXPOSURE_AUDIT.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/INDEPENDENT_RESULT_AUDIT.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/NEXT_RUN.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/PLAN.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/RESEARCH.md",
+      "availability": "not_in_public_export"
+    },
+    {
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/RESULTS.json",
+      "availability": "not_in_public_export"
+    }
+  ]
+}

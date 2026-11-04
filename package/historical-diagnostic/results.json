@@ -1,0 +1,306 @@
+{
+  "scope": "Researcher-targeted post-outcome diagnostic; not a fresh independent holdout or additional learner/model evidence.",
+  "original_methods": 12,
+  "original_methods_all_eight_correct": 11,
+  "exported_original_method_alias": "U03",
+  "additional_native_learner_sessions": 0,
+  "completed_offline_guest_runs": 15,
+  "oracle": {
+    "library": "jsonschema",
+    "version": "4.26.0",
+    "expected_answers_matched": 8,
+    "remote_retrieval": "forbidden"
+  },
+  "original_diagnostic_rows": [
+    {
+      "method_alias": "U01",
+      "counts": {
+        "pass": 8,
+        "fail": 0,
+        "unresolved": 0,
+        "total": 8
+      },
+      "wall_seconds": 2.2179999999934807,
+      "source_sha256": "6f37b9bfe01620f57ebaaf46b1f8472f7de3cd4042909c1af3260e3e1640beb9",
+      "observed": {
+        "object-child-name-leak": false,
+        "object-reversed-order": false,
+        "object-valid-values": true,
+        "object-empty": true,
+        "array-child-index-leak": false,
+        "array-reversed-order": false,
+        "array-valid-values": true,
+        "array-empty": true
+      }
+    },
+    {
+      "method_alias": "U02",
+      "counts": {
+        "pass": 8,
+        "fail": 0,
+        "unresolved": 0,
+        "total": 8
+      },
+      "wall_seconds": 2.0160000000032596,
+      "source_sha256": "ff1a8fbaef55a4625149afbc275e6b1483bea9b25cfaad12fdc4bcd74ec70643",
+      "observed": {
+        "object-child-name-leak": false,
+        "object-reversed-order": false,
+        "object-valid-values": true,
+        "object-empty": true,
+        "array-child-index-leak": false,
+        "array-reversed-order": false,
+        "array-valid-values": true,
+        "array-empty": true
+      }
+    },
+    {
+      "method_alias": "U03",
+      "counts": {
+        "pass": 6,
+        "fail": 2,
+        "unresolved": 0,
+        "total": 8
+      },
+      "wall_seconds": 2.1089999999967404,
+      "source_sha256": "ca2a6449439db51670ba0966f7c4983ffb8d0016ebe2c433693c976ea00dc86c",
+      "observed": {
+        "object-child-name-leak": true,
+        "object-reversed-order": false,
+        "object-valid-values": true,
+        "object-empty": true,
+        "array-child-index-leak": true,
+        "array-reversed-order": false,
+        "array-valid-values": true,
+        "array-empty": true
+      }
+    },
+    {
+      "method_alias": "U04",
+      "counts": {
+        "pass": 8,
+        "fail": 0,
+        "unresolved": 0,
+        "total": 8
+      },
+      "wall_seconds": 1.9849999999860302,
+      "source_sha256": "22d05feb15fe27e1fe0c0c647e9331c9341e506a818c5a9aa62a86b2f75fd598",
+      "observed": {
+        "object-child-name-leak": false,
+        "object-reversed-order": false,
+        "object-valid-values": true,
+        "object-empty": true,
+        "array-child-index-leak": false,
+        "array-reversed-order": false,
+        "array-valid-values": true,
+        "array-empty": true
+      }
+    },
+    {
+      "method_alias": "U05",
+      "counts": {
+        "pass": 8,
+        "fail": 0,
+        "unresolved": 0,
+        "total": 8
+      },
+      "wall_seconds": 2.2030000000377186,
+      "source_sha256": "6030ff8c3a8d064900f38beeaa2d5027d03b4f32a0f75a103de1b02e3f200d34",
+      "observed": {
+        "object-child-name-leak": false,
+        "object-reversed-order": false,
+        "object-valid-values": true,
+        "object-empty": true,
+        "array-child-index-leak": false,
+        "array-reversed-order": false,
+        "array-valid-values": true,
+        "array-empty": true
+      }
+    },
+    {
+      "method_alias": "U06",
+      "counts": {
+        "pass": 8,
+        "fail": 0,
+        "unresolved": 0,
+        "total": 8
+      },
+      "wall_seconds": 2.0939999999827705,
+      "source_sha256": "407fe96fccd500e273083c1df3ca8ba23d634b9643e6a801bd96a31ad32dbc57",
+      "observed": {
+        "object-child-name-leak": false,
+        "object-reversed-order": false,
+        "object-valid-values": true,
+        "object-empty": true,
+        "array-child-index-leak": false,
+        "array-reversed-order": false,
+        "array-valid-values": true,
+        "array-empty": true
+      }
+    },
+    {
+      "method_alias": "U07",
+      "counts": {
+        "pass": 8,
+        "fail": 0,
+        "unresolved": 0,
+        "total": 8
+      },
+      "wall_seconds": 2.0310000000172295,
+      "source_sha256": "58c0421ff0c9e9bcce081b0f49a92d7f7c1884f0ea75217878a8da2533421a2f",
+      "observed": {
+        "object-child-name-leak": false,
+        "object-reversed-order": false,
+        "object-valid-values": true,
+        "object-empty": true,
+        "array-child-index-leak": false,
+        "array-reversed-order": false,
+        "array-valid-values": true,
+        "array-empty": true
+      }
+    },
+    {
+      "method_alias": "U08",
+      "counts": {
+        "pass": 8,
+        "fail": 0,
+        "unresolved": 0,
+        "total": 8
+      },
+      "wall_seconds": 1.9839999999967404,
+      "source_sha256": "a3f18c72da741f25b3693ab8e255750104a3f510186f94d87165d5cd7491f124",
+      "observed": {
+        "object-child-name-leak": false,
+        "object-reversed-order": false,
+        "object-valid-values": true,
+        "object-empty": true,
+        "array-child-index-leak": false,
+        "array-reversed-order": false,
+        "array-valid-values": true,
+        "array-empty": true
+      }
+    },
+    {
+      "method_alias": "U09",
+      "counts": {
+        "pass": 8,
+        "fail": 0,
+        "unresolved": 0,
+        "total": 8
+      },
+      "wall_seconds": 2.0469999999622814,
+      "source_sha256": "de4ae3b80021913dff6569e6f2be4a226e10bd283cca6654d7bc24520492dc99",
+      "observed": {
+        "object-child-name-leak": false,
+        "object-reversed-order": false,
+        "object-valid-values": true,
+        "object-empty": true,
+        "array-child-index-leak": false,
+        "array-reversed-order": false,
+        "array-valid-values": true,
+        "array-empty": true
+      }
+    },
+    {
+      "method_alias": "U10",
+      "counts": {
+        "pass": 8,
+        "fail": 0,
+        "unresolved": 0,
+        "total": 8
+      },
+      "wall_seconds": 2.0310000000172295,
+      "source_sha256": "ea4d3453eab45b37183df0f8059ebad736296430f80831ab858a0bd44772a893",
+      "observed": {
+        "object-child-name-leak": false,
+        "object-reversed-order": false,
+        "object-valid-values": true,
+        "object-empty": true,
+        "array-child-index-leak": false,
+        "array-reversed-order": false,
+        "array-valid-values": true,
+        "array-empty": true
+      }
+    },
+    {
+      "method_alias": "U11",
+      "counts": {
+        "pass": 8,
+        "fail": 0,
+        "unresolved": 0,
+        "total": 8
+      },
+      "wall_seconds": 2.25,
+      "source_sha256": "54d06776c22480a50ee01996361c610a5433575acdafbd9bc3a2de83b7755d57",
+      "observed": {
+        "object-child-name-leak": false,
+        "object-reversed-order": false,
+        "object-valid-values": true,
+        "object-empty": true,
+        "array-child-index-leak": false,
+        "array-reversed-order": false,
+        "array-valid-values": true,
+        "array-empty": true
+      }
+    },
+    {
+      "method_alias": "U12",
+      "counts": {
+        "pass": 8,
+        "fail": 0,
+        "unresolved": 0,
+        "total": 8
+      },
+      "wall_seconds": 2.0320000000065193,
+      "source_sha256": "f1968e4e6cc0bec89776835fd48e73512f9e63ee6120d4cd9162459350a2865e",
+      "observed": {
+        "object-child-name-leak": false,
+        "object-reversed-order": false,
+        "object-valid-values": true,
+        "object-empty": true,
+        "array-child-index-leak": false,
+        "array-reversed-order": false,
+        "array-valid-values": true,
+        "array-empty": true
+      }
+    }
+  ],
+  "repair": {
+    "original_sha256": "ca2a6449439db51670ba0966f7c4983ffb8d0016ebe2c433693c976ea00dc86c",
+    "repaired_sha256": "26e4020590280db88e75b2df4e91be772c31dccd4e8b002a6a8884c5dd7f9b66",
+    "checks": [
+      {
+        "task": "post_outcome_diagnostic",
+        "counts": {
+          "pass": 8,
+          "fail": 0,
+          "unresolved": 0,
+          "total": 8
+        },
+        "wall_seconds": 2.047000000020489
+      },
+      {
+        "task": "original_E2_exposed_recheck",
+        "counts": {
+          "pass": 76,
+          "fail": 0,
+          "unresolved": 0,
+          "total": 76
+        },
+        "wall_seconds": 2.3119999999762513
+      },
+      {
+        "task": "original_E3_exposed_recheck",
+        "counts": {
+          "pass": 89,
+          "fail": 0,
+          "unresolved": 0,
+          "total": 89
+        },
+        "wall_seconds": 2.297000000020489
+      }
+    ]
+  },
+  "accounting_limits": "Wall seconds cover each isolated guest/grade invocation only. Investigation tokens, preparation, human time, complete money costs and energy are unmeasured. Initial pre-start denied attempt and local read-only repair-copy failure are preserved in internal research evidence; they are not successful guest runs.",
+  "unchanged": "Original prespecified outcomes and frozen code are preserved; repair is a separate investigator artifact."
+}

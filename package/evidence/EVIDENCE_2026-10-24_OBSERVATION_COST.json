@@ -1,0 +1,1243 @@
+{
+  "acquisition_charged_scenarios": {
+    "L": {
+      "query_work": 2974800,
+      "total_tokens": 2074718,
+      "uncached_input_plus_output": 320478
+    },
+    "N": {
+      "query_work": 4909400,
+      "total_tokens": 767000,
+      "uncached_input_plus_output": 163224
+    },
+    "O": {
+      "query_work": 2890600,
+      "total_tokens": 1199104,
+      "uncached_input_plus_output": 248832
+    },
+    "R": {
+      "query_work": 2926000,
+      "total_tokens": 1594426,
+      "uncached_input_plus_output": 262458
+    }
+  },
+  "all_worker_usage": {
+    "actions": 594,
+    "execution_vm_steps": 1015200,
+    "feedback_tokens": {
+      "cachedInputTokens": 493952,
+      "inputTokens": 526497,
+      "outputTokens": 3310,
+      "reasoningOutputTokens": 202,
+      "totalTokens": 529807,
+      "uncachedInputPlusOutput": 35855
+    },
+    "first_plan_jobs_within_contract": 205,
+    "jobs_within_contract": 208,
+    "probe_count": 262,
+    "probe_cpu_seconds": 0.5625,
+    "probe_vm_steps": 9107400,
+    "same_session_repeat_probes": 0,
+    "service_wall_seconds": 1.5581446000142023,
+    "stable_condition_reprobes": 72,
+    "successes": 26,
+    "summed_dispatch_seconds": 3004.183481500251,
+    "task_tokens": {
+      "cachedInputTokens": 3289472,
+      "inputTokens": 4101478,
+      "outputTokens": 32523,
+      "reasoningOutputTokens": 8556,
+      "totalTokens": 4134001,
+      "uncachedInputPlusOutput": 844529
+    },
+    "tasks": 26,
+    "tokens": {
+      "cachedInputTokens": 3783424,
+      "inputTokens": 4627975,
+      "outputTokens": 35833,
+      "reasoningOutputTokens": 8758,
+      "totalTokens": 4663808,
+      "uncachedInputPlusOutput": 880384
+    },
+    "tool_broker_errors": 0,
+    "total_query_cpu_seconds": 0.859375,
+    "total_query_wall_seconds": 0.9413869001436979,
+    "total_vm_steps": 10122600
+  },
+  "by_cohort": {
+    "C1": {
+      "L": {
+        "actions": 76,
+        "execution_vm_steps": 122000,
+        "feedback_tokens": {
+          "cachedInputTokens": 210304,
+          "inputTokens": 223901,
+          "outputTokens": 1159,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 225060,
+          "uncachedInputPlusOutput": 14756
+        },
+        "first_plan_jobs_within_contract": 24,
+        "jobs_within_contract": 24,
+        "probe_count": 24,
+        "probe_cpu_seconds": 0.046875,
+        "probe_vm_steps": 470800,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.1244829996721819,
+        "stable_condition_reprobes": 16,
+        "successes": 3,
+        "summed_dispatch_seconds": 386.9192784001352,
+        "task_tokens": {
+          "cachedInputTokens": 509056,
+          "inputTokens": 630316,
+          "outputTokens": 4382,
+          "reasoningOutputTokens": 635,
+          "totalTokens": 634698,
+          "uncachedInputPlusOutput": 125642
+        },
+        "tasks": 3,
+        "tokens": {
+          "cachedInputTokens": 719360,
+          "inputTokens": 854217,
+          "outputTokens": 5541,
+          "reasoningOutputTokens": 635,
+          "totalTokens": 859758,
+          "uncachedInputPlusOutput": 140398
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.0625,
+        "total_query_wall_seconds": 0.08311540039721876,
+        "total_vm_steps": 592800
+      },
+      "N": {
+        "actions": 77,
+        "execution_vm_steps": 122000,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 24,
+        "jobs_within_contract": 24,
+        "probe_count": 50,
+        "probe_cpu_seconds": 0.15625,
+        "probe_vm_steps": 2403500,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.25463100033812225,
+        "stable_condition_reprobes": 0,
+        "successes": 3,
+        "summed_dispatch_seconds": 330.9599384998437,
+        "task_tokens": {
+          "cachedInputTokens": 300544,
+          "inputTokens": 377038,
+          "outputTokens": 3414,
+          "reasoningOutputTokens": 1183,
+          "totalTokens": 380452,
+          "uncachedInputPlusOutput": 79908
+        },
+        "tasks": 3,
+        "tokens": {
+          "cachedInputTokens": 300544,
+          "inputTokens": 377038,
+          "outputTokens": 3414,
+          "reasoningOutputTokens": 1183,
+          "totalTokens": 380452,
+          "uncachedInputPlusOutput": 79908
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.203125,
+        "total_query_wall_seconds": 0.18833790009375662,
+        "total_vm_steps": 2525500
+      },
+      "O": {
+        "actions": 53,
+        "execution_vm_steps": 122000,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 24,
+        "jobs_within_contract": 24,
+        "probe_count": 20,
+        "probe_cpu_seconds": 0.015625,
+        "probe_vm_steps": 442800,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.11988740018568933,
+        "stable_condition_reprobes": 12,
+        "successes": 3,
+        "summed_dispatch_seconds": 304.1059937000973,
+        "task_tokens": {
+          "cachedInputTokens": 231552,
+          "inputTokens": 337224,
+          "outputTokens": 2514,
+          "reasoningOutputTokens": 680,
+          "totalTokens": 339738,
+          "uncachedInputPlusOutput": 108186
+        },
+        "tasks": 3,
+        "tokens": {
+          "cachedInputTokens": 231552,
+          "inputTokens": 337224,
+          "outputTokens": 2514,
+          "reasoningOutputTokens": 680,
+          "totalTokens": 339738,
+          "uncachedInputPlusOutput": 108186
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.046875,
+        "total_query_wall_seconds": 0.06196569977328181,
+        "total_vm_steps": 564800
+      },
+      "R": {
+        "actions": 58,
+        "execution_vm_steps": 122000,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 24,
+        "jobs_within_contract": 24,
+        "probe_count": 16,
+        "probe_cpu_seconds": 0.046875,
+        "probe_vm_steps": 422000,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.13982680009212345,
+        "stable_condition_reprobes": 8,
+        "successes": 3,
+        "summed_dispatch_seconds": 338.8139961999841,
+        "task_tokens": {
+          "cachedInputTokens": 521472,
+          "inputTokens": 602085,
+          "outputTokens": 4065,
+          "reasoningOutputTokens": 1156,
+          "totalTokens": 606150,
+          "uncachedInputPlusOutput": 84678
+        },
+        "tasks": 3,
+        "tokens": {
+          "cachedInputTokens": 521472,
+          "inputTokens": 602085,
+          "outputTokens": 4065,
+          "reasoningOutputTokens": 1156,
+          "totalTokens": 606150,
+          "uncachedInputPlusOutput": 84678
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.109375,
+        "total_query_wall_seconds": 0.07551379944197834,
+        "total_vm_steps": 544000
+      }
+    },
+    "C2": {
+      "L": {
+        "actions": 73,
+        "execution_vm_steps": 122000,
+        "feedback_tokens": {
+          "cachedInputTokens": 186240,
+          "inputTokens": 197818,
+          "outputTokens": 1178,
+          "reasoningOutputTokens": 32,
+          "totalTokens": 198996,
+          "uncachedInputPlusOutput": 12756
+        },
+        "first_plan_jobs_within_contract": 24,
+        "jobs_within_contract": 24,
+        "probe_count": 24,
+        "probe_cpu_seconds": 0.015625,
+        "probe_vm_steps": 470900,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.12735549977514893,
+        "stable_condition_reprobes": 16,
+        "successes": 3,
+        "summed_dispatch_seconds": 378.20519620005507,
+        "task_tokens": {
+          "cachedInputTokens": 420224,
+          "inputTokens": 526173,
+          "outputTokens": 4071,
+          "reasoningOutputTokens": 670,
+          "totalTokens": 530244,
+          "uncachedInputPlusOutput": 110020
+        },
+        "tasks": 3,
+        "tokens": {
+          "cachedInputTokens": 606464,
+          "inputTokens": 723991,
+          "outputTokens": 5249,
+          "reasoningOutputTokens": 702,
+          "totalTokens": 729240,
+          "uncachedInputPlusOutput": 122776
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.046875,
+        "total_query_wall_seconds": 0.07606200000736862,
+        "total_vm_steps": 592900
+      },
+      "N": {
+        "actions": 81,
+        "execution_vm_steps": 122000,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 24,
+        "jobs_within_contract": 24,
+        "probe_count": 52,
+        "probe_cpu_seconds": 0.0625,
+        "probe_vm_steps": 2261900,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.20285309990867972,
+        "stable_condition_reprobes": 0,
+        "successes": 3,
+        "summed_dispatch_seconds": 338.8734944999451,
+        "task_tokens": {
+          "cachedInputTokens": 303232,
+          "inputTokens": 382541,
+          "outputTokens": 4007,
+          "reasoningOutputTokens": 1480,
+          "totalTokens": 386548,
+          "uncachedInputPlusOutput": 83316
+        },
+        "tasks": 3,
+        "tokens": {
+          "cachedInputTokens": 303232,
+          "inputTokens": 382541,
+          "outputTokens": 4007,
+          "reasoningOutputTokens": 1480,
+          "totalTokens": 386548,
+          "uncachedInputPlusOutput": 83316
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.078125,
+        "total_query_wall_seconds": 0.13737010036129504,
+        "total_vm_steps": 2383900
+      },
+      "O": {
+        "actions": 46,
+        "execution_vm_steps": 122000,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 24,
+        "jobs_within_contract": 24,
+        "probe_count": 12,
+        "probe_cpu_seconds": 0.046875,
+        "probe_vm_steps": 414700,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.05856220016721636,
+        "stable_condition_reprobes": 4,
+        "successes": 3,
+        "summed_dispatch_seconds": 303.65407710010186,
+        "task_tokens": {
+          "cachedInputTokens": 290304,
+          "inputTokens": 371145,
+          "outputTokens": 2501,
+          "reasoningOutputTokens": 719,
+          "totalTokens": 373646,
+          "uncachedInputPlusOutput": 83342
+        },
+        "tasks": 3,
+        "tokens": {
+          "cachedInputTokens": 290304,
+          "inputTokens": 371145,
+          "outputTokens": 2501,
+          "reasoningOutputTokens": 719,
+          "totalTokens": 373646,
+          "uncachedInputPlusOutput": 83342
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.0625,
+        "total_query_wall_seconds": 0.05479030008427799,
+        "total_vm_steps": 536700
+      },
+      "R": {
+        "actions": 63,
+        "execution_vm_steps": 122000,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 24,
+        "jobs_within_contract": 24,
+        "probe_count": 24,
+        "probe_cpu_seconds": 0.0,
+        "probe_vm_steps": 470900,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.10954019986093044,
+        "stable_condition_reprobes": 16,
+        "successes": 3,
+        "summed_dispatch_seconds": 325.87805589998607,
+        "task_tokens": {
+          "cachedInputTokens": 382080,
+          "inputTokens": 498779,
+          "outputTokens": 3777,
+          "reasoningOutputTokens": 760,
+          "totalTokens": 502556,
+          "uncachedInputPlusOutput": 120476
+        },
+        "tasks": 3,
+        "tokens": {
+          "cachedInputTokens": 382080,
+          "inputTokens": 498779,
+          "outputTokens": 3777,
+          "reasoningOutputTokens": 760,
+          "totalTokens": 502556,
+          "uncachedInputPlusOutput": 120476
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.046875,
+        "total_query_wall_seconds": 0.06475370039697737,
+        "total_vm_steps": 592900
+      }
+    }
+  },
+  "by_stage": {
+    "2": {
+      "L": {
+        "actions": 47,
+        "execution_vm_steps": 92800,
+        "feedback_tokens": {
+          "cachedInputTokens": 109952,
+          "inputTokens": 118066,
+          "outputTokens": 737,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 118803,
+          "uncachedInputPlusOutput": 8851
+        },
+        "first_plan_jobs_within_contract": 16,
+        "jobs_within_contract": 16,
+        "probe_count": 16,
+        "probe_cpu_seconds": 0.015625,
+        "probe_vm_steps": 92800,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.07353869965299964,
+        "stable_condition_reprobes": 16,
+        "successes": 2,
+        "summed_dispatch_seconds": 241.72420050005894,
+        "task_tokens": {
+          "cachedInputTokens": 211200,
+          "inputTokens": 271019,
+          "outputTokens": 2776,
+          "reasoningOutputTokens": 423,
+          "totalTokens": 273795,
+          "uncachedInputPlusOutput": 62595
+        },
+        "tasks": 2,
+        "tokens": {
+          "cachedInputTokens": 321152,
+          "inputTokens": 389085,
+          "outputTokens": 3513,
+          "reasoningOutputTokens": 423,
+          "totalTokens": 392598,
+          "uncachedInputPlusOutput": 71446
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.015625,
+        "total_query_wall_seconds": 0.03872939990833402,
+        "total_vm_steps": 185600
+      },
+      "N": {
+        "actions": 61,
+        "execution_vm_steps": 92800,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 16,
+        "jobs_within_contract": 16,
+        "probe_count": 41,
+        "probe_cpu_seconds": 0.09375,
+        "probe_vm_steps": 1971900,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.16781430027913302,
+        "stable_condition_reprobes": 0,
+        "successes": 2,
+        "summed_dispatch_seconds": 241.95803519990295,
+        "task_tokens": {
+          "cachedInputTokens": 232448,
+          "inputTokens": 302942,
+          "outputTokens": 3198,
+          "reasoningOutputTokens": 990,
+          "totalTokens": 306140,
+          "uncachedInputPlusOutput": 73692
+        },
+        "tasks": 2,
+        "tokens": {
+          "cachedInputTokens": 232448,
+          "inputTokens": 302942,
+          "outputTokens": 3198,
+          "reasoningOutputTokens": 990,
+          "totalTokens": 306140,
+          "uncachedInputPlusOutput": 73692
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.125,
+        "total_query_wall_seconds": 0.11913459980860353,
+        "total_vm_steps": 2064700
+      },
+      "O": {
+        "actions": 25,
+        "execution_vm_steps": 92800,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 16,
+        "jobs_within_contract": 16,
+        "probe_count": 8,
+        "probe_cpu_seconds": 0.0,
+        "probe_vm_steps": 46400,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.03457210015039891,
+        "stable_condition_reprobes": 8,
+        "successes": 2,
+        "summed_dispatch_seconds": 193.65274570009205,
+        "task_tokens": {
+          "cachedInputTokens": 128640,
+          "inputTokens": 173168,
+          "outputTokens": 1305,
+          "reasoningOutputTokens": 452,
+          "totalTokens": 174473,
+          "uncachedInputPlusOutput": 45833
+        },
+        "tasks": 2,
+        "tokens": {
+          "cachedInputTokens": 128640,
+          "inputTokens": 173168,
+          "outputTokens": 1305,
+          "reasoningOutputTokens": 452,
+          "totalTokens": 174473,
+          "uncachedInputPlusOutput": 45833
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.015625,
+        "total_query_wall_seconds": 0.028347499785013497,
+        "total_vm_steps": 139200
+      },
+      "R": {
+        "actions": 33,
+        "execution_vm_steps": 92800,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 16,
+        "jobs_within_contract": 16,
+        "probe_count": 10,
+        "probe_cpu_seconds": 0.0,
+        "probe_vm_steps": 58000,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.06371729983948171,
+        "stable_condition_reprobes": 10,
+        "successes": 2,
+        "summed_dispatch_seconds": 221.59174519998487,
+        "task_tokens": {
+          "cachedInputTokens": 238336,
+          "inputTokens": 282830,
+          "outputTokens": 3010,
+          "reasoningOutputTokens": 809,
+          "totalTokens": 285840,
+          "uncachedInputPlusOutput": 47504
+        },
+        "tasks": 2,
+        "tokens": {
+          "cachedInputTokens": 238336,
+          "inputTokens": 282830,
+          "outputTokens": 3010,
+          "reasoningOutputTokens": 809,
+          "totalTokens": 285840,
+          "uncachedInputPlusOutput": 47504
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.046875,
+        "total_query_wall_seconds": 0.04294519987888634,
+        "total_vm_steps": 150800
+      }
+    },
+    "3": {
+      "L": {
+        "actions": 57,
+        "execution_vm_steps": 112000,
+        "feedback_tokens": {
+          "cachedInputTokens": 123392,
+          "inputTokens": 132803,
+          "outputTokens": 845,
+          "reasoningOutputTokens": 32,
+          "totalTokens": 133648,
+          "uncachedInputPlusOutput": 10256
+        },
+        "first_plan_jobs_within_contract": 16,
+        "jobs_within_contract": 16,
+        "probe_count": 24,
+        "probe_cpu_seconds": 0.03125,
+        "probe_vm_steps": 829300,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.10461479995865375,
+        "stable_condition_reprobes": 8,
+        "successes": 2,
+        "summed_dispatch_seconds": 265.6301005000714,
+        "task_tokens": {
+          "cachedInputTokens": 279296,
+          "inputTokens": 366282,
+          "outputTokens": 2731,
+          "reasoningOutputTokens": 397,
+          "totalTokens": 369013,
+          "uncachedInputPlusOutput": 89717
+        },
+        "tasks": 2,
+        "tokens": {
+          "cachedInputTokens": 402688,
+          "inputTokens": 499085,
+          "outputTokens": 3576,
+          "reasoningOutputTokens": 429,
+          "totalTokens": 502661,
+          "uncachedInputPlusOutput": 99973
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.03125,
+        "total_query_wall_seconds": 0.06347940012346953,
+        "total_vm_steps": 941300
+      },
+      "N": {
+        "actions": 50,
+        "execution_vm_steps": 112000,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 16,
+        "jobs_within_contract": 16,
+        "probe_count": 33,
+        "probe_cpu_seconds": 0.0625,
+        "probe_vm_steps": 1634400,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.13971420004963875,
+        "stable_condition_reprobes": 0,
+        "successes": 2,
+        "summed_dispatch_seconds": 223.18530739995185,
+        "task_tokens": {
+          "cachedInputTokens": 185216,
+          "inputTokens": 239173,
+          "outputTokens": 2508,
+          "reasoningOutputTokens": 1118,
+          "totalTokens": 241681,
+          "uncachedInputPlusOutput": 56465
+        },
+        "tasks": 2,
+        "tokens": {
+          "cachedInputTokens": 185216,
+          "inputTokens": 239173,
+          "outputTokens": 2508,
+          "reasoningOutputTokens": 1118,
+          "totalTokens": 241681,
+          "uncachedInputPlusOutput": 56465
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.0625,
+        "total_query_wall_seconds": 0.09704860008787364,
+        "total_vm_steps": 1746400
+      },
+      "O": {
+        "actions": 42,
+        "execution_vm_steps": 112000,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 16,
+        "jobs_within_contract": 16,
+        "probe_count": 20,
+        "probe_cpu_seconds": 0.0625,
+        "probe_vm_steps": 801300,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.11189940012991428,
+        "stable_condition_reprobes": 4,
+        "successes": 2,
+        "summed_dispatch_seconds": 209.981401200057,
+        "task_tokens": {
+          "cachedInputTokens": 191488,
+          "inputTokens": 265109,
+          "outputTokens": 1987,
+          "reasoningOutputTokens": 513,
+          "totalTokens": 267096,
+          "uncachedInputPlusOutput": 75608
+        },
+        "tasks": 2,
+        "tokens": {
+          "cachedInputTokens": 191488,
+          "inputTokens": 265109,
+          "outputTokens": 1987,
+          "reasoningOutputTokens": 513,
+          "totalTokens": 267096,
+          "uncachedInputPlusOutput": 75608
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.078125,
+        "total_query_wall_seconds": 0.06463500007521361,
+        "total_vm_steps": 913300
+      },
+      "R": {
+        "actions": 49,
+        "execution_vm_steps": 112000,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 16,
+        "jobs_within_contract": 16,
+        "probe_count": 22,
+        "probe_cpu_seconds": 0.046875,
+        "probe_vm_steps": 815300,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.13069330027792603,
+        "stable_condition_reprobes": 6,
+        "successes": 2,
+        "summed_dispatch_seconds": 237.99284239998087,
+        "task_tokens": {
+          "cachedInputTokens": 343296,
+          "inputTokens": 410628,
+          "outputTokens": 2892,
+          "reasoningOutputTokens": 784,
+          "totalTokens": 413520,
+          "uncachedInputPlusOutput": 70224
+        },
+        "tasks": 2,
+        "tokens": {
+          "cachedInputTokens": 343296,
+          "inputTokens": 410628,
+          "outputTokens": 2892,
+          "reasoningOutputTokens": 784,
+          "totalTokens": 413520,
+          "uncachedInputPlusOutput": 70224
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.078125,
+        "total_query_wall_seconds": 0.07502940006088465,
+        "total_vm_steps": 927300
+      }
+    },
+    "4": {
+      "L": {
+        "actions": 45,
+        "execution_vm_steps": 39200,
+        "feedback_tokens": {
+          "cachedInputTokens": 163200,
+          "inputTokens": 170850,
+          "outputTokens": 755,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 171605,
+          "uncachedInputPlusOutput": 8405
+        },
+        "first_plan_jobs_within_contract": 16,
+        "jobs_within_contract": 16,
+        "probe_count": 8,
+        "probe_cpu_seconds": 0.015625,
+        "probe_vm_steps": 19600,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.07368499983567744,
+        "stable_condition_reprobes": 8,
+        "successes": 2,
+        "summed_dispatch_seconds": 257.77017360005993,
+        "task_tokens": {
+          "cachedInputTokens": 438784,
+          "inputTokens": 519188,
+          "outputTokens": 2946,
+          "reasoningOutputTokens": 485,
+          "totalTokens": 522134,
+          "uncachedInputPlusOutput": 83350
+        },
+        "tasks": 2,
+        "tokens": {
+          "cachedInputTokens": 601984,
+          "inputTokens": 690038,
+          "outputTokens": 3701,
+          "reasoningOutputTokens": 485,
+          "totalTokens": 693739,
+          "uncachedInputPlusOutput": 91755
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.0625,
+        "total_query_wall_seconds": 0.05696860037278384,
+        "total_vm_steps": 58800
+      },
+      "N": {
+        "actions": 47,
+        "execution_vm_steps": 39200,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 16,
+        "jobs_within_contract": 16,
+        "probe_count": 28,
+        "probe_cpu_seconds": 0.0625,
+        "probe_vm_steps": 1059100,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.1499555999180302,
+        "stable_condition_reprobes": 0,
+        "successes": 2,
+        "summed_dispatch_seconds": 204.69009039993398,
+        "task_tokens": {
+          "cachedInputTokens": 186112,
+          "inputTokens": 217464,
+          "outputTokens": 1715,
+          "reasoningOutputTokens": 555,
+          "totalTokens": 219179,
+          "uncachedInputPlusOutput": 33067
+        },
+        "tasks": 2,
+        "tokens": {
+          "cachedInputTokens": 186112,
+          "inputTokens": 217464,
+          "outputTokens": 1715,
+          "reasoningOutputTokens": 555,
+          "totalTokens": 219179,
+          "uncachedInputPlusOutput": 33067
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.09375,
+        "total_query_wall_seconds": 0.1095248005585745,
+        "total_vm_steps": 1098300
+      },
+      "O": {
+        "actions": 32,
+        "execution_vm_steps": 39200,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 16,
+        "jobs_within_contract": 16,
+        "probe_count": 4,
+        "probe_cpu_seconds": 0.0,
+        "probe_vm_steps": 9800,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.0319781000725925,
+        "stable_condition_reprobes": 4,
+        "successes": 2,
+        "summed_dispatch_seconds": 204.1259239000501,
+        "task_tokens": {
+          "cachedInputTokens": 201728,
+          "inputTokens": 270092,
+          "outputTokens": 1723,
+          "reasoningOutputTokens": 434,
+          "totalTokens": 271815,
+          "uncachedInputPlusOutput": 70087
+        },
+        "tasks": 2,
+        "tokens": {
+          "cachedInputTokens": 201728,
+          "inputTokens": 270092,
+          "outputTokens": 1723,
+          "reasoningOutputTokens": 434,
+          "totalTokens": 271815,
+          "uncachedInputPlusOutput": 70087
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.015625,
+        "total_query_wall_seconds": 0.023773499997332692,
+        "total_vm_steps": 49000
+      },
+      "R": {
+        "actions": 39,
+        "execution_vm_steps": 39200,
+        "feedback_tokens": {
+          "cachedInputTokens": 0,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "reasoningOutputTokens": 0,
+          "totalTokens": 0,
+          "uncachedInputPlusOutput": 0
+        },
+        "first_plan_jobs_within_contract": 16,
+        "jobs_within_contract": 16,
+        "probe_count": 8,
+        "probe_cpu_seconds": 0.0,
+        "probe_vm_steps": 19600,
+        "same_session_repeat_probes": 0,
+        "service_wall_seconds": 0.05495639983564615,
+        "stable_condition_reprobes": 8,
+        "successes": 2,
+        "summed_dispatch_seconds": 205.10746450000443,
+        "task_tokens": {
+          "cachedInputTokens": 321920,
+          "inputTokens": 407406,
+          "outputTokens": 1940,
+          "reasoningOutputTokens": 323,
+          "totalTokens": 409346,
+          "uncachedInputPlusOutput": 87426
+        },
+        "tasks": 2,
+        "tokens": {
+          "cachedInputTokens": 321920,
+          "inputTokens": 407406,
+          "outputTokens": 1940,
+          "reasoningOutputTokens": 323,
+          "totalTokens": 409346,
+          "uncachedInputPlusOutput": 87426
+        },
+        "tool_broker_errors": 0,
+        "total_query_cpu_seconds": 0.03125,
+        "total_query_wall_seconds": 0.022292899899184704,
+        "total_vm_steps": 58800
+      }
+    }
+  },
+  "common_acquisition": {
+    "actions": 67,
+    "execution_vm_steps": 39200,
+    "feedback_tokens": {
+      "cachedInputTokens": 97408,
+      "inputTokens": 104778,
+      "outputTokens": 973,
+      "reasoningOutputTokens": 170,
+      "totalTokens": 105751,
+      "uncachedInputPlusOutput": 8343
+    },
+    "first_plan_jobs_within_contract": 13,
+    "jobs_within_contract": 16,
+    "probe_count": 40,
+    "probe_cpu_seconds": 0.171875,
+    "probe_vm_steps": 1749900,
+    "same_session_repeat_probes": 0,
+    "service_wall_seconds": 0.4210054000141099,
+    "stable_condition_reprobes": 0,
+    "successes": 2,
+    "summed_dispatch_seconds": 296.7734510001028,
+    "task_tokens": {
+      "cachedInputTokens": 331008,
+      "inputTokens": 376177,
+      "outputTokens": 3792,
+      "reasoningOutputTokens": 1273,
+      "totalTokens": 379969,
+      "uncachedInputPlusOutput": 48961
+    },
+    "tasks": 2,
+    "tokens": {
+      "cachedInputTokens": 428416,
+      "inputTokens": 480955,
+      "outputTokens": 4765,
+      "reasoningOutputTokens": 1443,
+      "totalTokens": 485720,
+      "uncachedInputPlusOutput": 57304
+    },
+    "tool_broker_errors": 0,
+    "total_query_cpu_seconds": 0.203125,
+    "total_query_wall_seconds": 0.1994779995875433,
+    "total_vm_steps": 1789100
+  },
+  "comparisons": {
+    "L": {
+      "query_work_change_vs_N_percent": -75.84837250987901,
+      "total_tokens_change_vs_O_percent": 122.74090812241374,
+      "uncached_plus_output_change_vs_O_percent": 37.407585313896654
+    },
+    "N": {
+      "query_work_change_vs_N_percent": 0.0,
+      "total_tokens_change_vs_O_percent": 7.515727854843957,
+      "uncached_plus_output_change_vs_O_percent": -14.777995906603735
+    },
+    "O": {
+      "query_work_change_vs_N_percent": -77.56344970872205,
+      "total_tokens_change_vs_O_percent": 0.0,
+      "uncached_plus_output_change_vs_O_percent": 0.0
+    },
+    "R": {
+      "query_work_change_vs_N_percent": -76.84238399804457,
+      "total_tokens_change_vs_O_percent": 55.41503594137238,
+      "uncached_plus_output_change_vs_O_percent": 7.114364479345059
+    }
+  },
+  "core_files_changed": 0,
+  "core_sha256": "f598cee5206dd415d5884f557442ec29d07dd4049bbcde23d9c9bda214f16c1b",
+  "cost_unknowns": [
+    "parent-model usage",
+    "complete research and engineering effort",
+    "money",
+    "whole-system and remote inference energy"
+  ],
+  "date": "2026-10-24",
+  "first_acquisition_plans": [
+    {
+      "cell": "C1-A1",
+      "final_jobs": 8,
+      "first_plan_jobs": 8
+    },
+    {
+      "cell": "C2-A1",
+      "final_jobs": 8,
+      "first_plan_jobs": 5
+    }
+  ],
+  "history_content_limit": "Facts contain every service request/result and final feedback. Lessons can additionally preserve the actor's operational interpretation; L/R is not a pure formatting contrast.",
+  "limitations": [
+    "two constructed sequences from one generator",
+    "cooperative host, coordinator-readable oracle",
+    "VM work is not time, energy or dollars",
+    "same-session wrapper errors may not appear as broker rejections",
+    "one worker per cohort/policy/stage",
+    "C2 acquisition used v1 file-spelling guard; all other sessions used qualified same-file v2 guard"
+  ],
+  "model": "gpt-6.1-sol/medium",
+  "nonmodel_baselines": [
+    {
+      "acquisition_work": 700400,
+      "later_successes": 0,
+      "later_tasks": 6,
+      "later_work": 2227100,
+      "model_calls": 0,
+      "policy": "auto",
+      "total_work": 2927500
+    },
+    {
+      "acquisition_work": 2139100,
+      "later_successes": 6,
+      "later_tasks": 6,
+      "later_work": 6922600,
+      "model_calls": 0,
+      "policy": "measure_all",
+      "total_work": 9061700
+    },
+    {
+      "acquisition_work": 2139100,
+      "later_successes": 6,
+      "later_tasks": 6,
+      "later_work": 1404400,
+      "model_calls": 0,
+      "policy": "revision_cache",
+      "total_work": 3543500
+    }
+  ],
+  "policies": {
+    "L": {
+      "actions": 149,
+      "execution_vm_steps": 244000,
+      "feedback_tokens": {
+        "cachedInputTokens": 396544,
+        "inputTokens": 421719,
+        "outputTokens": 2337,
+        "reasoningOutputTokens": 32,
+        "totalTokens": 424056,
+        "uncachedInputPlusOutput": 27512
+      },
+      "first_plan_jobs_within_contract": 48,
+      "jobs_within_contract": 48,
+      "probe_count": 48,
+      "probe_cpu_seconds": 0.0625,
+      "probe_vm_steps": 941700,
+      "same_session_repeat_probes": 0,
+      "service_wall_seconds": 0.25183849944733083,
+      "stable_condition_reprobes": 32,
+      "successes": 6,
+      "summed_dispatch_seconds": 765.1244746001903,
+      "task_tokens": {
+        "cachedInputTokens": 929280,
+        "inputTokens": 1156489,
+        "outputTokens": 8453,
+        "reasoningOutputTokens": 1305,
+        "totalTokens": 1164942,
+        "uncachedInputPlusOutput": 235662
+      },
+      "tasks": 6,
+      "tokens": {
+        "cachedInputTokens": 1325824,
+        "inputTokens": 1578208,
+        "outputTokens": 10790,
+        "reasoningOutputTokens": 1337,
+        "totalTokens": 1588998,
+        "uncachedInputPlusOutput": 263174
+      },
+      "tool_broker_errors": 0,
+      "total_query_cpu_seconds": 0.109375,
+      "total_query_wall_seconds": 0.1591774004045874,
+      "total_vm_steps": 1185700
+    },
+    "N": {
+      "actions": 158,
+      "execution_vm_steps": 244000,
+      "feedback_tokens": {
+        "cachedInputTokens": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningOutputTokens": 0,
+        "totalTokens": 0,
+        "uncachedInputPlusOutput": 0
+      },
+      "first_plan_jobs_within_contract": 48,
+      "jobs_within_contract": 48,
+      "probe_count": 102,
+      "probe_cpu_seconds": 0.21875,
+      "probe_vm_steps": 4665400,
+      "same_session_repeat_probes": 0,
+      "service_wall_seconds": 0.457484100246802,
+      "stable_condition_reprobes": 0,
+      "successes": 6,
+      "summed_dispatch_seconds": 669.8334329997888,
+      "task_tokens": {
+        "cachedInputTokens": 603776,
+        "inputTokens": 759579,
+        "outputTokens": 7421,
+        "reasoningOutputTokens": 2663,
+        "totalTokens": 767000,
+        "uncachedInputPlusOutput": 163224
+      },
+      "tasks": 6,
+      "tokens": {
+        "cachedInputTokens": 603776,
+        "inputTokens": 759579,
+        "outputTokens": 7421,
+        "reasoningOutputTokens": 2663,
+        "totalTokens": 767000,
+        "uncachedInputPlusOutput": 163224
+      },
+      "tool_broker_errors": 0,
+      "total_query_cpu_seconds": 0.28125,
+      "total_query_wall_seconds": 0.32570800045505166,
+      "total_vm_steps": 4909400
+    },
+    "O": {
+      "actions": 99,
+      "execution_vm_steps": 244000,
+      "feedback_tokens": {
+        "cachedInputTokens": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningOutputTokens": 0,
+        "totalTokens": 0,
+        "uncachedInputPlusOutput": 0
+      },
+      "first_plan_jobs_within_contract": 48,
+      "jobs_within_contract": 48,
+      "probe_count": 32,
+      "probe_cpu_seconds": 0.0625,
+      "probe_vm_steps": 857500,
+      "same_session_repeat_probes": 0,
+      "service_wall_seconds": 0.1784496003529057,
+      "stable_condition_reprobes": 16,
+      "successes": 6,
+      "summed_dispatch_seconds": 607.7600708001992,
+      "task_tokens": {
+        "cachedInputTokens": 521856,
+        "inputTokens": 708369,
+        "outputTokens": 5015,
+        "reasoningOutputTokens": 1399,
+        "totalTokens": 713384,
+        "uncachedInputPlusOutput": 191528
+      },
+      "tasks": 6,
+      "tokens": {
+        "cachedInputTokens": 521856,
+        "inputTokens": 708369,
+        "outputTokens": 5015,
+        "reasoningOutputTokens": 1399,
+        "totalTokens": 713384,
+        "uncachedInputPlusOutput": 191528
+      },
+      "tool_broker_errors": 0,
+      "total_query_cpu_seconds": 0.109375,
+      "total_query_wall_seconds": 0.1167559998575598,
+      "total_vm_steps": 1101500
+    },
+    "R": {
+      "actions": 121,
+      "execution_vm_steps": 244000,
+      "feedback_tokens": {
+        "cachedInputTokens": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningOutputTokens": 0,
+        "totalTokens": 0,
+        "uncachedInputPlusOutput": 0
+      },
+      "first_plan_jobs_within_contract": 48,
+      "jobs_within_contract": 48,
+      "probe_count": 40,
+      "probe_cpu_seconds": 0.046875,
+      "probe_vm_steps": 892900,
+      "same_session_repeat_probes": 0,
+      "service_wall_seconds": 0.2493669999530539,
+      "stable_condition_reprobes": 24,
+      "successes": 6,
+      "summed_dispatch_seconds": 664.6920520999702,
+      "task_tokens": {
+        "cachedInputTokens": 903552,
+        "inputTokens": 1100864,
+        "outputTokens": 7842,
+        "reasoningOutputTokens": 1916,
+        "totalTokens": 1108706,
+        "uncachedInputPlusOutput": 205154
+      },
+      "tasks": 6,
+      "tokens": {
+        "cachedInputTokens": 903552,
+        "inputTokens": 1100864,
+        "outputTokens": 7842,
+        "reasoningOutputTokens": 1916,
+        "totalTokens": 1108706,
+        "uncachedInputPlusOutput": 205154
+      },
+      "tool_broker_errors": 0,
+      "total_query_cpu_seconds": 0.15625,
+      "total_query_wall_seconds": 0.1402674998389557,
+      "total_vm_steps": 1136900
+    }
+  },
+  "private_analysis_sha256": "ef749877714f2215bd73ef7477534d43794abeda741a04900bd4ff62b45a71e2",
+  "scope": "two generated four-episode reporting-service sequences; eight route decisions per task",
+  "task_sessions": 26
+}

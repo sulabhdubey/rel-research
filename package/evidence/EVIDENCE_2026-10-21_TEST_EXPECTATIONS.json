@@ -1,0 +1,1254 @@
+{
+  "acquisition_receipts_count": 24,
+  "acquisition_seconds_from_unique_receipts": 12.481522299698554,
+  "attempts": 15,
+  "comparison_attempts": 12,
+  "comparison_limits": [
+    "Two Markdown profiles share preserved cases and prior study exposure.",
+    "URL is one distinct task family with two workers per arm, after one disclosed output-metadata pilot defect.",
+    "Public standards may be in training; coordinator-readable gold is not sealed.",
+    "Both arms use current REL; this estimates the added instruction, not REL versus no REL."
+  ],
+  "core_file_count": 20,
+  "cost_limits": [
+    "Only recorded evaluated-worker tokens are complete; coordinator orchestration tokens and engineering time are unavailable.",
+    "Cached input is a subset of input; reasoning output is a subset of output.",
+    "No dollar price, whole-device energy or remote inference energy is measured.",
+    "All trials including excluded pilots and setup corrections are retained.",
+    "Token per correct completed task is undefined if zero tasks complete; conformance positions are not completed tasks."
+  ],
+  "diagnostics": {
+    "literal-fix": {
+      "score": {
+        "all": {
+          "correct": 161,
+          "total": 248
+        },
+        "primary": {
+          "correct": 81,
+          "total": 150
+        },
+        "public": {
+          "correct": 21,
+          "total": 21
+        }
+      },
+      "seconds": 5.481416899943724
+    },
+    "rollback": {
+      "score": {
+        "all": {
+          "correct": 161,
+          "total": 248
+        },
+        "primary": {
+          "correct": 81,
+          "total": 150
+        },
+        "public": {
+          "correct": 21,
+          "total": 21
+        }
+      },
+      "seconds": 5.295244500041008
+    }
+  },
+  "effort": "medium",
+  "freshness": {
+    "correction": "Do not promote a source/version change to task-family freshness. Search historical test identity before planning.",
+    "limits": [
+      "Bounded root study-record inventory; not a complete transcript or all-file audit.",
+      "Public standards and tests may be in model training.",
+      "CommonMark stage is repeated-family evidence; URL is a new executed family in inspected records."
+    ],
+    "new_cases": 652,
+    "old_cases": 652,
+    "profiles": {
+      "delimiters": {
+        "input_seen_in_prior": 285,
+        "positions": 291,
+        "same_input_and_expected_html": 285
+      },
+      "links": {
+        "input_seen_in_prior": 239,
+        "positions": 248,
+        "same_input_and_expected_html": 239
+      }
+    }
+  },
+  "groups": {
+    "markdown-comparison-C": {
+      "attempts": 4,
+      "complete": 0,
+      "correct_positions": 470,
+      "cost": {
+        "cachedInputTokens": 8325632,
+        "inputTokens": 8599735,
+        "outputTokens": 60951,
+        "reasoningOutputTokens": 27884,
+        "totalTokens": 8660686,
+        "uncachedInputPlusOutput": 335054
+      },
+      "positions": 1078,
+      "primary_correct": 260,
+      "primary_positions": 678,
+      "regressions": 155,
+      "seconds": 1189.9707144000567
+    },
+    "markdown-comparison-R": {
+      "attempts": 4,
+      "complete": 0,
+      "correct_positions": 593,
+      "cost": {
+        "cachedInputTokens": 7147648,
+        "inputTokens": 7416802,
+        "outputTokens": 59921,
+        "reasoningOutputTokens": 25710,
+        "totalTokens": 7476723,
+        "uncachedInputPlusOutput": 329075
+      },
+      "positions": 1078,
+      "primary_correct": 335,
+      "primary_positions": 678,
+      "regressions": 18,
+      "seconds": 1140.350971700158
+    },
+    "url-comparison-C": {
+      "attempts": 2,
+      "complete": 0,
+      "correct_positions": 775,
+      "cost": {
+        "cachedInputTokens": 4886016,
+        "inputTokens": 5065647,
+        "outputTokens": 42261,
+        "reasoningOutputTokens": 20295,
+        "totalTokens": 5107908,
+        "uncachedInputPlusOutput": 221892
+      },
+      "positions": 838,
+      "primary_correct": 759,
+      "primary_positions": 822,
+      "regressions": 8,
+      "seconds": 718.3411608000752
+    },
+    "url-comparison-R": {
+      "attempts": 2,
+      "complete": 0,
+      "correct_positions": 694,
+      "cost": {
+        "cachedInputTokens": 2531712,
+        "inputTokens": 2632199,
+        "outputTokens": 20903,
+        "reasoningOutputTokens": 6814,
+        "totalTokens": 2653102,
+        "uncachedInputPlusOutput": 121390
+      },
+      "positions": 838,
+      "primary_correct": 678,
+      "primary_positions": 822,
+      "regressions": 34,
+      "seconds": 452.8250615999568
+    }
+  },
+  "model": "gpt-6-luna",
+  "qualification_seconds": 158.68595380021725,
+  "question": "Does explicit source-checking of self-authored expectations improve bounded repairs?",
+  "requests": 649,
+  "rows": [
+    {
+      "actions": 60,
+      "cell": "R-delimiters-1",
+      "comparison": false,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 2951424,
+        "inputTokens": 3044726,
+        "outputTokens": 23856,
+        "reasoningOutputTokens": 10261,
+        "totalTokens": 3068582,
+        "uncachedInputPlusOutput": 117158
+      },
+      "families": {
+        "ATX headings": {
+          "correct": 11,
+          "total": 18
+        },
+        "Backslash escapes": {
+          "correct": 9,
+          "total": 13
+        },
+        "Blank lines": {
+          "correct": 1,
+          "total": 1
+        },
+        "Code spans": {
+          "correct": 17,
+          "total": 22
+        },
+        "Emphasis and strong emphasis": {
+          "correct": 116,
+          "total": 132
+        },
+        "Entity and numeric character references": {
+          "correct": 11,
+          "total": 17
+        },
+        "Fenced code blocks": {
+          "correct": 10,
+          "total": 29
+        },
+        "Hard line breaks": {
+          "correct": 9,
+          "total": 15
+        },
+        "Indented code blocks": {
+          "correct": 7,
+          "total": 12
+        },
+        "Paragraphs": {
+          "correct": 7,
+          "total": 8
+        },
+        "Soft line breaks": {
+          "correct": 2,
+          "total": 2
+        },
+        "Textual content": {
+          "correct": 3,
+          "total": 3
+        },
+        "Thematic breaks": {
+          "correct": 17,
+          "total": 19
+        }
+      },
+      "regressions": 13,
+      "seconds": 389.4771504000528,
+      "stage": "markdown-qualification",
+      "subsets": {
+        "all": {
+          "correct": 220,
+          "total": 291
+        },
+        "primary": {
+          "correct": 152,
+          "total": 189
+        },
+        "public": {
+          "correct": 24,
+          "total": 25
+        }
+      },
+      "tool_errors": 5
+    },
+    {
+      "actions": 17,
+      "cell": "R-links-1",
+      "comparison": false,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 205696,
+        "inputTokens": 233278,
+        "outputTokens": 2123,
+        "reasoningOutputTokens": 405,
+        "totalTokens": 235401,
+        "uncachedInputPlusOutput": 29705
+      },
+      "families": {
+        "ATX headings": {
+          "correct": 9,
+          "total": 18
+        },
+        "Autolinks": {
+          "correct": 8,
+          "total": 19
+        },
+        "Blank lines": {
+          "correct": 1,
+          "total": 1
+        },
+        "Fenced code blocks": {
+          "correct": 17,
+          "total": 29
+        },
+        "Images": {
+          "correct": 9,
+          "total": 22
+        },
+        "Indented code blocks": {
+          "correct": 6,
+          "total": 12
+        },
+        "Link reference definitions": {
+          "correct": 4,
+          "total": 27
+        },
+        "Links": {
+          "correct": 41,
+          "total": 90
+        },
+        "Paragraphs": {
+          "correct": 5,
+          "total": 8
+        },
+        "Textual content": {
+          "correct": 3,
+          "total": 3
+        },
+        "Thematic breaks": {
+          "correct": 14,
+          "total": 19
+        }
+      },
+      "regressions": 0,
+      "seconds": 125.92943640006706,
+      "stage": "markdown-qualification",
+      "subsets": {
+        "all": {
+          "correct": 117,
+          "total": 248
+        },
+        "primary": {
+          "correct": 57,
+          "total": 150
+        },
+        "public": {
+          "correct": 15,
+          "total": 21
+        }
+      },
+      "tool_errors": 2
+    },
+    {
+      "actions": 60,
+      "cell": "C-delimiters-1",
+      "comparison": true,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 2528768,
+        "inputTokens": 2601243,
+        "outputTokens": 19391,
+        "reasoningOutputTokens": 9590,
+        "totalTokens": 2620634,
+        "uncachedInputPlusOutput": 91866
+      },
+      "families": {
+        "ATX headings": {
+          "correct": 16,
+          "total": 18
+        },
+        "Backslash escapes": {
+          "correct": 7,
+          "total": 13
+        },
+        "Blank lines": {
+          "correct": 1,
+          "total": 1
+        },
+        "Code spans": {
+          "correct": 11,
+          "total": 22
+        },
+        "Emphasis and strong emphasis": {
+          "correct": 63,
+          "total": 132
+        },
+        "Entity and numeric character references": {
+          "correct": 10,
+          "total": 17
+        },
+        "Fenced code blocks": {
+          "correct": 17,
+          "total": 29
+        },
+        "Hard line breaks": {
+          "correct": 9,
+          "total": 15
+        },
+        "Indented code blocks": {
+          "correct": 10,
+          "total": 12
+        },
+        "Paragraphs": {
+          "correct": 7,
+          "total": 8
+        },
+        "Soft line breaks": {
+          "correct": 2,
+          "total": 2
+        },
+        "Textual content": {
+          "correct": 3,
+          "total": 3
+        },
+        "Thematic breaks": {
+          "correct": 14,
+          "total": 19
+        }
+      },
+      "regressions": 16,
+      "seconds": 361.93494099995587,
+      "stage": "markdown-comparison",
+      "subsets": {
+        "all": {
+          "correct": 170,
+          "total": 291
+        },
+        "primary": {
+          "correct": 90,
+          "total": 189
+        },
+        "public": {
+          "correct": 25,
+          "total": 25
+        }
+      },
+      "tool_errors": 11
+    },
+    {
+      "actions": 29,
+      "cell": "C-delimiters-2",
+      "comparison": true,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 247808,
+        "inputTokens": 283629,
+        "outputTokens": 1787,
+        "reasoningOutputTokens": 475,
+        "totalTokens": 285416,
+        "uncachedInputPlusOutput": 37608
+      },
+      "families": {
+        "ATX headings": {
+          "correct": 10,
+          "total": 18
+        },
+        "Backslash escapes": {
+          "correct": 5,
+          "total": 13
+        },
+        "Blank lines": {
+          "correct": 1,
+          "total": 1
+        },
+        "Code spans": {
+          "correct": 12,
+          "total": 22
+        },
+        "Emphasis and strong emphasis": {
+          "correct": 61,
+          "total": 132
+        },
+        "Entity and numeric character references": {
+          "correct": 5,
+          "total": 17
+        },
+        "Fenced code blocks": {
+          "correct": 5,
+          "total": 29
+        },
+        "Hard line breaks": {
+          "correct": 9,
+          "total": 15
+        },
+        "Indented code blocks": {
+          "correct": 9,
+          "total": 12
+        },
+        "Paragraphs": {
+          "correct": 8,
+          "total": 8
+        },
+        "Soft line breaks": {
+          "correct": 2,
+          "total": 2
+        },
+        "Textual content": {
+          "correct": 3,
+          "total": 3
+        },
+        "Thematic breaks": {
+          "correct": 14,
+          "total": 19
+        }
+      },
+      "regressions": 18,
+      "seconds": 124.499738200102,
+      "stage": "markdown-comparison",
+      "subsets": {
+        "all": {
+          "correct": 144,
+          "total": 291
+        },
+        "primary": {
+          "correct": 86,
+          "total": 189
+        },
+        "public": {
+          "correct": 18,
+          "total": 25
+        }
+      },
+      "tool_errors": 1
+    },
+    {
+      "actions": 60,
+      "cell": "C-links-1",
+      "comparison": true,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 3222528,
+        "inputTokens": 3314557,
+        "outputTokens": 22513,
+        "reasoningOutputTokens": 9280,
+        "totalTokens": 3337070,
+        "uncachedInputPlusOutput": 114542
+      },
+      "families": {
+        "ATX headings": {
+          "correct": 0,
+          "total": 18
+        },
+        "Autolinks": {
+          "correct": 0,
+          "total": 19
+        },
+        "Blank lines": {
+          "correct": 0,
+          "total": 1
+        },
+        "Fenced code blocks": {
+          "correct": 0,
+          "total": 29
+        },
+        "Images": {
+          "correct": 0,
+          "total": 22
+        },
+        "Indented code blocks": {
+          "correct": 0,
+          "total": 12
+        },
+        "Link reference definitions": {
+          "correct": 0,
+          "total": 27
+        },
+        "Links": {
+          "correct": 0,
+          "total": 90
+        },
+        "Paragraphs": {
+          "correct": 0,
+          "total": 8
+        },
+        "Textual content": {
+          "correct": 0,
+          "total": 3
+        },
+        "Thematic breaks": {
+          "correct": 0,
+          "total": 19
+        }
+      },
+      "regressions": 107,
+      "seconds": 378.5410224000225,
+      "stage": "markdown-comparison",
+      "subsets": {
+        "all": {
+          "correct": 0,
+          "total": 248
+        },
+        "primary": {
+          "correct": 0,
+          "total": 150
+        },
+        "public": {
+          "correct": 0,
+          "total": 21
+        }
+      },
+      "tool_errors": 11
+    },
+    {
+      "actions": 60,
+      "cell": "C-links-2",
+      "comparison": true,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 2326528,
+        "inputTokens": 2400306,
+        "outputTokens": 17260,
+        "reasoningOutputTokens": 8539,
+        "totalTokens": 2417566,
+        "uncachedInputPlusOutput": 91038
+      },
+      "families": {
+        "ATX headings": {
+          "correct": 11,
+          "total": 18
+        },
+        "Autolinks": {
+          "correct": 13,
+          "total": 19
+        },
+        "Blank lines": {
+          "correct": 1,
+          "total": 1
+        },
+        "Fenced code blocks": {
+          "correct": 19,
+          "total": 29
+        },
+        "Images": {
+          "correct": 17,
+          "total": 22
+        },
+        "Indented code blocks": {
+          "correct": 9,
+          "total": 12
+        },
+        "Link reference definitions": {
+          "correct": 14,
+          "total": 27
+        },
+        "Links": {
+          "correct": 48,
+          "total": 90
+        },
+        "Paragraphs": {
+          "correct": 8,
+          "total": 8
+        },
+        "Textual content": {
+          "correct": 3,
+          "total": 3
+        },
+        "Thematic breaks": {
+          "correct": 13,
+          "total": 19
+        }
+      },
+      "regressions": 14,
+      "seconds": 324.9950127999764,
+      "stage": "markdown-comparison",
+      "subsets": {
+        "all": {
+          "correct": 156,
+          "total": 248
+        },
+        "primary": {
+          "correct": 84,
+          "total": 150
+        },
+        "public": {
+          "correct": 21,
+          "total": 21
+        }
+      },
+      "tool_errors": 8
+    },
+    {
+      "actions": 14,
+      "cell": "R-delimiters-1",
+      "comparison": true,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 168320,
+        "inputTokens": 210495,
+        "outputTokens": 1531,
+        "reasoningOutputTokens": 333,
+        "totalTokens": 212026,
+        "uncachedInputPlusOutput": 43706
+      },
+      "families": {
+        "ATX headings": {
+          "correct": 10,
+          "total": 18
+        },
+        "Backslash escapes": {
+          "correct": 5,
+          "total": 13
+        },
+        "Blank lines": {
+          "correct": 1,
+          "total": 1
+        },
+        "Code spans": {
+          "correct": 12,
+          "total": 22
+        },
+        "Emphasis and strong emphasis": {
+          "correct": 59,
+          "total": 132
+        },
+        "Entity and numeric character references": {
+          "correct": 5,
+          "total": 17
+        },
+        "Fenced code blocks": {
+          "correct": 5,
+          "total": 29
+        },
+        "Hard line breaks": {
+          "correct": 9,
+          "total": 15
+        },
+        "Indented code blocks": {
+          "correct": 9,
+          "total": 12
+        },
+        "Paragraphs": {
+          "correct": 8,
+          "total": 8
+        },
+        "Soft line breaks": {
+          "correct": 2,
+          "total": 2
+        },
+        "Textual content": {
+          "correct": 3,
+          "total": 3
+        },
+        "Thematic breaks": {
+          "correct": 14,
+          "total": 19
+        }
+      },
+      "regressions": 1,
+      "seconds": 118.67001900007017,
+      "stage": "markdown-comparison",
+      "subsets": {
+        "all": {
+          "correct": 142,
+          "total": 291
+        },
+        "primary": {
+          "correct": 84,
+          "total": 189
+        },
+        "public": {
+          "correct": 18,
+          "total": 25
+        }
+      },
+      "tool_errors": 1
+    },
+    {
+      "actions": 60,
+      "cell": "R-delimiters-2",
+      "comparison": true,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 1971328,
+        "inputTokens": 2037831,
+        "outputTokens": 18634,
+        "reasoningOutputTokens": 7378,
+        "totalTokens": 2056465,
+        "uncachedInputPlusOutput": 85137
+      },
+      "families": {
+        "ATX headings": {
+          "correct": 11,
+          "total": 18
+        },
+        "Backslash escapes": {
+          "correct": 8,
+          "total": 13
+        },
+        "Blank lines": {
+          "correct": 1,
+          "total": 1
+        },
+        "Code spans": {
+          "correct": 12,
+          "total": 22
+        },
+        "Emphasis and strong emphasis": {
+          "correct": 59,
+          "total": 132
+        },
+        "Entity and numeric character references": {
+          "correct": 7,
+          "total": 17
+        },
+        "Fenced code blocks": {
+          "correct": 7,
+          "total": 29
+        },
+        "Hard line breaks": {
+          "correct": 8,
+          "total": 15
+        },
+        "Indented code blocks": {
+          "correct": 9,
+          "total": 12
+        },
+        "Paragraphs": {
+          "correct": 8,
+          "total": 8
+        },
+        "Soft line breaks": {
+          "correct": 2,
+          "total": 2
+        },
+        "Textual content": {
+          "correct": 3,
+          "total": 3
+        },
+        "Thematic breaks": {
+          "correct": 16,
+          "total": 19
+        }
+      },
+      "regressions": 5,
+      "seconds": 312.2395104999887,
+      "stage": "markdown-comparison",
+      "subsets": {
+        "all": {
+          "correct": 151,
+          "total": 291
+        },
+        "primary": {
+          "correct": 84,
+          "total": 189
+        },
+        "public": {
+          "correct": 25,
+          "total": 25
+        }
+      },
+      "tool_errors": 4
+    },
+    {
+      "actions": 60,
+      "cell": "R-links-1",
+      "comparison": true,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 2706688,
+        "inputTokens": 2790202,
+        "outputTokens": 22293,
+        "reasoningOutputTokens": 10250,
+        "totalTokens": 2812495,
+        "uncachedInputPlusOutput": 105807
+      },
+      "families": {
+        "ATX headings": {
+          "correct": 11,
+          "total": 18
+        },
+        "Autolinks": {
+          "correct": 13,
+          "total": 19
+        },
+        "Blank lines": {
+          "correct": 1,
+          "total": 1
+        },
+        "Fenced code blocks": {
+          "correct": 8,
+          "total": 29
+        },
+        "Images": {
+          "correct": 18,
+          "total": 22
+        },
+        "Indented code blocks": {
+          "correct": 9,
+          "total": 12
+        },
+        "Link reference definitions": {
+          "correct": 11,
+          "total": 27
+        },
+        "Links": {
+          "correct": 50,
+          "total": 90
+        },
+        "Paragraphs": {
+          "correct": 8,
+          "total": 8
+        },
+        "Textual content": {
+          "correct": 3,
+          "total": 3
+        },
+        "Thematic breaks": {
+          "correct": 15,
+          "total": 19
+        }
+      },
+      "regressions": 1,
+      "seconds": 369.3604964000406,
+      "stage": "markdown-comparison",
+      "subsets": {
+        "all": {
+          "correct": 147,
+          "total": 248
+        },
+        "primary": {
+          "correct": 84,
+          "total": 150
+        },
+        "public": {
+          "correct": 21,
+          "total": 21
+        }
+      },
+      "tool_errors": 2
+    },
+    {
+      "actions": 57,
+      "cell": "R-links-2",
+      "comparison": true,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 2301312,
+        "inputTokens": 2378274,
+        "outputTokens": 17463,
+        "reasoningOutputTokens": 7749,
+        "totalTokens": 2395737,
+        "uncachedInputPlusOutput": 94425
+      },
+      "families": {
+        "ATX headings": {
+          "correct": 11,
+          "total": 18
+        },
+        "Autolinks": {
+          "correct": 13,
+          "total": 19
+        },
+        "Blank lines": {
+          "correct": 1,
+          "total": 1
+        },
+        "Fenced code blocks": {
+          "correct": 14,
+          "total": 29
+        },
+        "Images": {
+          "correct": 17,
+          "total": 22
+        },
+        "Indented code blocks": {
+          "correct": 9,
+          "total": 12
+        },
+        "Link reference definitions": {
+          "correct": 13,
+          "total": 27
+        },
+        "Links": {
+          "correct": 48,
+          "total": 90
+        },
+        "Paragraphs": {
+          "correct": 8,
+          "total": 8
+        },
+        "Textual content": {
+          "correct": 3,
+          "total": 3
+        },
+        "Thematic breaks": {
+          "correct": 16,
+          "total": 19
+        }
+      },
+      "regressions": 11,
+      "seconds": 340.08094580005854,
+      "stage": "markdown-comparison",
+      "subsets": {
+        "all": {
+          "correct": 153,
+          "total": 248
+        },
+        "primary": {
+          "correct": 83,
+          "total": 150
+        },
+        "public": {
+          "correct": 21,
+          "total": 21
+        }
+      },
+      "tool_errors": 3
+    },
+    {
+      "actions": 60,
+      "cell": "R-url-1",
+      "comparison": false,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 913920,
+        "inputTokens": 956639,
+        "outputTokens": 11260,
+        "reasoningOutputTokens": 4233,
+        "totalTokens": 967899,
+        "uncachedInputPlusOutput": 53979
+      },
+      "families": {
+        "absolute-failure": {
+          "correct": 189,
+          "total": 192
+        },
+        "absolute-success": {
+          "correct": 148,
+          "total": 166
+        },
+        "relative-failure": {
+          "correct": 8,
+          "total": 8
+        },
+        "relative-success": {
+          "correct": 43,
+          "total": 53
+        }
+      },
+      "regressions": 13,
+      "seconds": 233.2231622999534,
+      "stage": "url-exposed-pilot",
+      "subsets": {
+        "all": {
+          "correct": 388,
+          "total": 419
+        },
+        "primary": {
+          "correct": 380,
+          "total": 411
+        },
+        "public": {
+          "correct": 8,
+          "total": 8
+        }
+      },
+      "tool_errors": 4
+    },
+    {
+      "actions": 57,
+      "cell": "C-url-1",
+      "comparison": true,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 2265472,
+        "inputTokens": 2363578,
+        "outputTokens": 19727,
+        "reasoningOutputTokens": 8807,
+        "totalTokens": 2383305,
+        "uncachedInputPlusOutput": 117833
+      },
+      "families": {
+        "absolute-failure": {
+          "correct": 182,
+          "total": 192
+        },
+        "absolute-success": {
+          "correct": 145,
+          "total": 166
+        },
+        "relative-failure": {
+          "correct": 8,
+          "total": 8
+        },
+        "relative-success": {
+          "correct": 44,
+          "total": 53
+        }
+      },
+      "regressions": 6,
+      "seconds": 342.069704500027,
+      "stage": "url-comparison",
+      "subsets": {
+        "all": {
+          "correct": 379,
+          "total": 419
+        },
+        "primary": {
+          "correct": 371,
+          "total": 411
+        },
+        "public": {
+          "correct": 8,
+          "total": 8
+        }
+      },
+      "tool_errors": 4
+    },
+    {
+      "actions": 59,
+      "cell": "C-url-2",
+      "comparison": true,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 2620544,
+        "inputTokens": 2702069,
+        "outputTokens": 22534,
+        "reasoningOutputTokens": 11488,
+        "totalTokens": 2724603,
+        "uncachedInputPlusOutput": 104059
+      },
+      "families": {
+        "absolute-failure": {
+          "correct": 191,
+          "total": 192
+        },
+        "absolute-success": {
+          "correct": 152,
+          "total": 166
+        },
+        "relative-failure": {
+          "correct": 8,
+          "total": 8
+        },
+        "relative-success": {
+          "correct": 45,
+          "total": 53
+        }
+      },
+      "regressions": 2,
+      "seconds": 376.27145630004816,
+      "stage": "url-comparison",
+      "subsets": {
+        "all": {
+          "correct": 396,
+          "total": 419
+        },
+        "primary": {
+          "correct": 388,
+          "total": 411
+        },
+        "public": {
+          "correct": 8,
+          "total": 8
+        }
+      },
+      "tool_errors": 3
+    },
+    {
+      "actions": 59,
+      "cell": "R-url-1",
+      "comparison": true,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 2058112,
+        "inputTokens": 2125632,
+        "outputTokens": 16488,
+        "reasoningOutputTokens": 6081,
+        "totalTokens": 2142120,
+        "uncachedInputPlusOutput": 84008
+      },
+      "families": {
+        "absolute-failure": {
+          "correct": 130,
+          "total": 192
+        },
+        "absolute-success": {
+          "correct": 145,
+          "total": 166
+        },
+        "relative-failure": {
+          "correct": 8,
+          "total": 8
+        },
+        "relative-success": {
+          "correct": 45,
+          "total": 53
+        }
+      },
+      "regressions": 9,
+      "seconds": 290.97163519996684,
+      "stage": "url-comparison",
+      "subsets": {
+        "all": {
+          "correct": 328,
+          "total": 419
+        },
+        "primary": {
+          "correct": 320,
+          "total": 411
+        },
+        "public": {
+          "correct": 8,
+          "total": 8
+        }
+      },
+      "tool_errors": 6
+    },
+    {
+      "actions": 26,
+      "cell": "R-url-2",
+      "comparison": true,
+      "complete": false,
+      "cost": {
+        "cachedInputTokens": 473600,
+        "inputTokens": 506567,
+        "outputTokens": 4415,
+        "reasoningOutputTokens": 733,
+        "totalTokens": 510982,
+        "uncachedInputPlusOutput": 37382
+      },
+      "families": {
+        "absolute-failure": {
+          "correct": 191,
+          "total": 192
+        },
+        "absolute-success": {
+          "correct": 126,
+          "total": 166
+        },
+        "relative-failure": {
+          "correct": 5,
+          "total": 8
+        },
+        "relative-success": {
+          "correct": 44,
+          "total": 53
+        }
+      },
+      "regressions": 25,
+      "seconds": 161.85342639998998,
+      "stage": "url-comparison",
+      "subsets": {
+        "all": {
+          "correct": 366,
+          "total": 419
+        },
+        "primary": {
+          "correct": 358,
+          "total": 411
+        },
+        "public": {
+          "correct": 8,
+          "total": 8
+        }
+      },
+      "tool_errors": 1
+    }
+  ],
+  "skill_entry_sha256": "f598cee5206dd415d5884f557442ec29d07dd4049bbcde23d9c9bda214f16c1b",
+  "worker_cost": {
+    "cachedInputTokens": 26962048,
+    "inputTokens": 27949026,
+    "outputTokens": 221275,
+    "reasoningOutputTokens": 95602,
+    "totalTokens": 28170301,
+    "uncachedInputPlusOutput": 1208253
+  },
+  "worker_seconds": 4250.11765760032,
+  "skill_decision": {
+    "default_promotion": false,
+    "core_files_unchanged": 20,
+    "entrypoint_unchanged": true,
+    "evidence_updated": true,
+    "experimental_status": "tested, not adopted as default",
+    "reason": "Repeated-family Markdown outcomes include regressions and catastrophic final-patch failure; URL transfer is a small exploratory comparison with an exposed metadata correction. Source access alone does not establish a correctly applied expectation check.",
+    "engineering_fixes": [
+      "Use exact upstream comparison semantics",
+      "Keep outcome-independent output-field metadata",
+      "Audit historical corpus identity",
+      "Preserve distinct final-patch repair and rollback diagnostics"
+    ],
+    "existing_guidance": "Current REL already requires source/scope/evaluator verification and recovery budget. Repair execution without duplicating those rules."
+  }
+}

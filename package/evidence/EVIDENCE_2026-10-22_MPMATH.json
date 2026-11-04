@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-22",
+  "task": "mpmath__mpmath-881",
+  "source_commit": "99e3b464afb883e5088d56d34909a11765da9c8e",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "core_changed": false,
+  "ordinary_attempts": 1,
+  "conditional_history_attempts": 0,
+  "starting_counts": {
+    "pass": 10,
+    "fail": 1,
+    "unresolved": 0
+  },
+  "final_counts": {
+    "pass": 11,
+    "fail": 0,
+    "unresolved": 0
+  },
+  "actions": 19,
+  "usage": {
+    "totalTokens": 351331,
+    "inputTokens": 346720,
+    "cachedInputTokens": 299392,
+    "outputTokens": 4611,
+    "reasoningOutputTokens": 1597,
+    "uncachedInputPlusOutput": 51939
+  },
+  "outer_seconds": 415.9236258000601,
+  "task_phase_seconds": 227.4395754999714,
+  "result_sha256": "da6369ce5492ff24a7f4b9b30d241be62600e6568a9143992f19890af0ee1d28",
+  "scope": "Seven deterministic functions and four properties bounded at 1000 examples; visible driver, pure Python backend; not full suite or unseen holdout.",
+  "unknown_costs": [
+    "coordinator model tokens",
+    "complete research and engineering elapsed time",
+    "all prior setup effort",
+    "monetary cost",
+    "whole laptop and remote energy"
+  ]
+}

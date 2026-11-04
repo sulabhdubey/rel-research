@@ -1,0 +1,627 @@
+{
+  "date": "2026-10-21",
+  "scope": "Incremental episode evidence after ordinary repair",
+  "model": "gpt-6-luna",
+  "effort": "medium",
+  "origin_blocks": 2,
+  "corrected_comparison_attempts": 6,
+  "excluded_infrastructure_attempts": 1,
+  "same_source_family": true,
+  "query_positions_independent": false,
+  "stratum_sizes": {
+    "absent_from_old_inputs": 81,
+    "all": 716,
+    "composed": 64,
+    "exact_history": 12,
+    "official_new_input": 17,
+    "old_overlap": 635,
+    "primary_no_exact_history": 704
+  },
+  "limits": {
+    "actions": 60,
+    "seconds": 900
+  },
+  "conditions": {
+    "A": "Inherited artifact only, no REL",
+    "H": "Inherited artifact and historical record, no REL",
+    "R": "Inherited artifact and same historical record, with REL"
+  },
+  "workers": {
+    "A1": {
+      "eligible": false,
+      "correct": 533,
+      "total": 716,
+      "strata": {
+        "absent_from_old_inputs": {
+          "correct": 66,
+          "total": 81,
+          "wrong_or_unresolved": 15
+        },
+        "all": {
+          "correct": 533,
+          "total": 716,
+          "wrong_or_unresolved": 183
+        },
+        "composed": {
+          "correct": 56,
+          "total": 64,
+          "wrong_or_unresolved": 8
+        },
+        "exact_history": {
+          "correct": 2,
+          "total": 12,
+          "wrong_or_unresolved": 10
+        },
+        "official_new_input": {
+          "correct": 10,
+          "total": 17,
+          "wrong_or_unresolved": 7
+        },
+        "old_overlap": {
+          "correct": 467,
+          "total": 635,
+          "wrong_or_unresolved": 168
+        },
+        "primary_no_exact_history": {
+          "correct": 531,
+          "total": 704,
+          "wrong_or_unresolved": 173
+        }
+      },
+      "failures_fixed": 0,
+      "starting_passes_lost": 0,
+      "complete_repair": false,
+      "actions": 18,
+      "requests": {
+        "task": 10
+      },
+      "usage": {
+        "cachedInputTokens": 203904,
+        "inputTokens": 249244,
+        "outputTokens": 1810,
+        "reasoningOutputTokens": 570,
+        "totalTokens": 251054,
+        "uncachedInputPlusOutput": 47150
+      },
+      "usage_complete": true,
+      "dispatch_seconds": 142.5042898999527,
+      "history_reads": 0,
+      "history_test_invocations": 0,
+      "tool_failures": 1,
+      "result_sha256": "5fdf63a878e938f6a4bc4bc67e369d0342878ac56bcb46ac9d02afdde2782e12",
+      "scored_inventory_sha256": "dbb2a3010d3573f2e0c3d2422955502ba8a92b26ed4bf6d75aeae739779059ac"
+    },
+    "A1c": {
+      "eligible": true,
+      "correct": 553,
+      "total": 716,
+      "strata": {
+        "absent_from_old_inputs": {
+          "correct": 74,
+          "total": 81,
+          "wrong_or_unresolved": 7
+        },
+        "all": {
+          "correct": 553,
+          "total": 716,
+          "wrong_or_unresolved": 163
+        },
+        "composed": {
+          "correct": 64,
+          "total": 64,
+          "wrong_or_unresolved": 0
+        },
+        "exact_history": {
+          "correct": 3,
+          "total": 12,
+          "wrong_or_unresolved": 9
+        },
+        "official_new_input": {
+          "correct": 10,
+          "total": 17,
+          "wrong_or_unresolved": 7
+        },
+        "old_overlap": {
+          "correct": 479,
+          "total": 635,
+          "wrong_or_unresolved": 156
+        },
+        "primary_no_exact_history": {
+          "correct": 550,
+          "total": 704,
+          "wrong_or_unresolved": 154
+        }
+      },
+      "failures_fixed": 20,
+      "starting_passes_lost": 0,
+      "complete_repair": false,
+      "actions": 51,
+      "requests": {
+        "task": 33
+      },
+      "usage": {
+        "cachedInputTokens": 928000,
+        "inputTokens": 1029916,
+        "outputTokens": 11623,
+        "reasoningOutputTokens": 4684,
+        "totalTokens": 1041539,
+        "uncachedInputPlusOutput": 113539
+      },
+      "usage_complete": true,
+      "dispatch_seconds": 299.91573300003074,
+      "history_reads": 0,
+      "history_test_invocations": 0,
+      "tool_failures": 2,
+      "result_sha256": "ab31cc732ea949500c0debe28d036f2e0dfa74980c771d5d6b45a2a8f3a24682",
+      "scored_inventory_sha256": "9681a7f3437dc4cbd8884ac27dbc696072ee225763122394562dcd10cf608b7f"
+    },
+    "A2": {
+      "eligible": true,
+      "correct": 535,
+      "total": 716,
+      "strata": {
+        "absent_from_old_inputs": {
+          "correct": 57,
+          "total": 81,
+          "wrong_or_unresolved": 24
+        },
+        "all": {
+          "correct": 535,
+          "total": 716,
+          "wrong_or_unresolved": 181
+        },
+        "composed": {
+          "correct": 48,
+          "total": 64,
+          "wrong_or_unresolved": 16
+        },
+        "exact_history": {
+          "correct": 2,
+          "total": 12,
+          "wrong_or_unresolved": 10
+        },
+        "official_new_input": {
+          "correct": 9,
+          "total": 17,
+          "wrong_or_unresolved": 8
+        },
+        "old_overlap": {
+          "correct": 478,
+          "total": 635,
+          "wrong_or_unresolved": 157
+        },
+        "primary_no_exact_history": {
+          "correct": 533,
+          "total": 704,
+          "wrong_or_unresolved": 171
+        }
+      },
+      "failures_fixed": 20,
+      "starting_passes_lost": 15,
+      "complete_repair": false,
+      "actions": 51,
+      "requests": {
+        "task": 44
+      },
+      "usage": {
+        "cachedInputTokens": 1475456,
+        "inputTokens": 1537407,
+        "outputTokens": 15494,
+        "reasoningOutputTokens": 7834,
+        "totalTokens": 1552901,
+        "uncachedInputPlusOutput": 77445
+      },
+      "usage_complete": true,
+      "dispatch_seconds": 418.48259769997094,
+      "history_reads": 0,
+      "history_test_invocations": 0,
+      "tool_failures": 5,
+      "result_sha256": "d29b9b022446ea5d283b8e7cd9e851f40c1bbc02e6ee9b20ee3f5aacf085a693",
+      "scored_inventory_sha256": "44a2d134cbc802267a71225e2086ad813eb9b44f813120573c66af011a6b9f63"
+    },
+    "H1": {
+      "eligible": true,
+      "correct": 561,
+      "total": 716,
+      "strata": {
+        "absent_from_old_inputs": {
+          "correct": 74,
+          "total": 81,
+          "wrong_or_unresolved": 7
+        },
+        "all": {
+          "correct": 561,
+          "total": 716,
+          "wrong_or_unresolved": 155
+        },
+        "composed": {
+          "correct": 64,
+          "total": 64,
+          "wrong_or_unresolved": 0
+        },
+        "exact_history": {
+          "correct": 11,
+          "total": 12,
+          "wrong_or_unresolved": 1
+        },
+        "official_new_input": {
+          "correct": 10,
+          "total": 17,
+          "wrong_or_unresolved": 7
+        },
+        "old_overlap": {
+          "correct": 487,
+          "total": 635,
+          "wrong_or_unresolved": 148
+        },
+        "primary_no_exact_history": {
+          "correct": 550,
+          "total": 704,
+          "wrong_or_unresolved": 154
+        }
+      },
+      "failures_fixed": 39,
+      "starting_passes_lost": 11,
+      "complete_repair": false,
+      "actions": 59,
+      "requests": {
+        "task": 45
+      },
+      "usage": {
+        "cachedInputTokens": 2120960,
+        "inputTokens": 2191865,
+        "outputTokens": 13385,
+        "reasoningOutputTokens": 7683,
+        "totalTokens": 2205250,
+        "uncachedInputPlusOutput": 84290
+      },
+      "usage_complete": true,
+      "dispatch_seconds": 322.3107374999672,
+      "history_reads": 1,
+      "history_test_invocations": 5,
+      "tool_failures": 0,
+      "result_sha256": "196803b67692b7a47e07a2c9ee4e8d229083fc4af3767b67e9263b3dccefe4f3",
+      "scored_inventory_sha256": "f98aba1e1d92c15ad5a28f0a741a6d2f9acd17f78bdb7e8d9daed3417634fe2a"
+    },
+    "H2": {
+      "eligible": true,
+      "correct": 529,
+      "total": 716,
+      "strata": {
+        "absent_from_old_inputs": {
+          "correct": 65,
+          "total": 81,
+          "wrong_or_unresolved": 16
+        },
+        "all": {
+          "correct": 529,
+          "total": 716,
+          "wrong_or_unresolved": 187
+        },
+        "composed": {
+          "correct": 56,
+          "total": 64,
+          "wrong_or_unresolved": 8
+        },
+        "exact_history": {
+          "correct": 9,
+          "total": 12,
+          "wrong_or_unresolved": 3
+        },
+        "official_new_input": {
+          "correct": 9,
+          "total": 17,
+          "wrong_or_unresolved": 8
+        },
+        "old_overlap": {
+          "correct": 464,
+          "total": 635,
+          "wrong_or_unresolved": 171
+        },
+        "primary_no_exact_history": {
+          "correct": 520,
+          "total": 704,
+          "wrong_or_unresolved": 184
+        }
+      },
+      "failures_fixed": 19,
+      "starting_passes_lost": 20,
+      "complete_repair": false,
+      "actions": 60,
+      "requests": {
+        "task": 49
+      },
+      "usage": {
+        "cachedInputTokens": 1811456,
+        "inputTokens": 1914636,
+        "outputTokens": 13773,
+        "reasoningOutputTokens": 7272,
+        "totalTokens": 1928409,
+        "uncachedInputPlusOutput": 116953
+      },
+      "usage_complete": true,
+      "dispatch_seconds": 421.57087459997274,
+      "history_reads": 2,
+      "history_test_invocations": 5,
+      "tool_failures": 6,
+      "result_sha256": "1084ab9ba7e749793cb5aa44c04e856383df885631b53ad7b7bfd753258ba20b",
+      "scored_inventory_sha256": "07969fbdc7dadcb693e1a002e33720bd0b489454b6808a05718089356b7af612"
+    },
+    "R1": {
+      "eligible": true,
+      "correct": 563,
+      "total": 716,
+      "strata": {
+        "absent_from_old_inputs": {
+          "correct": 74,
+          "total": 81,
+          "wrong_or_unresolved": 7
+        },
+        "all": {
+          "correct": 563,
+          "total": 716,
+          "wrong_or_unresolved": 153
+        },
+        "composed": {
+          "correct": 64,
+          "total": 64,
+          "wrong_or_unresolved": 0
+        },
+        "exact_history": {
+          "correct": 10,
+          "total": 12,
+          "wrong_or_unresolved": 2
+        },
+        "official_new_input": {
+          "correct": 10,
+          "total": 17,
+          "wrong_or_unresolved": 7
+        },
+        "old_overlap": {
+          "correct": 489,
+          "total": 635,
+          "wrong_or_unresolved": 146
+        },
+        "primary_no_exact_history": {
+          "correct": 553,
+          "total": 704,
+          "wrong_or_unresolved": 151
+        }
+      },
+      "failures_fixed": 35,
+      "starting_passes_lost": 5,
+      "complete_repair": false,
+      "actions": 55,
+      "requests": {
+        "task": 44
+      },
+      "usage": {
+        "cachedInputTokens": 1339392,
+        "inputTokens": 1463616,
+        "outputTokens": 12026,
+        "reasoningOutputTokens": 6006,
+        "totalTokens": 1475642,
+        "uncachedInputPlusOutput": 136250
+      },
+      "usage_complete": true,
+      "dispatch_seconds": 363.8340657000663,
+      "history_reads": 2,
+      "history_test_invocations": 6,
+      "tool_failures": 2,
+      "result_sha256": "14306f69aead1fb3c78747f4441a7abfcfc10c81309228086793979318fc94ea",
+      "scored_inventory_sha256": "2f39f0aec29b6f773465bf99ead0c54b3fcdd30d7f13961c903151fb84e6f781"
+    },
+    "R2": {
+      "eligible": true,
+      "correct": 542,
+      "total": 716,
+      "strata": {
+        "absent_from_old_inputs": {
+          "correct": 65,
+          "total": 81,
+          "wrong_or_unresolved": 16
+        },
+        "all": {
+          "correct": 542,
+          "total": 716,
+          "wrong_or_unresolved": 174
+        },
+        "composed": {
+          "correct": 56,
+          "total": 64,
+          "wrong_or_unresolved": 8
+        },
+        "exact_history": {
+          "correct": 7,
+          "total": 12,
+          "wrong_or_unresolved": 5
+        },
+        "official_new_input": {
+          "correct": 9,
+          "total": 17,
+          "wrong_or_unresolved": 8
+        },
+        "old_overlap": {
+          "correct": 477,
+          "total": 635,
+          "wrong_or_unresolved": 158
+        },
+        "primary_no_exact_history": {
+          "correct": 535,
+          "total": 704,
+          "wrong_or_unresolved": 169
+        }
+      },
+      "failures_fixed": 12,
+      "starting_passes_lost": 0,
+      "complete_repair": false,
+      "actions": 60,
+      "requests": {
+        "task": 50
+      },
+      "usage": {
+        "cachedInputTokens": 1822464,
+        "inputTokens": 1898812,
+        "outputTokens": 14020,
+        "reasoningOutputTokens": 7390,
+        "totalTokens": 1912832,
+        "uncachedInputPlusOutput": 90368
+      },
+      "usage_complete": true,
+      "dispatch_seconds": 390.79737839999143,
+      "history_reads": 1,
+      "history_test_invocations": 1,
+      "tool_failures": 5,
+      "result_sha256": "15ce31477512a3135d08cee67bbc5e88faf09ca464278adf306493bf524c5c83",
+      "scored_inventory_sha256": "773e6291b1921fcb6db0567ea93d4cb0f41a288d60fe330fa3a3871c2041324b"
+    }
+  },
+  "contrasts": [
+    {
+      "control": "A",
+      "dispatch_seconds_difference": 22.395004499936476,
+      "new_input_correct_difference": 0,
+      "origin": "1",
+      "primary_correct_difference": 0,
+      "recorded_token_difference": 1163711,
+      "regressions_difference": 11,
+      "total_token_ratio": 2.1172994962262575,
+      "treatment": "H",
+      "uncached_input_output_difference": -29249,
+      "uncached_token_ratio": 0.7423880781053206
+    },
+    {
+      "control": "H",
+      "dispatch_seconds_difference": 41.52332820009906,
+      "new_input_correct_difference": 0,
+      "origin": "1",
+      "primary_correct_difference": 3,
+      "recorded_token_difference": -729608,
+      "regressions_difference": -6,
+      "total_token_ratio": 0.6691495295317991,
+      "treatment": "R",
+      "uncached_input_output_difference": 51960,
+      "uncached_token_ratio": 1.616443231700083
+    },
+    {
+      "control": "A",
+      "dispatch_seconds_difference": 63.918332700035535,
+      "new_input_correct_difference": 0,
+      "origin": "1",
+      "primary_correct_difference": 3,
+      "recorded_token_difference": 434103,
+      "regressions_difference": 5,
+      "total_token_ratio": 1.4167899617777155,
+      "treatment": "R",
+      "uncached_input_output_difference": 22711,
+      "uncached_token_ratio": 1.2000281841481781
+    },
+    {
+      "control": "A",
+      "dispatch_seconds_difference": 3.0882769000018016,
+      "new_input_correct_difference": 8,
+      "origin": "2",
+      "primary_correct_difference": -13,
+      "recorded_token_difference": 375508,
+      "regressions_difference": 5,
+      "total_token_ratio": 1.24181064987401,
+      "treatment": "H",
+      "uncached_input_output_difference": 39508,
+      "uncached_token_ratio": 1.5101426819032862
+    },
+    {
+      "control": "H",
+      "dispatch_seconds_difference": -30.77349619998131,
+      "new_input_correct_difference": 0,
+      "origin": "2",
+      "primary_correct_difference": 15,
+      "recorded_token_difference": -15577,
+      "regressions_difference": -20,
+      "total_token_ratio": 0.9919223567199696,
+      "treatment": "R",
+      "uncached_input_output_difference": -26585,
+      "uncached_token_ratio": 0.7726864637931476
+    },
+    {
+      "control": "A",
+      "dispatch_seconds_difference": -27.685219299979508,
+      "new_input_correct_difference": 8,
+      "origin": "2",
+      "primary_correct_difference": 2,
+      "recorded_token_difference": 359931,
+      "regressions_difference": -15,
+      "total_token_ratio": 1.2317797464229852,
+      "treatment": "R",
+      "uncached_input_output_difference": 12923,
+      "uncached_token_ratio": 1.1668668087029506
+    }
+  ],
+  "worker_totals": {
+    "actions": 354,
+    "all_usage_complete": true,
+    "attempts": 7,
+    "dispatch_seconds": 2359.415676799952,
+    "usage": {
+      "cachedInputTokens": 9701632,
+      "inputTokens": 10285496,
+      "outputTokens": 82131,
+      "reasoningOutputTokens": 41439,
+      "totalTokens": 10367627,
+      "uncachedInputPlusOutput": 665995
+    }
+  },
+  "reused_origin_acquisition": {
+    "M-O-R1": {
+      "complete": true,
+      "dispatch_seconds": 739.1437705999706,
+      "usage": {
+        "cachedInputTokens": 2583296,
+        "inputTokens": 2680375,
+        "outputTokens": 24526,
+        "reasoningOutputTokens": 15346,
+        "totalTokens": 2704901,
+        "uncachedInputPlusOutput": 121605
+      }
+    },
+    "M-O-R2": {
+      "complete": true,
+      "dispatch_seconds": 542.2255909999949,
+      "usage": {
+        "cachedInputTokens": 1886464,
+        "inputTokens": 1953980,
+        "outputTokens": 15369,
+        "reasoningOutputTokens": 7196,
+        "totalTokens": 1969349,
+        "uncachedInputPlusOutput": 82885
+      }
+    }
+  },
+  "diagnostic": {
+    "correct": 565,
+    "total": 716,
+    "repairs": 4,
+    "regressions": 0,
+    "predictions_verified": true,
+    "seconds": 31.93144019995816,
+    "excluded_from_worker_comparison": true
+  },
+  "core_changed": false,
+  "unknown_costs": [
+    "complete coordinator tokens",
+    "complete engineering time",
+    "currency",
+    "physical and remote energy"
+  ],
+  "observed_fixture_errors": [
+    {
+      "case_id": "official-025",
+      "worker_check_passes": false,
+      "contract_check_passes": true
+    },
+    {
+      "case_id": "official-126",
+      "worker_check_passes": true,
+      "contract_check_passes": false
+    }
+  ]
+}

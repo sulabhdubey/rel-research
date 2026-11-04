@@ -1,0 +1,1441 @@
+{
+  "schema": "run120.components.v1",
+  "status": "source-consolidation-complete; source-free Run120 reference package checked; no empirical source qualified",
+  "primary_objective": "Learn reusable computations, required state and useful additional information acquisition across later application and changed requirements; measure architecture, REL procedure and model-learning effects separately.",
+  "review_mode": "Bounded source/interface and saved-record consolidation. No experiments, model sessions, raw dataset/reference arrays or private chat reads by this component-map task.",
+  "mechanisms": [
+    {
+      "id": "A1",
+      "name": "Counterexample-refined working state",
+      "retained": "Symbolic context85; live numeric state103/106/111/112; checked temporal state113/115",
+      "gap": "General counterexample-refined learned-state advantage unproved; useful state is conditional."
+    },
+    {
+      "id": "A2",
+      "name": "Validity-conditioned method compilation",
+      "retained": "Actual bounded executable learner methods85/102/106/112",
+      "gap": "Artifact acquisition/reuse does not establish superiority to equivalent ordinary code."
+    },
+    {
+      "id": "A3",
+      "name": "Conditional decomposition with reusable interfaces",
+      "retained": "QP continuation103/111; aggregate maintenance112; chronological graph composition113",
+      "gap": "Separate typed families do not constitute one validated architecture."
+    },
+    {
+      "id": "A4",
+      "name": "Complementary information acquisition",
+      "retained": "Run111 ordinary witness/progress buys fewer bits for the same verified completion",
+      "gap": "No general learned sensor-query advantage; observations fixed in106/119 and graph studies."
+    },
+    {
+      "id": "A5",
+      "name": "Output-directed approximation and refinement",
+      "retained": "Convex output bounds102/103/111/112 and temporal certificates113/115",
+      "gap": "Conditional bounds do not certify EKF physical error."
+    },
+    {
+      "id": "A6",
+      "name": "Reversible consolidation and procedure evolution",
+      "retained": "Artifact recovery, explicit failures and matched procedure comparison requirements",
+      "gap": "REL common/frozen in relevant runs; selector114 and certificate packaging115 not promoted."
+    }
+  ],
+  "measurement_overlay": "A7 source/context/version binding and feedback attribution remains an overlay, not a replacement for the six mechanisms.",
+  "six_broader_threads": [
+    "organisation",
+    "training versus exposure",
+    "resources",
+    "measurement",
+    "representation/use",
+    "capability forecasting"
+  ],
+  "components": [
+    {
+      "id": "run85",
+      "name": "Guarded SQL methods and symbolic context selection",
+      "mechanisms": [
+        "A1",
+        "A2"
+      ],
+      "artifacts": [
+        {
+          "path": "outputs/brain-ai-run85-method-state-prototype-2026-10-27/runtime_v1/runtime.py",
+          "role": "Engine/Store executable",
+          "inspection_scope": "full source read",
+          "sha256": "787ad718163f41f672d64c7df75fd803d377dabe08f5625e46b646a893169a43",
+          "bytes": 5930
+        },
+        {
+          "path": "outputs/brain-ai-run85-method-state-prototype-2026-10-27/chains/energy-J.json",
+          "role": "retained acquired SQL/state envelope",
+          "inspection_scope": "parsed schema, method IDs and context fields; no attempt/chat reads",
+          "sha256": "d87a44c43a17e96c517521e9af50e55488d4ffbe552664974d30cdc2f4822c2e",
+          "bytes": 7873
+        },
+        {
+          "path": "outputs/brain-ai-run85-method-state-prototype-2026-10-27/chains/air-J.json",
+          "role": "retained acquired SQL/state envelope",
+          "inspection_scope": "parsed schema, method IDs and context fields; no attempt/chat reads",
+          "sha256": "99b836a3f498b522edc52af95ff7184d855f7a1f60284481017fc7448f828cb6",
+          "bytes": 8525
+        }
+      ],
+      "entrypoints": [
+        "Engine(rows).query(sql,params)",
+        "Store(path).save_method(m)",
+        "Store.get_method(name,context)",
+        "Store.project(context)"
+      ],
+      "inputs": "Bounded observation dictionaries, SQL/scalar parameters and current task context. Method fields: id/sql/guard/context_fields/note.",
+      "outputs": "At most100 SQL result rows plus execution counts; rejection for scalar-equality guard mismatch or missing required context.",
+      "stored_state": [
+        "Saved SQL, guards, selected context-field names, note/handoff and archived method history in a digest envelope",
+        "Symbolic field selection, not trained neural state"
+      ],
+      "assumptions": [
+        "Read-only in-memory SQLite allowlist and host-provided semantics",
+        "Caller supplies current complete context; equality guards do not discover an omitted condition"
+      ],
+      "truth_feedback_boundary": [
+        "Evaluator truth and host files are outside learner SQL",
+        "Envelope integrity is not OS isolation or semantic correctness"
+      ],
+      "known_cost_and_result": [
+        "32/32 recorded episodes correct; joint guidance 32.96% more total tokens than ordinary with tied correctness",
+        "Five interrupted SQL proposals repaired; failures retained"
+      ],
+      "compatibility": [
+        "Portable method/guard-storage pattern",
+        "Direct execution requires this SQL table and current-contract schema; no EKF/QP/graph adapter"
+      ],
+      "limitations": [
+        "Counterexample-refined selector not demonstrated",
+        "Fresh sessions/contracts on accessible source values, not sealed unseen data"
+      ],
+      "evidence": [
+        {
+          "path": "outputs/brain-ai-run85-method-state-prototype-2026-10-27/REPORT.md",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "b75ff0ff9bb80ebcb91ed0e672167112a5e86f7ff89857b14414558e5a08b455",
+          "bytes": 14061
+        },
+        {
+          "path": "outputs/brain-ai-run85-method-state-prototype-2026-10-27/RESULTS.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "07736a398a52b9763b94031812676ebf9e2bbe8bbbfeaef24a2ed5347cb2b169",
+          "bytes": 27377
+        }
+      ]
+    },
+    {
+      "id": "run102",
+      "name": "Acquired primal-dual output certificate graph",
+      "mechanisms": [
+        "A2",
+        "A3",
+        "A5"
+      ],
+      "artifacts": [
+        {
+          "path": "work/brain_ai_run102/certificates.py",
+          "role": "ordinary checker",
+          "inspection_scope": "full source read",
+          "sha256": "75b1566b182f5d548364320122e75a4a15c2cd7750c970179c18142f66bf3c0b",
+          "bytes": 2398
+        },
+        {
+          "path": "work/brain_ai_run102/graph.py",
+          "role": "bounded acquired graph Engine",
+          "inspection_scope": "full source read",
+          "sha256": "1ced9b06dcf3237689a3dd1a0b0acac4d6a7c96001228a5d5c9883b2eeb02f62",
+          "bytes": 5700
+        },
+        {
+          "path": "work/brain_ai_run102/INTERFACE.md",
+          "role": "typed construction contract",
+          "inspection_scope": "full read",
+          "sha256": "75a5ca6be61d0a6118557ed202d01eb829ab58ae2d9a6f3f0cfbb907cb50aa3f",
+          "bytes": 3459
+        },
+        {
+          "path": "outputs/brain-ai-run102-output-certificates-2026-10-30/attempts/w8a-J-adapt/METHOD.json",
+          "role": "retained learner graph",
+          "inspection_scope": "interface/lineage and byte identity; no worker transcript",
+          "sha256": "437a99f65146c105689a67180550775f79f137b7e801800da33c2e1514b028fb",
+          "bytes": 5467
+        }
+      ],
+      "entrypoints": [
+        "certificates.analytic(p,c)",
+        "graph.Engine(program).run(p,c)",
+        "decisions(cert),resolved(cert)"
+      ],
+      "inputs": "p={H[m,n],Z[k,n],d[n],C[m]}, c={w[n],alpha[m]}; finite, d>0,C>=0. F(w)=0.5*w'Dw+sum C*max(0,1-Hw), no unregularized intercept.",
+      "outputs": "Primal upper/admissible dual lower, gap plus arithmetic allowance, center/radius, sign and explicit resolved flag.",
+      "stored_state": [
+        "JSON graph and lesson",
+        "Cached node values follow hashes of transitive dependencies; cold restart recomputes numeric cache"
+      ],
+      "assumptions": [
+        "Positive diagonal curvature and admissible dual multipliers clipped to[0,C]",
+        "Slack reconstructed from w",
+        "Floating allowance is engineering, not directed-rounding/formal proof"
+      ],
+      "truth_feedback_boundary": [
+        "Exact sign at objective optimum, not predictive label accuracy",
+        "Reference may remain unresolved; unknown reference is not success"
+      ],
+      "known_cost_and_result": [
+        "8 native attempts:560329 tokens,543.02 summed native wall seconds",
+        "Joint9.81% more tokens with identical later acceptance;163.36s scoring"
+      ],
+      "compatibility": [
+        "Actual graph reuse executed in103 and111",
+        "No pose-risk or temporal-graph certificate follows from this QP contract"
+      ],
+      "limitations": [
+        "Near-zero outputs may remain unresolved",
+        "Conventional formula remains strong; not a novel numerical algorithm or complete-architecture advantage"
+      ],
+      "evidence": [
+        {
+          "path": "outputs/brain-ai-run102-output-certificates-2026-10-30/REPORT.md",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "81c88295d0520d055751422dbf5cdeb1ffd98ec0f011f0ad787cb7de69a37344",
+          "bytes": 10477
+        },
+        {
+          "path": "outputs/brain-ai-run102-output-certificates-2026-10-30/AUDIT.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "150f010f1ce9f054e5d191e3ea8eb226ca32098699e57495de3dbb34709816d8",
+          "bytes": 1423
+        },
+        {
+          "path": "outputs/brain-ai-run102-output-certificates-2026-10-30/RELEASE.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "c29bbab4e81601bb97f26bf01223e1087cc719ce52d02d8ae604e20d1867af96",
+          "bytes": 2258
+        }
+      ]
+    },
+    {
+      "id": "run103",
+      "name": "Output-directed solver continuation and precision control",
+      "mechanisms": [
+        "A1",
+        "A2",
+        "A3",
+        "A5"
+      ],
+      "artifacts": [
+        {
+          "path": "work/brain_ai_run103/continuation.py",
+          "role": "Workspace/Checker/run",
+          "inspection_scope": "full source read",
+          "sha256": "82dc243d2959ce3a387a1d44c9d428040865f6fb56819714fa2f6aecba503bcb",
+          "bytes": 6766
+        },
+        {
+          "path": "work/brain_ai_run103/continuation_v2.py",
+          "role": "run2 precision repair",
+          "inspection_scope": "full source read",
+          "sha256": "6f18d4c78388112d29f5c744520ac3230444985abb47299fbd548011dae74f19",
+          "bytes": 3060
+        },
+        {
+          "path": "work/brain_ai_run103/common.py",
+          "role": "problem identity/runtime paths",
+          "inspection_scope": "full source read",
+          "sha256": "b6a7e6e0150ec4cdce2e958bcd3b7cd4c64381e6eebf75ae759b705dc5102212",
+          "bytes": 953
+        },
+        {
+          "path": "work/brain_ai_run103/certificates.py",
+          "role": "copied checker",
+          "inspection_scope": "byte identity with inspected Run102 source",
+          "sha256": "75b1566b182f5d548364320122e75a4a15c2cd7750c970179c18142f66bf3c0b",
+          "bytes": 2398
+        },
+        {
+          "path": "work/brain_ai_run103/graph.py",
+          "role": "copied graph engine",
+          "inspection_scope": "byte identity with inspected Run102 source",
+          "sha256": "1ced9b06dcf3237689a3dd1a0b0acac4d6a7c96001228a5d5c9883b2eeb02f62",
+          "bytes": 5700
+        },
+        {
+          "path": "work/brain_ai_run103/methods/w8a.json",
+          "role": "retained graph",
+          "inspection_scope": "byte identity with Run102 method",
+          "sha256": "437a99f65146c105689a67180550775f79f137b7e801800da33c2e1514b028fb",
+          "bytes": 5467
+        },
+        {
+          "path": "work/brain_ai_run103/methods/ijcnn1.json",
+          "role": "second retained graph",
+          "inspection_scope": "file identity only",
+          "sha256": "d7f49b48daaaf9d9fb8cdf12d6d3a9e25544a60d59da45218611f934f78968ef",
+          "bytes": 4997
+        }
+      ],
+      "entrypoints": [
+        "Workspace(p).step(budget),save(path),restore(path)",
+        "Checker(p,mode,learned).run(c)",
+        "continuation_v2.run2(p,arm)"
+      ],
+      "inputs": "Same immutable H/Z/d/C convex problem; OSQP candidate primal/dual iterates.",
+      "outputs": "Intervals/signs, explicit complete/unresolved counts, histories and solve/check/setup/wall/CPU costs.",
+      "stored_state": [
+        "Live OSQP workspace inside invocation",
+        "Checkpoint primal/dual vectors bound to problem/payload/OSQP version; factorization not serialized",
+        "Saved graph independent of numeric state"
+      ],
+      "assumptions": [
+        "Problem identity includes H,Z,d,C",
+        "Exact sign requirement not weakened by deadband",
+        "Tighten solver tolerance only for unresolved outputs"
+      ],
+      "truth_feedback_boundary": [
+        "Solver solved status alone is not output completion",
+        "Offline reference separate from runtime checker"
+      ],
+      "known_cost_and_result": [
+        "373.70s known nonoverlapping stages at report boundary;0 new evaluated-model calls",
+        "Reused J graphs historical lineage293265 tokens",
+        "Ordinary checker remains deployment choice; interpreter adds overhead"
+      ],
+      "compatibility": [
+        "Run102->103 executed",
+        "Run111 imports same continuation with immutable dummy Z while query masks vary",
+        "No universal cross-family state representation"
+      ],
+      "limitations": [
+        "Precision repair produced no fresh additional completions in reported comparison",
+        "NumPy/SciPy/OSQP runtime and portability not freshly qualified"
+      ],
+      "evidence": [
+        {
+          "path": "outputs/brain-ai-run103-solver-continuation-2026-10-31/REPORT.md",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "fee589d4853e2f0a05a874a82ea6e98511af84f9cd728d68a143e9859815783c",
+          "bytes": 10709
+        },
+        {
+          "path": "outputs/brain-ai-run103-solver-continuation-2026-10-31/COSTS.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "b08178d6f1c886310ec0abe11a1939338dc7d5df4cf392a22b7c0f3c085267dd",
+          "bytes": 1411
+        },
+        {
+          "path": "outputs/brain-ai-run103-solver-continuation-2026-10-31/RESTARTS.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "d9112570aa58b5cce41fff85d4a2bc39decf12ef69961da1c20eac0b4f10d745",
+          "bytes": 42205
+        },
+        {
+          "path": "outputs/brain-ai-run103-solver-continuation-2026-10-31/REUSED_ARTIFACTS.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "7ee714b206fea8e3ec8609716c61a570e92ff36c5f654d6eccf3f26e1d78b429",
+          "bytes": 624
+        }
+      ]
+    },
+    {
+      "id": "run106",
+      "name": "Acquired range-bearing update on supplied EKF",
+      "mechanisms": [
+        "A1",
+        "A2"
+      ],
+      "artifacts": [
+        {
+          "path": "work/brain_ai_run106/filter.py",
+          "role": "frozen host EKF/checkpoint",
+          "inspection_scope": "full source read",
+          "sha256": "43a626952708f8c78269db1e0b849e597a8d8504f2caead1da8bf53fb6695a90",
+          "bytes": 7314
+        },
+        {
+          "path": "work/brain_ai_run106/graph.py",
+          "role": "range-bearing-v1 Engine",
+          "inspection_scope": "entrypoints/interface inspected; hash pinned",
+          "sha256": "3b218cb2de87bd04a00d3c0f568ce9f523d1a3289aa7e3809eb3b7ab6703f66c",
+          "bytes": 3705
+        },
+        {
+          "path": "work/brain_ai_run106/common.py",
+          "role": "runtime dependency",
+          "inspection_scope": "import/file identity",
+          "sha256": "3bdcf2812e1cdac368b0a61e8f8a5012228c6567e3f25ff20036ec8211171bec",
+          "bytes": 694
+        },
+        {
+          "path": "work/brain_ai_run106/data.py",
+          "role": "original loader import dependency",
+          "inspection_scope": "source role/file identity; acquisition utilities not fully audited",
+          "sha256": "b2f6b400066ebaf0881c54f82f0f2ac7bd23e704baf1b5a520d00d47a60be222",
+          "bytes": 5123
+        },
+        {
+          "path": "work/brain_ai_run106/data_repaired.py",
+          "role": "stable source-time adapter",
+          "inspection_scope": "full source read; no dataset arrays read",
+          "sha256": "1dfda43a7631f5a7353e42e0cb8a9879f4d05a876258441fec59c03056d3ec79",
+          "bytes": 5398
+        },
+        {
+          "path": "work/brain_ai_run106/INTERFACE.md",
+          "role": "causal learner contract",
+          "inspection_scope": "full read",
+          "sha256": "582ee59b1a18908b4bc7ce0640b42a9384dc28defb0c990cd8d57f6bef5f006d",
+          "bytes": 5645
+        },
+        {
+          "path": "outputs/brain-ai-run106-acquired-update-2026-11-01/attempts/rep1-J-adapt/METHOD.json",
+          "role": "frozen J1 graph",
+          "inspection_scope": "parsed nodes/output/state",
+          "sha256": "cceb7d39032c64ef02e2aa721eff68041f47958231303b8f6f96c3bf9d1047a7",
+          "bytes": 1032
+        },
+        {
+          "path": "outputs/brain-ai-run106-acquired-update-2026-11-01/attempts/rep2-J-adapt/METHOD.json",
+          "role": "frozen J2 graph",
+          "inspection_scope": "parsed nodes/output/state",
+          "sha256": "643c53573370999868be70b03149198098e92ef97efb24c76182f72bccc28485",
+          "bytes": 2059
+        }
+      ],
+      "entrypoints": [
+        "Engine(program)(context,state)",
+        "filter.run(r,config,engine=None,keep=False,checkpoint=None,stop_at=None)"
+      ],
+      "inputs": "r initial[3], odometry[N,3]=(t,v_command,w_command), observations[M,4]=(t,landmark_id,range_m,bearing_rad), landmarks[id],duration and truth for post-filter scoring. Graph sees causal innovations/NIS/projected covariance/base noise/commands/time since observation/pre-current EMA and means.",
+      "outputs": "Bounded r_scale,b_scale,qv,qw,range_bias,bearing_bias,reject and next scalar state; scored filter metrics, optional error rows/diagnostics and checkpoint.",
+      "stored_state": [
+        "Pose/covariance, event indices, controls, EMA/mean, last observation/process scales",
+        "J1 adapted:5 nodes,no custom scalar; J2 adapted:14 nodes,m0",
+        "Checkpoint binds initial/events/map/method or config/duration"
+      ],
+      "assumptions": [
+        "Known authoritative map and common initial pose",
+        "2D constant-turn host; logged command velocities are not actual-motion truth",
+        "Ranges metres,bearings radians; source-time replay is not verified network arrival order",
+        "Process scales apply after current observation; reset on changed recording/map/method/semantics"
+      ],
+      "truth_feedback_boundary": [
+        "Common initial reference pose supplied; later truth used after causal loop only for scoring",
+        "Acquisition used development aggregate supervision; future truth not graph feature",
+        "Hash binding does not certify pose accuracy or adversarial isolation"
+      ],
+      "known_cost_and_result": [
+        "8 native attempts:1311364 tokens; recorded stage durations1274.23s can overlap",
+        "J adapted mean5.77% lower MSE than stronger later robust control but16 vs11 >0.5m outputs;not risk dominance",
+        "J2 scalar preservation improved its tested MSE2.42% vs reset"
+      ],
+      "compatibility": [
+        "Directly reused by119 with both exact adapted replicas",
+        "New source needs units/map/frame/event/initialization adapter and qualification of noise assumptions",
+        "QP/temporal checker cannot directly validate pose error"
+      ],
+      "limitations": [
+        "Original later units:two recordings; robots share environment",
+        "Selected reject comparator failed transfer; later robust comparator preserved",
+        "Existing interface is offline replay with scorer,not truth-free deployment API"
+      ],
+      "evidence": [
+        {
+          "path": "outputs/brain-ai-run106-acquired-update-2026-11-01/REPORT.md",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "e48c5b34c3c0087625aa2127097143328348c8c8625f3a111d5579a95829cc87",
+          "bytes": 11359
+        },
+        {
+          "path": "outputs/brain-ai-run106-acquired-update-2026-11-01/AUDIT.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "f5c6753709d9a3315dcce71971aa41c0682f0f8ea5adf05be2af39b982011af3",
+          "bytes": 1993
+        },
+        {
+          "path": "outputs/brain-ai-run106-acquired-update-2026-11-01/COSTS.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "128b1dfc4289e20e19e4ce309eca54b3149d783542a7d2d2d4885519255fe8cc",
+          "bytes": 5153
+        },
+        {
+          "path": "outputs/brain-ai-run106-acquired-update-2026-11-01/DECISION.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "b8c7533ea1a0aa4ac967d5dc7fa9f3cc19ce5504886dc966256526e72b17dd07",
+          "bytes": 1250
+        },
+        {
+          "path": "outputs/brain-ai-run106-acquired-update-2026-11-01/LATER_RELEASE.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "94fd4328e5e0428632da27b4f2191cf969c58e33e910a4a91c668d9d3aa26fb7",
+          "bytes": 7536
+        }
+      ]
+    },
+    {
+      "id": "run111",
+      "name": "Selective input acquisition with numerical completion",
+      "mechanisms": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "artifacts": [
+        {
+          "path": "work/brain_ai_run111/engine.py",
+          "role": "broker/box checker/selection/scheduling",
+          "inspection_scope": "all entrypoints plus broker/checker/selection/scheduling and run setup read; run tail not fully reread",
+          "sha256": "33f27f90e3474efb5f32e4b2f0713f55a0cd89d74b7d5b447e001c53b537d85d",
+          "bytes": 13534
+        },
+        {
+          "path": "work/brain_ai_run111/continuation.py",
+          "role": "reused Workspace",
+          "inspection_scope": "imports/byte identity with Run103",
+          "sha256": "82dc243d2959ce3a387a1d44c9d428040865f6fb56819714fa2f6aecba503bcb",
+          "bytes": 6766
+        },
+        {
+          "path": "work/brain_ai_run111/graph.py",
+          "role": "acquired checker engine",
+          "inspection_scope": "byte identity with Run102",
+          "sha256": "1ced9b06dcf3237689a3dd1a0b0acac4d6a7c96001228a5d5c9883b2eeb02f62",
+          "bytes": 5700
+        },
+        {
+          "path": "work/brain_ai_run111/certificates.py",
+          "role": "ordinary checker",
+          "inspection_scope": "byte identity with Run102",
+          "sha256": "75b1566b182f5d548364320122e75a4a15c2cd7750c970179c18142f66bf3c0b",
+          "bytes": 2398
+        },
+        {
+          "path": "work/brain_ai_run111/methods/w8a.json",
+          "role": "actual acquired radius graph",
+          "inspection_scope": "byte identity and fixed GRAPH_SHA",
+          "sha256": "437a99f65146c105689a67180550775f79f137b7e801800da33c2e1514b028fb",
+          "bytes": 5467
+        }
+      ],
+      "entrypoints": [
+        "AnswerBroker(values,active).read(requests)",
+        "BoxChecker(p,learned).run(c,values,mask)",
+        "engine.run(p,broker,arm,probabilities,deadline)"
+      ],
+      "inputs": "Immutable H/d/C QP; binary query features revealed by paid(row,feature) reads,active mask and training probabilities.",
+      "outputs": "Purchased receipts,input/numeric uncertainty intervals,query/refine/complete actions,signs/unresolved and costs/events.",
+      "stored_state": [
+        "Observed values/mask,input box,live Workspace,tolerance",
+        "Saved graph supplies radius; cap-vector center is not the requested output center"
+      ],
+      "assumptions": [
+        "Binary support[0,1],truthful structural zeros",
+        "No duplicate paid coordinate or multiple requests per row in round",
+        "Equal additive request cost only for declared latency sensitivity"
+      ],
+      "truth_feedback_boundary": [
+        "Hidden values inside broker; hypothetical supported bits are not observations",
+        "Offline reference separate; no observed false acceptance is not universal proof"
+      ],
+      "known_cost_and_result": [
+        "Ordinary witness/progress28.73% fewer requests with2.54% more arm wall;both382/384 decisions verified",
+        "Actual graph twin100.30% more arm wall than direct formula",
+        "715.501s recorded pre-delivery work;0 new learners;exact reused method historical160052 tokens"
+      ],
+      "compatibility": [
+        "Executed102 graph+103-style Workspace composition",
+        "112 generalizes box aggregates but dynamic event/policy adapter is additional work",
+        "Portable information-vs-computation distinction,not landmark-query API"
+      ],
+      "limitations": [
+        "Two near-zero decisions unresolved",
+        "All-input baseline fastest with cheap retrieval",
+        "Savings belong to ordinary policy;no learner/REL superiority"
+      ],
+      "evidence": [
+        {
+          "path": "outputs/brain-ai-run111-certified-information-2026-11-01/REPORT.md",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "bfb0fbe5e1af95c589163c89cd721e2252ceb8fd2f6f96d4b2913792121dfde3",
+          "bytes": 18361
+        },
+        {
+          "path": "outputs/brain-ai-run111-certified-information-2026-11-01/ACQUIRED_METHOD_LINEAGE.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "7a357078f5d6b078ccae0f3d84da690d92e454a09a83e77a69320f40f3f4cd4c",
+          "bytes": 1972
+        },
+        {
+          "path": "outputs/brain-ai-run111-certified-information-2026-11-01/COSTS.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "b84b2f3bea1214d761632c1798dec4c0806428852573f68f71ce6427d78b8d23",
+          "bytes": 15116
+        },
+        {
+          "path": "outputs/brain-ai-run111-certified-information-2026-11-01/DECISION.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "5fcda6d178feb737cb5b48de1d55a5dafaa6e21a619321fe21f66a7f76aade4d",
+          "bytes": 1694
+        }
+      ]
+    },
+    {
+      "id": "run112",
+      "name": "Ordinary event-sensitive aggregate maintenance",
+      "mechanisms": [
+        "A1",
+        "A2",
+        "A3",
+        "A5"
+      ],
+      "artifacts": [
+        {
+          "path": "work/brain_ai_run112/ordinary.py",
+          "role": "TrustedOrdinary/Ordinary/output",
+          "inspection_scope": "entrypoints/docstrings and trusted implementation read",
+          "sha256": "9927361fc8648f19b074dda7d1e36440e8635fcf5f62d99e5448de00ed533e77",
+          "bytes": 17039
+        },
+        {
+          "path": "work/brain_ai_run112/INTERFACE.md",
+          "role": "six-aggregate contract",
+          "inspection_scope": "full read",
+          "sha256": "65dd731b75fc9c04dabc0d4768abf568eeb8edd3f716f58ce2e1b51912cb0a4f",
+          "bytes": 4315
+        },
+        {
+          "path": "work/brain_ai_run112/language.py",
+          "role": "acquired expression counterpart",
+          "inspection_scope": "interface and file identity only",
+          "sha256": "8de9f36602474c80243c89175bd122b9e4c1b942087d03e0ff185e7511644ae4",
+          "bytes": 4921
+        },
+        {
+          "path": "work/brain_ai_run112/evaluation.py",
+          "role": "shared event/custody host",
+          "inspection_scope": "file identity; boundary from interface/report",
+          "sha256": "a84344a4107700905d65ead51ca7e510f583b75afb8243080a09f54d1e17d42e",
+          "bytes": 6040
+        }
+      ],
+      "entrypoints": [
+        "TrustedOrdinary.step(ctx,event),snapshot(),restore(snapshot)",
+        "Ordinary.step(ctx,event),snapshot(ctx),restore(snapshot,ctx)",
+        "output(state,gap,n,threshold=...)"
+      ],
+      "inputs": "w,d,values,known mask,lo,hi,active,current coordinate transition,authoritative global-change flags;current gap and consumer threshold.",
+      "outputs": "L/U/M/K/A/N aggregates then guarded output interval/sign and rebuild/update/reuse counts.",
+      "stored_state": [
+        "Six scalar aggregates and method binding",
+        "Stronger Ordinary checks transition/context; common host still owns global-change truth"
+      ],
+      "assumptions": [
+        "d>0,finite values,valid supports",
+        "Flags complete/truthful; arrays already contain new coordinate",
+        "Duplicate old-to-new receipts normalized/rejected;gap/threshold have separate dependencies"
+      ],
+      "truth_feedback_boundary": [
+        "Host owns event truth,sequencing and semantic checkpoint custody",
+        "Float allowance not directed-rounding proof",
+        "Supplied names/flags do not demonstrate context discovery"
+      ],
+      "known_cost_and_result": [
+        "8 native attempts599969 tokens,532.487 summed session seconds",
+        "12 arms correct on56256 events across384 sequences and3 dependent timings",
+        "Ordinary0.847s/trace vs ordinary-guided learner8.879s and joint16.631s;candidate failed"
+      ],
+      "compatibility": [
+        "Direct ordinary implementation under trusted event host",
+        "Mathematical relation to111 does not deliver end-to-end dynamic acquisition integration",
+        "No direct EKF/contact-graph truth role"
+      ],
+      "limitations": [
+        "Retain ordinary useful frontier;not learned speed advantage",
+        "Trusted implementation alone is not self-validating external event service"
+      ],
+      "evidence": [
+        {
+          "path": "outputs/brain-ai-run112-event-method-2026-11-01/REPORT.md",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "f8e3fa6b18980f71d41f36bb2447d28fcf45555bcf335fbf90a72b0f04252a50",
+          "bytes": 14265
+        },
+        {
+          "path": "outputs/brain-ai-run112-event-method-2026-11-01/DECISION.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "a9696c9503c4da20e56d58ce7b02edcb1e029bde244cba2a907dff37a4d94886",
+          "bytes": 805
+        },
+        {
+          "path": "outputs/brain-ai-run112-event-method-2026-11-01/COSTS.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "d2d8d3a29b3e249d20cd3990d7b30b65a4483ee792513d7e9824f2345be564a1",
+          "bytes": 42901
+        },
+        {
+          "path": "outputs/brain-ai-run112-event-method-2026-11-01/FRESH_PROCESS_RESTARTS.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "ba0247bca806d69a367e71c909f74a1629eb17d38a9d4f116615e63c858a0b51",
+          "bytes": 2752
+        }
+      ]
+    },
+    {
+      "id": "run113",
+      "name": "Temporal reachability/state/proof toolkit",
+      "mechanisms": [
+        "A1",
+        "A3",
+        "A5"
+      ],
+      "artifacts": [
+        {
+          "path": "work/brain_ai_run113/data.py",
+          "role": "Graph/graph_from_edges",
+          "inspection_scope": "full source read;no contacts",
+          "sha256": "6d6652011cdfd3b09c458d3b66b2306841288fd29f53e3bb13d340ced917cdfb",
+          "bytes": 3532
+        },
+        {
+          "path": "work/brain_ai_run113/ordinary.py",
+          "role": "FullStream/Maintained",
+          "inspection_scope": "entrypoints and source interface",
+          "sha256": "81bb36487a2af8f0aa49d3e97c9b98b0c66fd1c14bd750e7493abe7bb656509d",
+          "bytes": 4816
+        },
+        {
+          "path": "work/brain_ai_run113/reference.py",
+          "role": "scalar solver/proof verifier",
+          "inspection_scope": "entrypoints/docstrings/schema/binding/source semantics",
+          "sha256": "2772d6429ce9b05f439502178318ce3b008c15f142cec6ec3a423c97cb5695f3",
+          "bytes": 11841
+        },
+        {
+          "path": "work/brain_ai_run113/certification.py",
+          "role": "common Certifier",
+          "inspection_scope": "entrypoints/docstrings",
+          "sha256": "b3db62458c819e3aa0d3c8cbd9c27bfb1baba4a1df8baec23b991f25cd8af097",
+          "bytes": 6540
+        },
+        {
+          "path": "work/brain_ai_run113/transfer.py",
+          "role": "eager/lazy index",
+          "inspection_scope": "role/released identity only",
+          "sha256": "765124b810ef5221e8cab39f4992b64ed924112d5e53d13c22a8b51fb7433de2",
+          "bytes": 14393
+        },
+        {
+          "path": "work/brain_ai_run113/recovery.py",
+          "role": "fresh-process reconstruction",
+          "inspection_scope": "checkpoint envelope/restore/child boundary read",
+          "sha256": "81deababb3a6a5448ceffdf2c1a39779f4726d6e0305c57e56cc1abe71d02fcc",
+          "bytes": 13600
+        }
+      ],
+      "entrypoints": [
+        "graph_from_edges(n,edges)",
+        "FullStream(g).query(q),Maintained(g).query(q)",
+        "Certifier(g).produce(q,engine,answer),verify(q,certificate)",
+        "reference.verify_certificate(n,edges,q,certificate)"
+      ],
+      "inputs": "Complete ordered integer contacts(interval_end,u,v),source/target/start/deadline/mode query;duration20 or instant,waiting allowed.",
+      "outputs": "Decision plus chronological positive path or negative closed-arrival overapproximation; exact solver also yields earliest arrivals.",
+      "stored_state": [
+        "Arrival/frontier or index blocks;exact-query proof reuse available equally",
+        "Method-specific checkpoint envelope/graph identity restored in actual fresh process"
+      ],
+      "assumptions": [
+        "duration20 departs t-20,arrives t,one hop/slot;instant closes same-slot component",
+        "Nonreachability needs complete graph or valid upper graph",
+        "Original ordered edge IDs differ from deduplicated engine slots"
+      ],
+      "truth_feedback_boundary": [
+        "Verifier checks supplied graph/query;source completeness beyond recorded contract not established",
+        "Hashes identify;trusted Python objects are not security sandbox"
+      ],
+      "known_cost_and_result": [
+        "10240 decisions/1024 slots agree;8 restores and64 later decisions pass",
+        "Conference median wall:stream4.642s,maintained5.597s,eager14.380s,lazy13.016s",
+        "245.946s known work;0 evaluated learners"
+      ],
+      "compatibility": [
+        "Separate executable temporal family",
+        "115 changes graph/query/certificate/custody schema;explicit adapter needed",
+        "Cannot certify localization or QP truth"
+      ],
+      "limitations": [
+        "Lazy index failed cost screen",
+        "Related exposed sources/controlled changes;no biological or general learner claim"
+      ],
+      "evidence": [
+        {
+          "path": "outputs/brain-ai-run113-temporal-state-2026-11-02/REPORT.md",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "f0dc1405fb24b9cf50b5b96b694512ecff2e21ca42393effca2904f877985a73",
+          "bytes": 10075
+        },
+        {
+          "path": "outputs/brain-ai-run113-temporal-state-2026-11-02/DECISION.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "20b68d79b0f71823d6ef58806c4d28561d747e54ff61e302beaa31e749debf44",
+          "bytes": 419
+        },
+        {
+          "path": "outputs/brain-ai-run113-temporal-state-2026-11-02/RECOVERY.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "835794a263c3a4252eea6ca337a6eae0693b6ff734f4b91a15092d13087b1842",
+          "bytes": 35051
+        },
+        {
+          "path": "outputs/brain-ai-run113-temporal-state-2026-11-02/COSTS.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "9cca13997fcd503ba251dc5a3c5fef591c4e5744311b0955aaa788653cf4ecb1",
+          "bytes": 5180
+        },
+        {
+          "path": "outputs/brain-ai-run113-temporal-state-2026-11-02/CONFIRMATION_RELEASE.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "f2b4feee64ae7e39d75b70587f48280f8a26b5088e8f735a17dbf73c945a56d0",
+          "bytes": 4088
+        }
+      ]
+    },
+    {
+      "id": "run115",
+      "name": "Hardened ordinary checked temporal-state maintenance",
+      "mechanisms": [
+        "A1",
+        "A5"
+      ],
+      "artifacts": [
+        {
+          "path": "outputs/brain-ai-run115-valid-state-2026-11-02/delivery/core.py",
+          "role": "hardened reusable component",
+          "inspection_scope": "full source read",
+          "sha256": "b8b5de0bee7a0030217e013b487951e5d3a8c4295d76228eba4c0b69f1a2362d",
+          "bytes": 10537
+        },
+        {
+          "path": "outputs/brain-ai-run115-valid-state-2026-11-02/delivery/study_code/core.py",
+          "role": "frozen comparison implementation",
+          "inspection_scope": "identity only;not interchangeable with hardened core",
+          "sha256": "eced458c4286bbe183f33e8d8536e5efc8bd8d8f39d590ce27d858828261c0d5",
+          "bytes": 10423
+        },
+        {
+          "path": "outputs/brain-ai-run115-valid-state-2026-11-02/THEOREM.md",
+          "role": "recorded witness/closure conditions",
+          "inspection_scope": "report/source-derived contract;not a fresh proof audit",
+          "sha256": "3f54ec17d74e32be9a34e4421f8f49e6d3fc607f6b5042a500f5cad0cb9127b6",
+          "bytes": 9153
+        }
+      ],
+      "entrypoints": [
+        "GraphOwner(n,edges).change(remove,add,epoch,untrusted)",
+        "Engine('O').step(owner,q,receipt)",
+        "Engine.snapshot(),Engine.restore(owner,q,packet)",
+        "verify(n,edges,q,certificate)"
+      ],
+      "inputs": "Canonical undirected integer contacts;q source/start/deadline/mode,no target;trusted owner edit receipt or full graph/checkpoint.",
+      "outputs": "All-node earliest-arrival labels/reason;labels/parents/ranks certificate;delta checks,full check or rebuild.",
+      "stored_state": [
+        "Arrival labels/rooted parents/ranks/support edges,q/version/epoch/owner",
+        "JSON envelope digest;restart semantically verifies or rebuilds",
+        "Delivered non-string-envelope guard differs from frozen timing copy"
+      ],
+      "assumptions": [
+        "Attainable witness AND closure over every eligible contact",
+        "Incremental reuse needs exact authoritative receipt identity,complete edits,matching epoch",
+        "Owner/context replacement invalidates state;malformed restore clears stale state"
+      ],
+      "truth_feedback_boundary": [
+        "Digest is corruption evidence,not authentication",
+        "Complete graph/trusted in-process mutation custody assumed",
+        "Common oracle not supplied to workers"
+      ],
+      "known_cost_and_result": [
+        "5760 correct deliveries;ordinaryO19.30% less wall than recompute;explicitP only0.22% faster thanO,missed10% screen",
+        "2475.67s known stages include failed/stalled attempt;0 learners",
+        "Separate hardening205 boundary checks and16 test methods;not new corpus timings"
+      ],
+      "compatibility": [
+        "Reusable ordinary GraphOwner/Engine('O')",
+        "113 shares semantic ideas but ordered IDs/target output/owner API need adapter",
+        "Validity obligations transfer;not a numeric error bound"
+      ],
+      "limitations": [
+        "Frozen timings do not certify arbitrary malformed inputs",
+        "Extra packaging retired;ordinary/hardened component retained"
+      ],
+      "evidence": [
+        {
+          "path": "outputs/brain-ai-run115-valid-state-2026-11-02/REPORT.md",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "1a6879f57230a543448cf133342332fe5bf47ffc47a8a3f1872cc13d3b0d272a",
+          "bytes": 10125
+        },
+        {
+          "path": "outputs/brain-ai-run115-valid-state-2026-11-02/COSTS.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "85237449e2e58fd3c648c9f39a94e98c78e0dd882ee79e533da40ec87aca2509",
+          "bytes": 999
+        },
+        {
+          "path": "outputs/brain-ai-run115-valid-state-2026-11-02/POST_STUDY_CHECKPOINT_HARDENING.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "47f9f4e34796ae57ed4af5f3ee03c0503c46860ddbb21d447d79a602159e7de9",
+          "bytes": 51125
+        },
+        {
+          "path": "outputs/brain-ai-run115-valid-state-2026-11-02/CONFIRMATION_RELEASE.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "4b1802c69dc94bbef131e983b56fb0cfaad809db29d9c57c73defcebbaa90dfb",
+          "bytes": 576
+        }
+      ]
+    },
+    {
+      "id": "run119",
+      "name": "Two causal localization histories with equal averaging",
+      "mechanisms": [
+        "A1",
+        "A2"
+      ],
+      "artifacts": [
+        {
+          "path": "work/brain_ai_run119/frozen_trace.py",
+          "role": "Run106 copy with endpoint diagnostics",
+          "inspection_scope": "entrypoints/imports/changed rows and truth/checkpoint boundary",
+          "sha256": "9c10d3c051bfd3b8f848f91d6e09953953c04433dca2363cbe1022c146d8a0c8",
+          "bytes": 7397
+        },
+        {
+          "path": "work/brain_ai_run119/runtime.py",
+          "role": "frozen imports/readout/signals/scorer",
+          "inspection_scope": "full source read",
+          "sha256": "442d8c210e795b572a6a189b06bb3880feb8429e5e26b414b4e644fb11fb7493",
+          "bytes": 3864
+        },
+        {
+          "path": "work/brain_ai_run119/study.py",
+          "role": "historical capture/evaluation wiring",
+          "inspection_scope": "capture/evaluate_dataset/select read",
+          "sha256": "53ad34c70b60a3c8f049cd9a3d9f618de44a1c9c0dc55e43efb6716e674d89d6",
+          "bytes": 12690
+        },
+        {
+          "path": "work/brain_ai_run107/data_adapter.py",
+          "role": "MR.CLAM schema adapter",
+          "inspection_scope": "full source read;no dataset arrays",
+          "sha256": "7dab17f3b451d79ff20b58846acaf758e01114fc76115c573ad34ade3b288ca5",
+          "bytes": 3336
+        },
+        {
+          "path": "work/brain_ai_run119/test_runtime.py",
+          "role": "existing source-free checks",
+          "inspection_scope": "report/inventory and hash;not executed here",
+          "sha256": "36acb544c0e8870cf933bc12473f06bd27dab4b881cca6eeccab6be30221c8c3",
+          "bytes": 19804
+        }
+      ],
+      "entrypoints": [
+        "trace.run(r,CONFIGS['robust'],keep=True)",
+        "trace.run(r,CONFIGS['fixed'],Engine(METHODS['J1' or 'J2']),keep=True)",
+        "runtime.readout(robust_rows,acquired_rows,'mean',None)"
+      ],
+      "inputs": "Aligned finite Nx8 rows[t,x,y,heading,total_covariance_trace,position_covariance_trace,last_preinflation_NIS,last_measurement_time];positive position variance,last_measurement<=t.",
+      "outputs": "Mean Cartesian position and circular heading,robust heading at circular tie;no fused covariance. Each acquired replica paired separately with robust.",
+      "stored_state": [
+        "Both complete filter histories continue evolving even when unused",
+        "Exact frozenJ1/J2;no new acquired update",
+        "Local captures include truth for scoring;not opened in this consolidation"
+      ],
+      "assumptions": [
+        "Common aligned map/frame/units/initialization/observations/endpoints",
+        "Cartesian mean identity is pointwise squared-error relation,not tail guarantee",
+        "Cross-error covariance absent;normalized disagreement heuristic",
+        "keep=True makes last-NIS diagnostics available"
+      ],
+      "truth_feedback_boundary": [
+        "No truth/future observation/offline harm label enters readout",
+        "Legacy loader supplies initial reference pose;filter scores later truth after loop",
+        "Full-history comparison,not same-prior causal update intervention"
+      ],
+      "known_cost_and_result": [
+        "Six exposed recordings:mean10.39% lower balancedMSE and9.51% fewer>0.5m outputs vsrobust;1.84% higherMSE vsacquired",
+        "113.02s known work;0 new workers;capture110.10s",
+        "Bank accounting estimates:robust28.97s,acquired30.62s,pair+mean56.42s;not timed deployments"
+      ],
+      "compatibility": [
+        "Direct legacy offline chain with106;current hashes match selected release",
+        "Minimal numerical comparison retains robust,J1,J2 and each pairwise mean",
+        "Run120 now adds a separately checked truth-free prediction wrapper; see current_reference_package. No independent empirical source is qualified."
+      ],
+      "limitations": [
+        "MR.CLAM exposed exploratory evidence",
+        "No family passed full acquired-gain plus robust-tail criterion;four-readout branch closed",
+        "Mean optional trade-off,not promoted reliability solution;per-recording harms retained"
+      ],
+      "evidence": [
+        {
+          "path": "outputs/brain-ai-run119-tail-risk-qualification-2026-11-04/REPORT.md",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "4e296fb580aff51e9a71e9da4218859f3d37a2083949f999f65aa8f29fd2b75f",
+          "bytes": 9170
+        },
+        {
+          "path": "outputs/brain-ai-run119-tail-risk-qualification-2026-11-04/COSTS.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "1ad95f8b9350a38fc6a20fef1fd1c5844337f5f702e07c8b5d0912e3ac85cbb1",
+          "bytes": 1541
+        },
+        {
+          "path": "outputs/brain-ai-run119-tail-risk-qualification-2026-11-04/RELEASE.json",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "8cf9fcb4c812163e640bd417cacf19e2cc4ff4bd1bf399449ab8d4ac0dce22ab",
+          "bytes": 29312
+        },
+        {
+          "path": "outputs/brain-ai-run119-tail-risk-qualification-2026-11-04/NEXT_RUN.md",
+          "role": "recorded evidence",
+          "inspection_scope": "report/relevant receipt;not new empirical replay",
+          "sha256": "f6065f3a300b79314ab091cca02d57cd9f01daa4d974fc8e6bb2132fe4da6798",
+          "bytes": 2268
+        }
+      ]
+    }
+  ],
+  "unknown_costs": [
+    "Full coordinator/research/reviewer model work",
+    "Complete electricity and remote inference energy",
+    "Full money/host-idle/sensing costs",
+    "Fresh deployment timings;none measured by this component-map task"
+  ],
+  "compatibility_decisions": [
+    {
+      "from": [
+        "run102",
+        "run103"
+      ],
+      "to": "run111",
+      "status": "executed compatible numeric composition",
+      "reason": "Same objective and checker;immutable dummy query preserves solver identity while query masks change."
+    },
+    {
+      "from": [
+        "run111"
+      ],
+      "to": "run112",
+      "status": "related mathematical interface;adapter required",
+      "reason": "Trusted event deltas/support changes and complete joint policy not automatically integrated."
+    },
+    {
+      "from": [
+        "run113"
+      ],
+      "to": "run115",
+      "status": "related temporal semantics;schema/custody adapter required",
+      "reason": "Ordered edge IDs/target proof versus canonical edge set/all-node certificate/owner receipts."
+    },
+    {
+      "from": [
+        "run106"
+      ],
+      "to": "run119",
+      "status": "direct executed legacy offline chain",
+      "reason": "Exact graph identities and numerical host preserved;two state histories and ordinary mean."
+    },
+    {
+      "from": [
+        "run85",
+        "run102",
+        "run103",
+        "run111",
+        "run112",
+        "run113",
+        "run115"
+      ],
+      "to": "run106/run119",
+      "status": "portable ideas only",
+      "reason": "Different inputs/outputs,validity,feedback and truth;no complete integration or pose-error proof."
+    }
+  ],
+  "minimal_localization_reference_chain": {
+    "status": "Legacy offline chain source-traced; separately consolidated source-free Run120 predict/evaluate API checked with builder tests, synthetic legacy parity and real child-process continuity; no empirical source qualified",
+    "steps": [
+      "Construct admitted recording with authoritative map,aligned commands/measurements and permitted common initial pose.",
+      "Run frozen_trace robust with no Engine and keep=True.",
+      "Run same frozen host with fixed config and each exact J1/J2 graph.",
+      "Extract checkpoint.rows Nx8 and readout(robust,Jk,'mean',None);mean ignores threshold.",
+      "Freeze consumer trade-off,source roles,methods and costs before separate scoring;retain both replicas."
+    ],
+    "wiring": "work/brain_ai_run119/study.py:capture/evaluate_dataset;historical commands carry existing-start and release guards",
+    "source_dispatch": "runtime.robot uses Run106 data_repaired for2/3/4/9,Run107 data_adapter otherwise;MR.CLAM-specific identities and paths",
+    "deployment_gaps": [
+      "Truth-dependent scoring separated in checked Run120 reference wrapper; legacy chain remains for provenance/parity. Trusted fixed-record use only.",
+      "Independent source needs licence/map/frame/clock/units/IDs/event-order/init/feedback contract.",
+      "Frozen noise/kinematic assumptions need qualification;no source automatically inherits compatibility.",
+      "No numerical/temporal certificate proves pose accuracy;no added selector sweep.",
+      "Full pair cost includes both histories and ingestion/verification;no new energy claim."
+    ],
+    "current_reference_package": "current_reference_package"
+  },
+  "mathematics_and_alien": {
+    "mathematics": "Retain conditional interfaces,preserved dependencies,output-directed bounds and precision tags as construction ideas. Prior local review is not fresh proof audit/Lean build/practical solver benchmark/AI or energy benefit. Run119 pointwise Cartesian mean identity holds without independence but supplies no tail guarantee or covariance calibration.",
+    "alien": "Separate compatibility from unfamiliarity;compare genuinely different executable constructions. Prior pinned code/paper review did not rerun models/experiments;appendixF,every figure/raw trial and model binaries not fully verified. Run114 failed to promote added selector. Preserve diversity reasoning without claiming architecture benefit.",
+    "mean_identity": "||((r+j)/2)-truth||^2 = (||r-truth||^2+||j-truth||^2)/2 - ||r-j||^2/4 for Cartesian position only",
+    "no_automatic_transfer": "A theorem or compatible-sounding mechanism name does not compose heterogeneous contracts."
+  },
+  "context_references": [
+    {
+      "path": "outputs/brain-ai-rel-direction-review-2026-10-27/PROGRAMME.md",
+      "role": "governing programme",
+      "inspection_scope": "active section,objective,stage headings and retained-run passages;not all historical prose re-audited",
+      "sha256": "12b9ca2e99f610f66bc2bba10da2987ec480ac3342d22f9f30d49976fd541e82",
+      "bytes": 65013
+    },
+    {
+      "path": "outputs/brain-ai-rel-direction-review-2026-10-27/ALGORITHMS.md",
+      "role": "mechanism programme",
+      "inspection_scope": "active section,mechanism headings and retained-run passages",
+      "sha256": "35eb193d4ec5a5e07e40610d1c183800cc38ce22efeecac780206b2c92d74710",
+      "bytes": 86598
+    },
+    {
+      "path": "outputs/brain-ai-rel-direction-review-2026-10-27/NEXT_DECISION.json",
+      "role": "current decision/source index",
+      "inspection_scope": "structured current decision and named evidence entries",
+      "sha256": "ff668589915db3d877d508c883b934a68eb04f4d226a42784f2a986d0161dcc4",
+      "bytes": 56363
+    },
+    {
+      "path": "outputs/openai-science-review-2026-10-27/REPORT.md",
+      "role": "prior mathematics interpretation",
+      "inspection_scope": "selected scope/construction/limits;original papers not reread",
+      "sha256": "7183e1c9bd0753b86baa113bbe906b1727d76f81d2b584ab561f95b28c949f07",
+      "bytes": 26307
+    },
+    {
+      "path": "outputs/alien-space-review-2026-11-01/REPORT.md",
+      "role": "prior Alien review",
+      "inspection_scope": "selected implementation/transfer/scope;repository/models not rerun",
+      "sha256": "a8bf311bd49bba0e020d9d59dd9ba0b7eb068c843439910bf3374a7bf43c003b",
+      "bytes": 12486
+    }
+  ],
+  "source_coverage_limits": [
+    "No fresh tests/experiment by component-map task",
+    "No environment/install/portability qualification",
+    "No full host security audit",
+    "Reports retain recorded scope;hash/interface checks are not independent reproduction",
+    "No raw source/pose/contact arrays,private chat,hidden outcomes or secrets opened",
+    "Parent owns source admission and programme update",
+    "Twelve material cycles after Run120 lack full architecture advantage (eleven before)"
+  ],
+  "created_utc": "2026-11-04T18:34:27.157812+00:00",
+  "verified_copy_lineage": [
+    {
+      "from": "work/brain_ai_run102/graph.py",
+      "to": "work/brain_ai_run103/graph.py",
+      "byte_identical": true
+    },
+    {
+      "from": "work/brain_ai_run102/certificates.py",
+      "to": "work/brain_ai_run103/certificates.py",
+      "byte_identical": true
+    },
+    {
+      "from": "work/brain_ai_run103/continuation.py",
+      "to": "work/brain_ai_run111/continuation.py",
+      "byte_identical": true
+    },
+    {
+      "from": "work/brain_ai_run102/graph.py",
+      "to": "work/brain_ai_run111/graph.py",
+      "byte_identical": true
+    },
+    {
+      "from": "work/brain_ai_run102/certificates.py",
+      "to": "work/brain_ai_run111/certificates.py",
+      "byte_identical": true
+    },
+    {
+      "from": "outputs/brain-ai-run102-output-certificates-2026-10-30/attempts/w8a-J-adapt/METHOD.json",
+      "to": "work/brain_ai_run103/methods/w8a.json",
+      "byte_identical": true
+    },
+    {
+      "from": "work/brain_ai_run103/methods/w8a.json",
+      "to": "work/brain_ai_run111/methods/w8a.json",
+      "byte_identical": true
+    }
+  ],
+  "selected_release_identity_checks": [
+    {
+      "release": "outputs/brain-ai-run106-acquired-update-2026-11-01/LATER_RELEASE.json",
+      "release_sha256": "94fd4328e5e0428632da27b4f2191cf969c58e33e910a4a91c668d9d3aa26fb7",
+      "selected_code_method_entries": 10,
+      "mismatches": [],
+      "excluded": "raw sources,derived arrays,private captures and unrelated evidence"
+    },
+    {
+      "release": "outputs/brain-ai-run113-temporal-state-2026-11-02/CONFIRMATION_RELEASE.json",
+      "release_sha256": "f2b4feee64ae7e39d75b70587f48280f8a26b5088e8f735a17dbf73c945a56d0",
+      "selected_code_method_entries": 16,
+      "mismatches": [],
+      "excluded": "raw sources,derived arrays,private captures and unrelated evidence"
+    },
+    {
+      "release": "outputs/brain-ai-run119-tail-risk-qualification-2026-11-04/RELEASE.json",
+      "release_sha256": "8cf9fcb4c812163e640bd417cacf19e2cc4ff4bd1bf399449ab8d4ac0dce22ab",
+      "selected_code_method_entries": 15,
+      "mismatches": [],
+      "excluded": "raw sources,derived arrays,private captures and unrelated evidence"
+    }
+  ],
+  "current_reference_package": {
+    "id": "run120_reference_package",
+    "status": "checked source-free reference package; no empirical source qualified",
+    "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/reference/rel_localization",
+    "artifacts": [
+      {
+        "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/reference/rel_localization/runner.py",
+        "role": "normalize/predict/evaluate direct API",
+        "inspection_scope": "full source read",
+        "sha256": "87d5d8036549898aef956316b2719749fd2328d39fa36e4ba25aea9567151f3a",
+        "bytes": 7249
+      },
+      {
+        "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/reference/rel_localization/frozen_filter.py",
+        "role": "unchanged prediction arithmetic with scoring tail removed",
+        "inspection_scope": "imports/final return and builder AST-equivalence receipt inspected",
+        "sha256": "368f86d9575c4e8fa5cd6f536ae8aa248e412164834bb7fdbe3bef2187dc56d7",
+        "bytes": 5503
+      },
+      {
+        "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/reference/rel_localization/engine.py",
+        "role": "localized frozen graph engine",
+        "inspection_scope": "hash checked against integration/review receipts; source not rerun",
+        "sha256": "956fc0401d1b7b131e4dd43f65ee372e7d278f1a15c541808828c42c0a245cc6",
+        "bytes": 3696
+      },
+      {
+        "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/reference/rel_localization/J1.json",
+        "role": "exact retained J1 method",
+        "inspection_scope": "hash compared to inspected original",
+        "sha256": "cceb7d39032c64ef02e2aa721eff68041f47958231303b8f6f96c3bf9d1047a7",
+        "bytes": 1032
+      },
+      {
+        "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/reference/rel_localization/J2.json",
+        "role": "exact retained J2 method",
+        "inspection_scope": "hash compared to inspected original",
+        "sha256": "643c53573370999868be70b03149198098e92ef97efb24c76182f72bccc28485",
+        "bytes": 2059
+      },
+      {
+        "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/reference/rel_localization/__init__.py",
+        "role": "package marker",
+        "inspection_scope": "full read",
+        "sha256": "fa96faece72c87231cc207333ebfdaeeac300b17e7b621a38a733099889bae25",
+        "bytes": 89
+      },
+      {
+        "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/reference/example.py",
+        "role": "runnable synthetic example",
+        "inspection_scope": "file identity and builder execution receipt only",
+        "sha256": "869f882b9b18a25abff838cfc519e3b21165f3ad9c9887bb4ff1fef5cef872f9",
+        "bytes": 1169
+      },
+      {
+        "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/reference/test_reference.py",
+        "role": "17 source-free contract tests",
+        "inspection_scope": "test result inventory and hash; not executed by component-map task",
+        "sha256": "af2fca81f16b886cebb8e4402cbb54894cd942ba6248c38d41fc8d323e432670",
+        "bytes": 18735
+      }
+    ],
+    "entrypoints": [
+      "rel_localization.runner.normalize(packet)",
+      "rel_localization.runner.predict(packet, checkpoints=None, stop_at=None)",
+      "rel_localization.runner.evaluate(poses, reference)"
+    ],
+    "input_schema": {
+      "schema": "planar-range-bearing-v1",
+      "exact_fields": [
+        "schema",
+        "semantics",
+        "duration",
+        "initial",
+        "odometry",
+        "observations",
+        "landmarks"
+      ],
+      "semantics": {
+        "motion": "planar_unicycle",
+        "distance_unit": "metre",
+        "angle_unit": "radian",
+        "clock": "source_time_seconds",
+        "odometry_origin": "independent_measurement",
+        "measurement_origin": "independent_range_bearing",
+        "identity_availability": "causal",
+        "map_availability": "before_scored_period",
+        "initialization": "provided_at_start"
+      },
+      "shapes": "initial[3]; odometry[N,3]=time,forward velocity,angular velocity; observations[M,4]=time,landmark ID,range,bearing; landmarks maps canonical positive integer strings to finite xy[2]. Empty observations allowed. First control at0, nondecreasing event times, finite values, record duration and half-second endpoints validated.",
+      "truth_policy": "Prediction exact fields exclude reference truth. Initial pose is a declared supplied input; metadata does not authenticate its provenance or the physical source."
+    },
+    "outputs": "Five poses[t,x,y,heading]:robust,J1,J2,J1-mean,J2-mean; three complete checkpoints, counts, per-filter and whole-bank wall measurements. A single robust history is shared across two means.",
+    "stored_state": "Each frozen filter retains pose/covariance,event indices,controls,causal helpers,learner scalar and endpoint/diagnostic histories. Restart binds the same complete fixed input record and method.",
+    "scoring": "evaluate is separate offline scoring of supplied poses against reference[t,x,y,heading]. It checks reference support and ordered finite rows; does not certify interpolation-gap adequacy or reference accuracy.",
+    "repairs": [
+      "Deep-copy caller checkpoint before resume to prevent aliased rows/diagnostics mutation",
+      "Reject stop_at at or before saved time and require all three saved bank times equal",
+      "Validate selected checkpoint vectors/matrices/rows for shape,finite values and endpoint consistency"
+    ],
+    "verification": {
+      "builder_numeric_prefix_ast_equal": true,
+      "source_filter_sha256": "9c10d3c051bfd3b8f848f91d6e09953953c04433dca2363cbe1022c146d8a0c8",
+      "generated_filter_sha256": "368f86d9575c4e8fa5cd6f536ae8aa248e412164834bb7fdbe3bef2187dc56d7",
+      "exact_legacy_pose_parity": "Three frozen filters each matched60 pose values and position MSE on synthetic fixture",
+      "tests_passed": 17,
+      "attempts_preserved": 4,
+      "earlier_unsuccessful_attempts": 3,
+      "final_test_failures": 0,
+      "final_test_errors": 0,
+      "two_actual_child_processes": [
+        {
+          "stage": "save",
+          "exit_code": 0,
+          "wall_seconds": 0.2987708000000566,
+          "isolated_python": true
+        },
+        {
+          "stage": "restart",
+          "exit_code": 0,
+          "wall_seconds": 0.28468499999144115,
+          "isolated_python": true
+        }
+      ],
+      "five_outputs_and_three_complete_states_equal": true,
+      "saved_checkpoint_unchanged": true,
+      "review_status": "PASSED_STATIC_REVIEW_WITH_SCOPED_BUILDER_TEST_EVIDENCE",
+      "component_map_executed_tests": false,
+      "current_artifact_hashes_match_integration_receipt": true,
+      "checkpoint_hash_measured_before_resume": true,
+      "checkpoint_before_sha256": "ae8c91cbddcf7aa99991069dad358de4b6d65bf8376151f1e452e4f553b110eb",
+      "continuity_child_processes": 2,
+      "example_child_processes": 1,
+      "integration_measurement_correction": {
+        "initial_file_immutability_claim_supported": false,
+        "cause": "Original receipt hashed the saved checkpoint only after resume; it did not measure the before state.",
+        "original_receipt_preserved": "INTEGRATION_CHECK_INITIAL.json",
+        "corrected_receipt": "INTEGRATION_CHECK.json",
+        "corrected_check_brackets_actual_resume": true,
+        "frozen_numeric_code_changed": false
+      }
+    },
+    "evidence": [
+      {
+        "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/BUILD.json",
+        "role": "builder/reviewer receipt",
+        "inspection_scope": "read receipt; no experiment rerun by map task",
+        "sha256": "09afb79e787445641a6c6c22b443ba0c458fafa611165de6056fa9ea3d30bcd1",
+        "bytes": 1179
+      },
+      {
+        "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/INTEGRATION_CHECK.json",
+        "role": "builder/reviewer receipt",
+        "inspection_scope": "Corrected builder receipt read; before-resume hash brackets actual child process. No rerun by map task.",
+        "sha256": "ebb23bf6c32c378f0279474909f9716cb77f7a10f5ca6f4cb6d2b8c1cb239bb1",
+        "bytes": 2468
+      },
+      {
+        "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/TESTS.json",
+        "role": "builder/reviewer receipt",
+        "inspection_scope": "read receipt; no experiment rerun by map task",
+        "sha256": "100cd59fdad605be60346e1faa2b904c4f4d19f6afadeab987b2c21dbeef0c0d",
+        "bytes": 19598
+      },
+      {
+        "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/IMPLEMENTATION_REVIEW.json",
+        "role": "builder/reviewer receipt",
+        "inspection_scope": "read receipt; no experiment rerun by map task",
+        "sha256": "6ddd20dbbfddc67b0a79d69c6d3709b1858014119bba3401a70ef6797011eb3d",
+        "bytes": 4234
+      },
+      {
+        "path": "outputs/brain-ai-run120-component-source-qualification-2026-11-04/INTEGRATION_CHECK_INITIAL.json",
+        "role": "preserved original integration receipt; file-immutability claim unsupported",
+        "inspection_scope": "Original receipt read; hash was measured only after resume, so original saved_checkpoint_file_unchanged field is not evidence of immutability",
+        "sha256": "2d7551d16ab44ec4c696fe826a1f849c7843df882d6317c4db0d65ef569a66c3",
+        "bytes": 1888
+      }
+    ],
+    "known_costs": {
+      "build_wall_seconds": 0.0358808000019053,
+      "test_attempt_wall_seconds": [
+        0.014949899996281601,
+        0.015259200008586049,
+        0.2988137999927858,
+        0.28042500000447035
+      ],
+      "integration_wall_seconds": 0.9815285000076983,
+      "interpretation": "Both original and corrected integration attempts retained. Child-process timings nested inside each integration; do not add them again. Build/test/integration boundaries differ and are not empirical deployment or energy measurements.",
+      "integration_initial_wall_seconds": 1.002218300011009
+    },
+    "limitations": [
+      "Trusted untampered checkpoints and same complete fixed record; source binding is not checkpoint-state authentication",
+      "No qualified live-stream service, hostile-host isolation or general host portability",
+      "No independent source qualified or decoded for empirical transfer",
+      "No estimator/architecture/REL superiority inferred from synthetic parity and contract checks",
+      "Half-metre threshold remains descriptive; declared semantics not physical-provenance proof"
+    ]
+  },
+  "updated_utc": "2026-11-04T18:44:50.842597+00:00",
+  "architecture_progress": {
+    "material_cycles_without_full_architecture_advantage_before_run120": 11,
+    "material_cycles_without_full_architecture_advantage_after_run120": 12,
+    "run120_evidence": "Consolidated artifact and source-free checked reference package; no fresh empirical architecture advantage"
+  }
+}

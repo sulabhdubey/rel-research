@@ -1,0 +1,79 @@
+{
+  "schema": "rel.httpcore-qualification.v1",
+  "source_commit": "10a658221deb38a4c5b16db55ab554b0bf731707",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "condition": "current REL, ordinary engineering, no episode history",
+  "actual_model_attempts": 1,
+  "conditional_comparisons_not_prepared_or_dispatched": 6,
+  "before": {
+    "fail": 12,
+    "pass": 2
+  },
+  "after": {
+    "pass": 14
+  },
+  "repaired_scenarios": 12,
+  "regressed_scenarios": 0,
+  "scenarios": 14,
+  "independent_projects": 1,
+  "usage": {
+    "totalTokens": 986883,
+    "inputTokens": 972761,
+    "cachedInputTokens": 898688,
+    "outputTokens": 14122,
+    "reasoningOutputTokens": 4718,
+    "uncachedInputPlusOutput": 88195
+  },
+  "usage_identity_verified": true,
+  "usage_observations": 20,
+  "usage_observation_limit": "Count from recorded usage updates; not asserted to be a separately reconciled provider request count.",
+  "tool_actions": 37,
+  "operations": {
+    "list": 1,
+    "patch": 3,
+    "python": 10,
+    "read": 16,
+    "write": 7
+  },
+  "phase1_seconds": 382.3677701000124,
+  "worker_guest_invocations": 10,
+  "worker_guest_wall_seconds_included_in_outer": 39.88467790011782,
+  "worker_nonzero_guest_exits": 0,
+  "intermediate_failure": "A worker-authored concurrent-close probe returned an AssertionError outcome while its guest exit was zero; worker corrected the race before submission.",
+  "setup_error": "Initial coordinator probe omitted required Host headers in six cases; preserved and corrected before worker dispatch.",
+  "phase_wall_seconds": {
+    "public_acquisition_seconds": 3.9805445671081543,
+    "initial_probe_seconds": 5.288837900036015,
+    "corrected_probe_seconds": 3.538942000013776,
+    "frozen_starter_grading_seconds": 9.930500000016764,
+    "ordinary_attempt_outer_seconds": 469.1968639000552,
+    "final_upstream_guest_seconds": 13.65450280008372
+  },
+  "recorded_nonoverlapping_phase_seconds_sum": 505.5901911673136,
+  "unknown_costs": [
+    "parent research/build/analysis tokens",
+    "complete setup and orchestration elapsed time",
+    "historical harness acquisition",
+    "human effort",
+    "wall and remote model energy",
+    "monetary allocation within subscription"
+  ],
+  "additional_validation": {
+    "worker_generated_driver_cases": 82,
+    "worker_authored_lifecycle_checks": 11,
+    "selected_upstream_test_bodies_on_final_candidate": 32,
+    "not_full_upstream_pytest": true
+  },
+  "core_files_unchanged": 20,
+  "core_main_sha256": "f598cee5206dd415d5884f557442ec29d07dd4049bbcde23d9c9bda214f16c1b",
+  "decision": "No qualified residual error on the frozen profile; do not run history comparison or promote a core rule.",
+  "limitations": [
+    "one ordinary repair attempt",
+    "related coordinator-authored scenarios rather than independent project sequences",
+    "asyncio HTTP1 and controlled in-memory transports",
+    "no REL-versus-no-REL comparison",
+    "no retained-history effect estimate",
+    "not an upstream-ready patch; sync generation, broader dependencies and full suite unqualified"
+  ]
+}

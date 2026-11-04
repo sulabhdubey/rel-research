@@ -1,0 +1,836 @@
+{
+  "actions": 251,
+  "attempts": 6,
+  "complete_worker_repairs": 1,
+  "contrasts": {
+    "array:C-O": {
+      "correct_delta": 27,
+      "primary_delta": 0,
+      "regression_delta": 0,
+      "seconds_delta": 129.08940409997012,
+      "total_token_percent": 286.5778938288736,
+      "uncached_token_percent": 123.66261820878917
+    },
+    "array:C-R": {
+      "correct_delta": -2,
+      "primary_delta": -4,
+      "regression_delta": 1,
+      "seconds_delta": 0.26137179986108094,
+      "total_token_percent": -23.660548148614446,
+      "uncached_token_percent": -1.7622266563505296
+    },
+    "array:R-O": {
+      "correct_delta": 29,
+      "primary_delta": 4,
+      "regression_delta": -1,
+      "seconds_delta": 128.82803230010904,
+      "total_token_percent": 406.3933319582216,
+      "uncached_token_percent": 127.67476358242166
+    },
+    "object:C-O": {
+      "correct_delta": 4,
+      "primary_delta": 4,
+      "regression_delta": -4,
+      "seconds_delta": 134.8690599000547,
+      "total_token_percent": 71.94100930024203,
+      "uncached_token_percent": 80.2409982174688
+    },
+    "object:C-R": {
+      "correct_delta": 4,
+      "primary_delta": 4,
+      "regression_delta": -4,
+      "seconds_delta": 202.40917990007438,
+      "total_token_percent": 138.77538121022533,
+      "uncached_token_percent": 113.59357836924376
+    },
+    "object:R-O": {
+      "correct_delta": 0,
+      "primary_delta": 0,
+      "regression_delta": 0,
+      "seconds_delta": -67.54012000001967,
+      "total_token_percent": -27.990478570795464,
+      "uncached_token_percent": -15.614973262032084
+    }
+  },
+  "exposed_scope_correction": true,
+  "missing_requirement_families_not_independent_cases": true,
+  "models": "gpt-6-luna/medium",
+  "profiles": 2,
+  "qualification_seconds": 121.33012900012545,
+  "raw_scores_retained": true,
+  "recorded_new_reference_acquisition_seconds": 3.5437252999981865,
+  "recorded_spec_acquisition_seconds": 0.8625678999815136,
+  "recorded_tokens": {
+    "cachedInputTokens": 8050176,
+    "inputTokens": 8441222,
+    "outputTokens": 102517,
+    "reasoningOutputTokens": 39559,
+    "totalTokens": 8543739,
+    "uncachedInputPlusOutput": 493563
+  },
+  "requests": 210,
+  "rescoring_seconds": 128.00253660033923,
+  "source_families": 1,
+  "tool_failures": 15,
+  "unknown_costs": [
+    "complete coordinator tokens and engineering time",
+    "initial partial acquisition time",
+    "currency",
+    "physical local and remote energy"
+  ],
+  "worker_seconds": 1775.0846818998689,
+  "workers": {
+    "C-array": {
+      "actions": 44,
+      "complete": false,
+      "correct": 684,
+      "error_types": {
+        "valid_rejected": 4
+      },
+      "families": {
+        "2020-12/contains": {
+          "correct": 21,
+          "total": 21
+        },
+        "2020-12/items": {
+          "correct": 29,
+          "total": 29
+        },
+        "2020-12/maxContains": {
+          "correct": 14,
+          "total": 14
+        },
+        "2020-12/minContains": {
+          "correct": 28,
+          "total": 28
+        },
+        "2020-12/prefixItems": {
+          "correct": 11,
+          "total": 11
+        },
+        "2020-12/unevaluatedItems": {
+          "correct": 65,
+          "total": 69
+        },
+        "7/additionalProperties": {
+          "correct": 16,
+          "total": 16
+        },
+        "7/allOf": {
+          "correct": 30,
+          "total": 30
+        },
+        "7/anyOf": {
+          "correct": 18,
+          "total": 18
+        },
+        "7/const": {
+          "correct": 54,
+          "total": 54
+        },
+        "7/contains": {
+          "correct": 21,
+          "total": 21
+        },
+        "7/enum": {
+          "correct": 47,
+          "total": 47
+        },
+        "7/if-then-else": {
+          "correct": 30,
+          "total": 30
+        },
+        "7/items": {
+          "correct": 28,
+          "total": 28
+        },
+        "7/maxItems": {
+          "correct": 6,
+          "total": 6
+        },
+        "7/minItems": {
+          "correct": 6,
+          "total": 6
+        },
+        "7/not": {
+          "correct": 38,
+          "total": 38
+        },
+        "7/oneOf": {
+          "correct": 27,
+          "total": 27
+        },
+        "7/properties": {
+          "correct": 28,
+          "total": 28
+        },
+        "7/required": {
+          "correct": 18,
+          "total": 18
+        },
+        "7/type": {
+          "correct": 80,
+          "total": 80
+        },
+        "7/uniqueItems": {
+          "correct": 69,
+          "total": 69
+        }
+      },
+      "legacy": {
+        "correct": 516,
+        "total": 516
+      },
+      "modern": {
+        "correct": 168,
+        "total": 172
+      },
+      "original_correct": 684,
+      "original_total": 688,
+      "primary": {
+        "correct": 128,
+        "total": 132
+      },
+      "public": {
+        "correct": 23,
+        "total": 23
+      },
+      "regressions": 3,
+      "repaired": 83,
+      "requests": 38,
+      "seconds": 294.825654199929,
+      "tokens": {
+        "cachedInputTokens": 1552768,
+        "inputTokens": 1632845,
+        "outputTokens": 16420,
+        "reasoningOutputTokens": 4781,
+        "totalTokens": 1649265,
+        "uncachedInputPlusOutput": 96497
+      },
+      "tool_failures": 2,
+      "total": 688
+    },
+    "C-object": {
+      "actions": 50,
+      "complete": true,
+      "correct": 676,
+      "error_types": {},
+      "families": {
+        "2020-12/dependentRequired": {
+          "correct": 20,
+          "total": 20
+        },
+        "2020-12/dependentSchemas": {
+          "correct": 20,
+          "total": 20
+        },
+        "2020-12/unevaluatedProperties": {
+          "correct": 120,
+          "total": 120
+        },
+        "7/additionalProperties": {
+          "correct": 16,
+          "total": 16
+        },
+        "7/allOf": {
+          "correct": 30,
+          "total": 30
+        },
+        "7/anyOf": {
+          "correct": 18,
+          "total": 18
+        },
+        "7/const": {
+          "correct": 54,
+          "total": 54
+        },
+        "7/contains": {
+          "correct": 21,
+          "total": 21
+        },
+        "7/enum": {
+          "correct": 47,
+          "total": 47
+        },
+        "7/if-then-else": {
+          "correct": 30,
+          "total": 30
+        },
+        "7/items": {
+          "correct": 28,
+          "total": 28
+        },
+        "7/maxItems": {
+          "correct": 6,
+          "total": 6
+        },
+        "7/minItems": {
+          "correct": 6,
+          "total": 6
+        },
+        "7/not": {
+          "correct": 38,
+          "total": 38
+        },
+        "7/oneOf": {
+          "correct": 27,
+          "total": 27
+        },
+        "7/properties": {
+          "correct": 28,
+          "total": 28
+        },
+        "7/required": {
+          "correct": 18,
+          "total": 18
+        },
+        "7/type": {
+          "correct": 80,
+          "total": 80
+        },
+        "7/uniqueItems": {
+          "correct": 69,
+          "total": 69
+        }
+      },
+      "legacy": {
+        "correct": 516,
+        "total": 516
+      },
+      "modern": {
+        "correct": 160,
+        "total": 160
+      },
+      "original_correct": 683,
+      "original_total": 683,
+      "primary": {
+        "correct": 140,
+        "total": 140
+      },
+      "public": {
+        "correct": 20,
+        "total": 20
+      },
+      "regressions": 0,
+      "repaired": 86,
+      "requests": 43,
+      "seconds": 452.4122450000141,
+      "tokens": {
+        "cachedInputTokens": 2026880,
+        "inputTokens": 2119980,
+        "outputTokens": 33294,
+        "reasoningOutputTokens": 15082,
+        "totalTokens": 2153274,
+        "uncachedInputPlusOutput": 126394
+      },
+      "tool_failures": 4,
+      "total": 676
+    },
+    "O-array": {
+      "actions": 20,
+      "complete": false,
+      "correct": 657,
+      "error_types": {
+        "invalid_accepted": 26,
+        "valid_rejected": 5
+      },
+      "families": {
+        "2020-12/contains": {
+          "correct": 21,
+          "total": 21
+        },
+        "2020-12/items": {
+          "correct": 29,
+          "total": 29
+        },
+        "2020-12/maxContains": {
+          "correct": 14,
+          "total": 14
+        },
+        "2020-12/minContains": {
+          "correct": 28,
+          "total": 28
+        },
+        "2020-12/prefixItems": {
+          "correct": 11,
+          "total": 11
+        },
+        "2020-12/unevaluatedItems": {
+          "correct": 65,
+          "total": 69
+        },
+        "7/additionalProperties": {
+          "correct": 16,
+          "total": 16
+        },
+        "7/allOf": {
+          "correct": 30,
+          "total": 30
+        },
+        "7/anyOf": {
+          "correct": 18,
+          "total": 18
+        },
+        "7/const": {
+          "correct": 39,
+          "total": 54
+        },
+        "7/contains": {
+          "correct": 21,
+          "total": 21
+        },
+        "7/enum": {
+          "correct": 35,
+          "total": 47
+        },
+        "7/if-then-else": {
+          "correct": 30,
+          "total": 30
+        },
+        "7/items": {
+          "correct": 28,
+          "total": 28
+        },
+        "7/maxItems": {
+          "correct": 6,
+          "total": 6
+        },
+        "7/minItems": {
+          "correct": 6,
+          "total": 6
+        },
+        "7/not": {
+          "correct": 38,
+          "total": 38
+        },
+        "7/oneOf": {
+          "correct": 27,
+          "total": 27
+        },
+        "7/properties": {
+          "correct": 28,
+          "total": 28
+        },
+        "7/required": {
+          "correct": 18,
+          "total": 18
+        },
+        "7/type": {
+          "correct": 80,
+          "total": 80
+        },
+        "7/uniqueItems": {
+          "correct": 69,
+          "total": 69
+        }
+      },
+      "legacy": {
+        "correct": 489,
+        "total": 516
+      },
+      "modern": {
+        "correct": 168,
+        "total": 172
+      },
+      "original_correct": 657,
+      "original_total": 688,
+      "primary": {
+        "correct": 128,
+        "total": 132
+      },
+      "public": {
+        "correct": 23,
+        "total": 23
+      },
+      "regressions": 3,
+      "repaired": 56,
+      "requests": 16,
+      "seconds": 165.73625009995885,
+      "tokens": {
+        "cachedInputTokens": 383488,
+        "inputTokens": 420664,
+        "outputTokens": 5968,
+        "reasoningOutputTokens": 1832,
+        "totalTokens": 426632,
+        "uncachedInputPlusOutput": 43144
+      },
+      "tool_failures": 0,
+      "total": 688
+    },
+    "O-object": {
+      "actions": 46,
+      "complete": false,
+      "correct": 672,
+      "error_types": {
+        "valid_rejected": 4
+      },
+      "families": {
+        "2020-12/dependentRequired": {
+          "correct": 20,
+          "total": 20
+        },
+        "2020-12/dependentSchemas": {
+          "correct": 20,
+          "total": 20
+        },
+        "2020-12/unevaluatedProperties": {
+          "correct": 116,
+          "total": 120
+        },
+        "7/additionalProperties": {
+          "correct": 16,
+          "total": 16
+        },
+        "7/allOf": {
+          "correct": 30,
+          "total": 30
+        },
+        "7/anyOf": {
+          "correct": 18,
+          "total": 18
+        },
+        "7/const": {
+          "correct": 54,
+          "total": 54
+        },
+        "7/contains": {
+          "correct": 21,
+          "total": 21
+        },
+        "7/enum": {
+          "correct": 47,
+          "total": 47
+        },
+        "7/if-then-else": {
+          "correct": 30,
+          "total": 30
+        },
+        "7/items": {
+          "correct": 28,
+          "total": 28
+        },
+        "7/maxItems": {
+          "correct": 6,
+          "total": 6
+        },
+        "7/minItems": {
+          "correct": 6,
+          "total": 6
+        },
+        "7/not": {
+          "correct": 38,
+          "total": 38
+        },
+        "7/oneOf": {
+          "correct": 27,
+          "total": 27
+        },
+        "7/properties": {
+          "correct": 28,
+          "total": 28
+        },
+        "7/required": {
+          "correct": 18,
+          "total": 18
+        },
+        "7/type": {
+          "correct": 80,
+          "total": 80
+        },
+        "7/uniqueItems": {
+          "correct": 69,
+          "total": 69
+        }
+      },
+      "legacy": {
+        "correct": 516,
+        "total": 516
+      },
+      "modern": {
+        "correct": 156,
+        "total": 160
+      },
+      "original_correct": 655,
+      "original_total": 683,
+      "primary": {
+        "correct": 136,
+        "total": 140
+      },
+      "public": {
+        "correct": 20,
+        "total": 20
+      },
+      "regressions": 4,
+      "repaired": 86,
+      "requests": 42,
+      "seconds": 317.5431850999594,
+      "tokens": {
+        "cachedInputTokens": 1182208,
+        "inputTokens": 1235952,
+        "outputTokens": 16381,
+        "reasoningOutputTokens": 6527,
+        "totalTokens": 1252333,
+        "uncachedInputPlusOutput": 70125
+      },
+      "tool_failures": 1,
+      "total": 676
+    },
+    "R-array": {
+      "actions": 54,
+      "complete": false,
+      "correct": 686,
+      "error_types": {
+        "invalid_accepted": 2
+      },
+      "families": {
+        "2020-12/contains": {
+          "correct": 21,
+          "total": 21
+        },
+        "2020-12/items": {
+          "correct": 29,
+          "total": 29
+        },
+        "2020-12/maxContains": {
+          "correct": 14,
+          "total": 14
+        },
+        "2020-12/minContains": {
+          "correct": 28,
+          "total": 28
+        },
+        "2020-12/prefixItems": {
+          "correct": 11,
+          "total": 11
+        },
+        "2020-12/unevaluatedItems": {
+          "correct": 69,
+          "total": 69
+        },
+        "7/additionalProperties": {
+          "correct": 16,
+          "total": 16
+        },
+        "7/allOf": {
+          "correct": 30,
+          "total": 30
+        },
+        "7/anyOf": {
+          "correct": 18,
+          "total": 18
+        },
+        "7/const": {
+          "correct": 54,
+          "total": 54
+        },
+        "7/contains": {
+          "correct": 21,
+          "total": 21
+        },
+        "7/enum": {
+          "correct": 47,
+          "total": 47
+        },
+        "7/if-then-else": {
+          "correct": 28,
+          "total": 30
+        },
+        "7/items": {
+          "correct": 28,
+          "total": 28
+        },
+        "7/maxItems": {
+          "correct": 6,
+          "total": 6
+        },
+        "7/minItems": {
+          "correct": 6,
+          "total": 6
+        },
+        "7/not": {
+          "correct": 38,
+          "total": 38
+        },
+        "7/oneOf": {
+          "correct": 27,
+          "total": 27
+        },
+        "7/properties": {
+          "correct": 28,
+          "total": 28
+        },
+        "7/required": {
+          "correct": 18,
+          "total": 18
+        },
+        "7/type": {
+          "correct": 80,
+          "total": 80
+        },
+        "7/uniqueItems": {
+          "correct": 69,
+          "total": 69
+        }
+      },
+      "legacy": {
+        "correct": 514,
+        "total": 516
+      },
+      "modern": {
+        "correct": 172,
+        "total": 172
+      },
+      "original_correct": 686,
+      "original_total": 688,
+      "primary": {
+        "correct": 132,
+        "total": 132
+      },
+      "public": {
+        "correct": 23,
+        "total": 23
+      },
+      "regressions": 2,
+      "repaired": 84,
+      "requests": 45,
+      "seconds": 294.5642824000679,
+      "tokens": {
+        "cachedInputTokens": 2062208,
+        "inputTokens": 2142960,
+        "outputTokens": 17476,
+        "reasoningOutputTokens": 6140,
+        "totalTokens": 2160436,
+        "uncachedInputPlusOutput": 98228
+      },
+      "tool_failures": 1,
+      "total": 688
+    },
+    "R-object": {
+      "actions": 37,
+      "complete": false,
+      "correct": 672,
+      "error_types": {
+        "valid_rejected": 4
+      },
+      "families": {
+        "2020-12/dependentRequired": {
+          "correct": 20,
+          "total": 20
+        },
+        "2020-12/dependentSchemas": {
+          "correct": 20,
+          "total": 20
+        },
+        "2020-12/unevaluatedProperties": {
+          "correct": 116,
+          "total": 120
+        },
+        "7/additionalProperties": {
+          "correct": 16,
+          "total": 16
+        },
+        "7/allOf": {
+          "correct": 30,
+          "total": 30
+        },
+        "7/anyOf": {
+          "correct": 18,
+          "total": 18
+        },
+        "7/const": {
+          "correct": 54,
+          "total": 54
+        },
+        "7/contains": {
+          "correct": 21,
+          "total": 21
+        },
+        "7/enum": {
+          "correct": 47,
+          "total": 47
+        },
+        "7/if-then-else": {
+          "correct": 30,
+          "total": 30
+        },
+        "7/items": {
+          "correct": 28,
+          "total": 28
+        },
+        "7/maxItems": {
+          "correct": 6,
+          "total": 6
+        },
+        "7/minItems": {
+          "correct": 6,
+          "total": 6
+        },
+        "7/not": {
+          "correct": 38,
+          "total": 38
+        },
+        "7/oneOf": {
+          "correct": 27,
+          "total": 27
+        },
+        "7/properties": {
+          "correct": 28,
+          "total": 28
+        },
+        "7/required": {
+          "correct": 18,
+          "total": 18
+        },
+        "7/type": {
+          "correct": 80,
+          "total": 80
+        },
+        "7/uniqueItems": {
+          "correct": 69,
+          "total": 69
+        }
+      },
+      "legacy": {
+        "correct": 516,
+        "total": 516
+      },
+      "modern": {
+        "correct": 156,
+        "total": 160
+      },
+      "original_correct": 679,
+      "original_total": 683,
+      "primary": {
+        "correct": 136,
+        "total": 140
+      },
+      "public": {
+        "correct": 20,
+        "total": 20
+      },
+      "regressions": 4,
+      "repaired": 86,
+      "requests": 26,
+      "seconds": 250.0030650999397,
+      "tokens": {
+        "cachedInputTokens": 842624,
+        "inputTokens": 888821,
+        "outputTokens": 12978,
+        "reasoningOutputTokens": 5197,
+        "totalTokens": 901799,
+        "uncachedInputPlusOutput": 59175
+      },
+      "tool_failures": 7,
+      "total": 676
+    }
+  },
+  "skill_decision": {
+    "core_files_unchanged": 20,
+    "entrypoint_unchanged": true,
+    "candidate_default_promotion": false,
+    "experimental_recipe_retained": true,
+    "reason": "Candidate completed one profile but lost target correctness on the other and increased object cost. Current REL was mixed too. One attempt per condition/profile and exposed scope correction do not justify a generic default change.",
+    "research_tool_fix": "Source selection now checks structural local-reference cycles as well as excluded keyword names.",
+    "existing_guidance": "Evaluator contract/scope verification already exists; this was an execution defect, not a demonstrated missing shared rule."
+  }
+}

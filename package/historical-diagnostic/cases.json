@@ -1,0 +1,167 @@
+[
+  {
+    "input": {
+      "id": "object-child-name-leak",
+      "dialect": "draft2020-12",
+      "schema": {
+        "unevaluatedProperties": {
+          "type": "object",
+          "properties": {
+            "b": true
+          }
+        }
+      },
+      "instance": {
+        "a": {
+          "b": 1
+        },
+        "b": 2
+      }
+    },
+    "expected": false
+  },
+  {
+    "input": {
+      "id": "object-reversed-order",
+      "dialect": "draft2020-12",
+      "schema": {
+        "unevaluatedProperties": {
+          "type": "object",
+          "properties": {
+            "b": true
+          }
+        }
+      },
+      "instance": {
+        "b": 2,
+        "a": {
+          "b": 1
+        }
+      }
+    },
+    "expected": false
+  },
+  {
+    "input": {
+      "id": "object-valid-values",
+      "dialect": "draft2020-12",
+      "schema": {
+        "unevaluatedProperties": {
+          "type": "object",
+          "properties": {
+            "b": true
+          }
+        }
+      },
+      "instance": {
+        "a": {
+          "b": 1
+        },
+        "b": {}
+      }
+    },
+    "expected": true
+  },
+  {
+    "input": {
+      "id": "object-empty",
+      "dialect": "draft2020-12",
+      "schema": {
+        "unevaluatedProperties": {
+          "type": "object",
+          "properties": {
+            "b": true
+          }
+        }
+      },
+      "instance": {}
+    },
+    "expected": true
+  },
+  {
+    "input": {
+      "id": "array-child-index-leak",
+      "dialect": "draft2020-12",
+      "schema": {
+        "unevaluatedItems": {
+          "type": "array",
+          "prefixItems": [
+            true,
+            true
+          ]
+        }
+      },
+      "instance": [
+        [
+          1,
+          2
+        ],
+        42
+      ]
+    },
+    "expected": false
+  },
+  {
+    "input": {
+      "id": "array-reversed-order",
+      "dialect": "draft2020-12",
+      "schema": {
+        "unevaluatedItems": {
+          "type": "array",
+          "prefixItems": [
+            true,
+            true
+          ]
+        }
+      },
+      "instance": [
+        42,
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "expected": false
+  },
+  {
+    "input": {
+      "id": "array-valid-values",
+      "dialect": "draft2020-12",
+      "schema": {
+        "unevaluatedItems": {
+          "type": "array",
+          "prefixItems": [
+            true,
+            true
+          ]
+        }
+      },
+      "instance": [
+        [
+          1,
+          2
+        ],
+        []
+      ]
+    },
+    "expected": true
+  },
+  {
+    "input": {
+      "id": "array-empty",
+      "dialect": "draft2020-12",
+      "schema": {
+        "unevaluatedItems": {
+          "type": "array",
+          "prefixItems": [
+            true,
+            true
+          ]
+        }
+      },
+      "instance": []
+    },
+    "expected": true
+  }
+]

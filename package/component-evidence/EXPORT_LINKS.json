@@ -1,0 +1,200 @@
+{
+  "scope": "Unbundled relative report references mapped to immutable private source baseline. No scientific text or JSON metrics changed.",
+  "rewrites": [
+    {
+      "file": "REPORT106.md",
+      "original": "RESEARCH.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/RESEARCH.md"
+    },
+    {
+      "file": "REPORT106.md",
+      "original": "SOURCE_ACCESS_AMENDMENT.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/SOURCE_ACCESS_AMENDMENT.md"
+    },
+    {
+      "file": "REPORT106.md",
+      "original": "PLAN.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/PLAN.md"
+    },
+    {
+      "file": "REPORT106.md",
+      "original": "STUDY_DESIGN.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/STUDY_DESIGN.md"
+    },
+    {
+      "file": "REPORT106.md",
+      "original": "MANIFEST.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/MANIFEST.json"
+    },
+    {
+      "file": "REPORT106.md",
+      "original": "REJECTION_DIAGNOSTIC.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/REJECTION_DIAGNOSTIC.json"
+    },
+    {
+      "file": "REPORT106.md",
+      "original": "DECISION.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/DECISION.json"
+    },
+    {
+      "file": "REPORT106.md",
+      "original": "RESULTS.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/RESULTS.json"
+    },
+    {
+      "file": "REPORT106.md",
+      "original": "restart/CHECK.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/restart/CHECK.json"
+    },
+    {
+      "file": "REPORT106.md",
+      "original": "MAP_QUALIFICATION.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/MAP_QUALIFICATION.json"
+    },
+    {
+      "file": "REPORT106.md",
+      "original": "EVALUATOR_REPAIR.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/EVALUATOR_REPAIR.json"
+    },
+    {
+      "file": "REPORT106.md",
+      "original": "AUDIT.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/AUDIT.json"
+    },
+    {
+      "file": "REPORT106.md",
+      "original": "COSTS.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/acquired-observation-update/COSTS.json"
+    },
+    {
+      "file": "REPORT111.md",
+      "original": "RESEARCH.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/certified-information/RESEARCH.md"
+    },
+    {
+      "file": "REPORT118.md",
+      "original": "COSTS.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/identity-adaptation/COSTS.json"
+    },
+    {
+      "file": "REPORT118.md",
+      "original": "PILOT_ANALYSIS.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/identity-adaptation/PILOT_ANALYSIS.json"
+    },
+    {
+      "file": "REPORT118.md",
+      "original": "PILOT_AUDIT.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/identity-adaptation/PILOT_AUDIT.md"
+    },
+    {
+      "file": "REPORT118.md",
+      "original": "AGGREGATE_CAPACITY_AMENDMENT.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/identity-adaptation/AGGREGATE_CAPACITY_AMENDMENT.json"
+    },
+    {
+      "file": "REPORT118.md",
+      "original": "frozen/NEXT_RUN.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/identity-adaptation/frozen/NEXT_RUN.md"
+    },
+    {
+      "file": "REPORT118.md",
+      "original": "NEXT_RUN.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/identity-adaptation/NEXT_RUN.md"
+    },
+    {
+      "file": "REPORT119.md",
+      "original": "PLAN.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/PLAN.md"
+    },
+    {
+      "file": "REPORT119.md",
+      "original": "RESEARCH.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/RESEARCH.md"
+    },
+    {
+      "file": "REPORT119.md",
+      "original": "EXPOSURE_AUDIT.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/EXPOSURE_AUDIT.md"
+    },
+    {
+      "file": "REPORT119.md",
+      "original": "RESULTS.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/RESULTS.json"
+    },
+    {
+      "file": "REPORT119.md",
+      "original": "INDEPENDENT_RESULT_AUDIT.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/INDEPENDENT_RESULT_AUDIT.md"
+    },
+    {
+      "file": "REPORT119.md",
+      "original": "COSTS.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/COSTS.json"
+    },
+    {
+      "file": "REPORT119.md",
+      "original": "NEXT_RUN.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/NEXT_RUN.md"
+    },
+    {
+      "file": "REPORT119.md",
+      "original": "RESULTS.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/RESULTS.json"
+    },
+    {
+      "file": "REPORT119.md",
+      "original": "COSTS.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/tail-risk-qualification/COSTS.json"
+    },
+    {
+      "file": "REPORT120.md",
+      "original": "COMPONENT_MAP.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/COMPONENT_MAP.md"
+    },
+    {
+      "file": "REPORT120.md",
+      "original": "SOURCE_RESEARCH.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/SOURCE_RESEARCH.md"
+    },
+    {
+      "file": "REPORT120.md",
+      "original": "RESEARCH.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/RESEARCH.md"
+    },
+    {
+      "file": "REPORT120.md",
+      "original": "PLAN.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/PLAN.md"
+    },
+    {
+      "file": "REPORT120.md",
+      "original": "TEST_REVIEW.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/TEST_REVIEW.md"
+    },
+    {
+      "file": "REPORT120.md",
+      "original": "reference/README.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/reference/README.md"
+    },
+    {
+      "file": "REPORT120.md",
+      "original": "NEXT_RUN.md",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/NEXT_RUN.md"
+    },
+    {
+      "file": "REPORT120.md",
+      "original": "SOURCE_RESEARCH.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/SOURCE_RESEARCH.json"
+    },
+    {
+      "file": "REPORT120.md",
+      "original": "INTEGRATION_CHECK.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/INTEGRATION_CHECK.json"
+    },
+    {
+      "file": "REPORT120.md",
+      "original": "COSTS.json",
+      "url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/e775ee8b68a2db210641768024e9bdae3384dac0/examples/component-source-qualification/COSTS.json"
+    }
+  ]
+}

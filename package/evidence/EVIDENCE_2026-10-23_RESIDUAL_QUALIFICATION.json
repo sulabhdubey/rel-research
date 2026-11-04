@@ -1,0 +1,108 @@
+{
+  "executed_date": "2026-10-22",
+  "finalized_date": "2026-10-23",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "core_changed": false,
+  "core_sha256": "f598cee5206dd415d5884f557442ec29d07dd4049bbcde23d9c9bda214f16c1b",
+  "origin_blocks": 2,
+  "source_family": "historical Mistune 2.0.5 service migration",
+  "conditions_executed": [
+    "current REL without episode history"
+  ],
+  "conditional_history_attempts_executed": 0,
+  "history_effect_estimated": false,
+  "unknown_costs": [
+    "coordinator model tokens",
+    "complete research and engineering elapsed time",
+    "all prior setup effort",
+    "monetary cost",
+    "whole laptop and remote energy"
+  ],
+  "historical_campaign_costs": {
+    "recorded_tokens": 15041877,
+    "uncached_input_plus_output": 870485,
+    "status": "Shared sunk totals of the earlier two-origin and seven-worker campaigns, not costs newly incurred or charged again per condition. Not a minimum acquisition-cost estimate."
+  },
+  "workers": {
+    "N1": {
+      "before_correct": 553,
+      "correct": 716,
+      "total": 716,
+      "primary_correct": 702,
+      "primary_total": 702,
+      "regressions": 0,
+      "actions": 60,
+      "python_calls": 13,
+      "usage": {
+        "totalTokens": 1242720,
+        "inputTokens": 1219051,
+        "cachedInputTokens": 1126912,
+        "outputTokens": 23669,
+        "reasoningOutputTokens": 3561,
+        "uncachedInputPlusOutput": 115808
+      },
+      "outer_seconds": 661.2417161000194,
+      "result_sha256": "588ff3ccb15e2cadcddc8047273ba48a60303a80bc66842c16dc8e452c7d0df4",
+      "patch_sha256": "75327253ed91bebdc8efe5eba3915c2e94646ad515bd514e1a41db5f94356867"
+    },
+    "N2": {
+      "before_correct": 535,
+      "correct": 716,
+      "total": 716,
+      "primary_correct": 702,
+      "primary_total": 702,
+      "regressions": 0,
+      "actions": 60,
+      "python_calls": 25,
+      "usage": {
+        "totalTokens": 2070794,
+        "inputTokens": 2047102,
+        "cachedInputTokens": 1951232,
+        "outputTokens": 23692,
+        "reasoningOutputTokens": 6675,
+        "uncachedInputPlusOutput": 119562
+      },
+      "outer_seconds": 723.2667177999392,
+      "result_sha256": "74d3bd70d0af4e89acbf9e4043a3b5bbf23172bc84e2d1b60cdd6558abe83a9e",
+      "patch_sha256": "21fd870106023da226218cc47a85c8b945f3943459c322b9b02bd843519fdaa0"
+    }
+  },
+  "limits": {
+    "max_actions": 60,
+    "wall_seconds": 900
+  },
+  "whole_documents": {
+    "files": 18,
+    "source_bytes": 79676,
+    "source_families": 1,
+    "correct_each": [
+      18,
+      18
+    ],
+    "selected_after_first_worker": true,
+    "primary_profile_unchanged": true
+  },
+  "limits_of_claim": [
+    "Existing exposed profile; complete official examples available to each worker.",
+    "Two related historical origins, not independent task families.",
+    "No full REL-versus-no-skill contrast.",
+    "Finite checks do not establish universal Markdown correctness."
+  ],
+  "totals": {
+    "attempts": 2,
+    "usage": {
+      "inputTokens": 3266153,
+      "cachedInputTokens": 3078144,
+      "outputTokens": 47361,
+      "reasoningOutputTokens": 10236,
+      "totalTokens": 3313514,
+      "uncachedInputPlusOutput": 235370
+    },
+    "actions": 120,
+    "summed_dispatch_seconds": 1384.5084338999586,
+    "complete_successes": 2,
+    "token_per_complete_success": 1656757.0,
+    "complete_success_definition": "all 716 pinned positions passed, not all possible Markdown inputs"
+  }
+}

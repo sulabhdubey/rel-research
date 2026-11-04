@@ -1,0 +1,20 @@
+{
+  "version": "0.7",
+  "date_ist": "2026-11-05",
+  "source_repo_baseline": "e775ee8b68a2db210641768024e9bdae3384dac0",
+  "installed_skill_sha256": "42d417b1bb8ac2e63c13fa7c500d0d93b666064f0e0d25e553bfbd3bafcae285",
+  "new_empirical_experiment": false,
+  "core_changed": false,
+  "public_release": true,
+  "scope": "Reviewed selected-result reconstruction, current reader skill snapshot and constructed example; no new empirical learner study or independent scientific replication.",
+  "review_source_repo_baseline": "af68dc3b3b6f34157f0e7718d5f3e326856c3c64",
+  "current_skill_snapshot": "rel-current/",
+  "historical_full_treatments_included": false,
+  "public_package_version": "0.7.1",
+  "study_edition": "0.7",
+  "public_repository": "https://github.com/sulabhdubey/rel-research",
+  "private_workspace_field_removed": true,
+  "omitted_public_files": [
+    "SHARING_DRAFTS.md"
+  ]
+}

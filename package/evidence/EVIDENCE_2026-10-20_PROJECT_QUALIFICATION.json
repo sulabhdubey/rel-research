@@ -1,0 +1,57 @@
+{
+  "schema": "rel-real-project-qualification-v1",
+  "date": "2026-10-20",
+  "leads_screened": 3,
+  "eligible_repairs": 0,
+  "ordinary_feasibility_attempts": 0,
+  "comparison_attempts": 0,
+  "comparison_admitted": false,
+  "core_changed": false,
+  "core_manifest_sha256": "a22d05dfa392d1d2de8abebe3b215119ccbb8ce276724ab792760b06bc5ec165",
+  "independent_diagnostic": {
+    "bound_files": 8,
+    "mismatches": 4,
+    "identity_checks": {
+      "ledgerDigest": true,
+      "manifestDigest": true,
+      "manifestDigestRepeat": true,
+      "ledgerLink": true,
+      "payloadIdentity": true,
+      "publicKeyIdentity": true,
+      "signature": true,
+      "signedSourceMap": true
+    },
+    "controls": {
+      "originalSignatureAccepted": true,
+      "changedSignedPayloadRejected": true,
+      "changedLedgerDigestDetected": true,
+      "unchangedSourceMapMatches": true,
+      "changedBoundSourcesDetected": true
+    },
+    "files_unchanged_during_read": true,
+    "elapsed_internal_seconds": 0.067454,
+    "overlapping_checks_not_independent_trials": true
+  },
+  "cost": {
+    "study_worker_tokens": 0,
+    "study_worker_calls": 0,
+    "total_tokens": null,
+    "total_elapsed_work": null,
+    "money": null,
+    "energy": null,
+    "tokens_per_success": null,
+    "zero_worker_usage_is_not_zero_investigation_cost": true
+  },
+  "limitations": [
+    "bounded nonexhaustive screening",
+    "project test reports not independently rerun",
+    "source mismatch does not establish current semantic failure",
+    "no performance or universal RSI claim"
+  ],
+  "delivery_correction": {
+    "defect": "Windows implicit newline conversion in study-local documentation writer",
+    "failure_preserved": true,
+    "fix": "explicit LF writes and regenerated package hashes",
+    "not_an_independent_repair_effect_trial": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "rel.source-qualification.v1",
+  "run": 121,
+  "review_date_ist": "2026-11-05",
+  "status": "NOT_ADMITTED",
+  "scope": "AAU industrial AMR documentation and directly associated author paper; no recording content",
+  "independent_source_status": "Separate collection from historical MR.CLAM, but untouched recording roles and input/reference dependence not yet qualified",
+  "sources": [
+    {
+      "id": "AAU",
+      "url": "https://www.aau.at/en/smart-systems-technologies/control-of-networked-systems/datasets/uwb-localization-for-an-industrial-amr/",
+      "role": "author dataset description and rights",
+      "access": "current indexed author text returned; direct page timeout",
+      "license_declaration": "AGILOX Services GmbH 2026; CC BY-NC-SA 4.0; commercial use requires prior written permission",
+      "coverage": "description, contents advertised, license and download labels; not archive"
+    },
+    {
+      "id": "README",
+      "url": "https://cns-data.aau.at/uwb-amr-dataset/README.md",
+      "role": "intended authoritative recording/configuration schema",
+      "access": "failed; no content received",
+      "coverage": "none"
+    },
+    {
+      "id": "PAPER",
+      "url": "https://arxiv.org/html/2607.15807v2",
+      "version_record": "https://arxiv.org/abs/2607.15807",
+      "version": "v2, 2026-08-03",
+      "role": "author model, experimental setup and calibration/reference lineage",
+      "access": "HTML and version record read",
+      "coverage": "abstract, methods, setup and evaluation sections; published result tables exposed; no code or dataset access",
+      "anchors": ["IV-A", "IV-B", "IV-C", "V-A1", "V-A2", "V-A4"]
+    }
+  ],
+  "access_attempts": [
+    {"target":"AAU","route":"web direct open","outcome":"TimeoutError"},
+    {"target":"README","route":"web direct open","outcome":"URL not accessible via tool"},
+    {"target":"AAU","route":"targeted source/title searches","outcome":"indexed author description and rights returned"},
+    {"target":"README","route":"managed PowerShell Invoke-WebRequest HTTPS; timeout25s; maximum3redirects","outcome":"No such host is known. (cns-data.aau.at:443)"},
+    {"target":"AAU","route":"web direct search-result open","outcome":"Timeout fetching"},
+    {"target":"PAPER","route":"web abstract and versioned HTML","outcome":"readable"},
+    {"target":"README","route":"one scoped approved elevated PowerShell HTTPS request; timeout25s; maximum3redirects; documentation limit1MB; no archive","outcome":"connection attempt failed to cns-data.aau.at:443; no content obtained","approval_rejected":false}
+  ],
+  "unresolved": [
+    "exact range and odometry schema, units and invalid-value semantics",
+    "numeric tag extrinsics and body/world frame conventions",
+    "clock synchronization, latency and timestamp semantics",
+    "reference pose schema, coverage, uncertainty and input dependencies",
+    "initial pose protocol",
+    "calibration configuration file lineage and recording identifiers",
+    "all-recording role inventory for prospective training/development/confirmation split"
+  ],
+  "exposure": {
+    "author_metadata": true,
+    "author_published_results": true,
+    "unrelated_search_snippets": true,
+    "unrelated_sources_opened": false,
+    "raw_archive_downloaded": false,
+    "raw_arrays_decoded": false,
+    "configuration_numeric_bytes_obtained": false,
+    "upstream_code_executed": false,
+    "model_training_or_scoring": false,
+    "host_wide_history_audit": false
+  },
+  "disposition": "Use the pinned paper/evidence consolidation fallback. No empirical adaptation comparison or new source search admitted.",
+  "reopen_evidence": "Accessible author README/configuration inventory resolving the listed semantics and supporting role-separated comparison before numerical access.",
+  "skill_disposition": "No generic core change justified; existing semantic adapter/source-role/fair-control requirements cover this finding.",
+  "costs": {"research_model_tokens":null,"electricity":null,"raw_download_bytes":0,"empirical_model_attempts":0,"accounting_scope":"No claim of complete token, wall or energy accounting from this source-review task."}
+}

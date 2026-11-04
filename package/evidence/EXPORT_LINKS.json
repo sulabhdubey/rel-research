@@ -1,0 +1,85 @@
+{
+  "note": "Export-only link repair; unavailable local links point to the private pinned repository and require repository access. Scientific text and supplied JSON are unchanged.",
+  "rewrites": [
+    {
+      "file": "EVIDENCE.md",
+      "target": "EXPERIMENTAL_EXPECTATION_CHECKS.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/EXPERIMENTAL_EXPECTATION_CHECKS.md"
+    },
+    {
+      "file": "EVIDENCE.md",
+      "target": "EXPERIMENTAL_EXPECTATION_CHECKS.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/EXPERIMENTAL_EXPECTATION_CHECKS.md"
+    },
+    {
+      "file": "EVIDENCE.md",
+      "target": "EXPERIMENTAL_REQUIREMENT_CHECKS.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/EXPERIMENTAL_REQUIREMENT_CHECKS.md"
+    },
+    {
+      "file": "EVIDENCE.md",
+      "target": "CHANGELOG.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/CHANGELOG.md"
+    },
+    {
+      "file": "EVIDENCE.md",
+      "target": "DELIVERY.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/DELIVERY.md"
+    },
+    {
+      "file": "EVIDENCE.md",
+      "target": "COMPATIBILITY.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/COMPATIBILITY.md"
+    },
+    {
+      "file": "EVIDENCE.md",
+      "target": "../examples/ollama_host/README.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/examples/ollama_host/README.md"
+    },
+    {
+      "file": "EVIDENCE_2026-10-17_OVERHEAD.md",
+      "target": "../references/skill-evolution.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/references/skill-evolution.md"
+    },
+    {
+      "file": "EVIDENCE_2026-10-18_FIELD_REVIEW.md",
+      "target": "DELIVERY.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/DELIVERY.md"
+    },
+    {
+      "file": "EVIDENCE_2026-10-19_FAILURE_LINKS.md",
+      "target": "DELIVERY.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/DELIVERY.md"
+    },
+    {
+      "file": "EVIDENCE_2026-10-19_LATER_DECISIONS.md",
+      "target": "../references/host-integration.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/references/host-integration.md"
+    },
+    {
+      "file": "EVIDENCE_2026-10-19_METHOD_SELECTION.md",
+      "target": "DELIVERY.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/DELIVERY.md"
+    },
+    {
+      "file": "EVIDENCE_2026-10-19_REQUIREMENT_CHECKS.md",
+      "target": "../references/product-workflows.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/references/product-workflows.md"
+    },
+    {
+      "file": "EVIDENCE_2026-10-20_REQUESTS_QUALIFICATION.md",
+      "target": "EXAMPLES.md#observed-check-a-saved-fix-against-current-runtime-values",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/EXAMPLES.md#observed-check-a-saved-fix-against-current-runtime-values"
+    },
+    {
+      "file": "EVIDENCE_2026-10-20_TOOL_RECOVERY.md",
+      "target": "evidence/2026-10-20-tool-recovery.json",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/docs/evidence/2026-10-20-tool-recovery.json"
+    },
+    {
+      "file": "EVIDENCE_2026-10-21_REAL_USE_FOLLOWUP.md",
+      "target": "../references/history-consolidation.md",
+      "pinned_url": "https://github.com/sulabhdubey/recursive-evidence-loop/blob/507357e1d7a55335f9205134ad1c32ac4657b0bc/references/history-consolidation.md"
+    }
+  ]
+}

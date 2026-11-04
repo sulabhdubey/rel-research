@@ -1,0 +1,254 @@
+{
+  "date": "2026-10-24",
+  "scope": "one constructed connected migration sequence",
+  "model": "gpt-6.1-sol/medium",
+  "task_workers": 13,
+  "learning_feedback_turns": 4,
+  "policies": {
+    "O": {
+      "later_tasks": 3,
+      "complete_successes": 3,
+      "tokens": {
+        "totalTokens": 598124,
+        "inputTokens": 583676,
+        "cachedInputTokens": 446592,
+        "outputTokens": 14448,
+        "reasoningOutputTokens": 1576,
+        "uncachedInputPlusOutput": 151532
+      },
+      "task_tokens": {
+        "totalTokens": 598124,
+        "inputTokens": 583676,
+        "cachedInputTokens": 446592,
+        "outputTokens": 14448,
+        "reasoningOutputTokens": 1576,
+        "uncachedInputPlusOutput": 151532
+      },
+      "feedback_tokens": {
+        "totalTokens": 0,
+        "inputTokens": 0,
+        "cachedInputTokens": 0,
+        "outputTokens": 0,
+        "reasoningOutputTokens": 0,
+        "uncachedInputPlusOutput": 0
+      },
+      "actions": 68,
+      "summed_dispatch_seconds": 611.7666880999459,
+      "tokens_per_complete_success": 199374.66666666666,
+      "full_shared_acquisition_plus_policy_tokens": {
+        "totalTokens": 846096,
+        "inputTokens": 822245,
+        "cachedInputTokens": 615680,
+        "outputTokens": 23851,
+        "reasoningOutputTokens": 3332,
+        "uncachedInputPlusOutput": 230416
+      }
+    },
+    "R": {
+      "later_tasks": 3,
+      "complete_successes": 3,
+      "tokens": {
+        "totalTokens": 765102,
+        "inputTokens": 751310,
+        "cachedInputTokens": 610560,
+        "outputTokens": 13792,
+        "reasoningOutputTokens": 2853,
+        "uncachedInputPlusOutput": 154542
+      },
+      "task_tokens": {
+        "totalTokens": 765102,
+        "inputTokens": 751310,
+        "cachedInputTokens": 610560,
+        "outputTokens": 13792,
+        "reasoningOutputTokens": 2853,
+        "uncachedInputPlusOutput": 154542
+      },
+      "feedback_tokens": {
+        "totalTokens": 0,
+        "inputTokens": 0,
+        "cachedInputTokens": 0,
+        "outputTokens": 0,
+        "reasoningOutputTokens": 0,
+        "uncachedInputPlusOutput": 0
+      },
+      "actions": 77,
+      "summed_dispatch_seconds": 604.6476235999726,
+      "tokens_per_complete_success": 255034.0,
+      "full_shared_acquisition_plus_policy_tokens": {
+        "totalTokens": 1013074,
+        "inputTokens": 989879,
+        "cachedInputTokens": 779648,
+        "outputTokens": 23195,
+        "reasoningOutputTokens": 4609,
+        "uncachedInputPlusOutput": 233426
+      }
+    },
+    "L": {
+      "later_tasks": 3,
+      "complete_successes": 3,
+      "tokens": {
+        "totalTokens": 972228,
+        "inputTokens": 954513,
+        "cachedInputTokens": 834944,
+        "outputTokens": 17715,
+        "reasoningOutputTokens": 2994,
+        "uncachedInputPlusOutput": 137284
+      },
+      "task_tokens": {
+        "totalTokens": 677015,
+        "inputTokens": 660955,
+        "cachedInputTokens": 553856,
+        "outputTokens": 16060,
+        "reasoningOutputTokens": 2859,
+        "uncachedInputPlusOutput": 123159
+      },
+      "feedback_tokens": {
+        "totalTokens": 295213,
+        "inputTokens": 293558,
+        "cachedInputTokens": 281088,
+        "outputTokens": 1655,
+        "reasoningOutputTokens": 135,
+        "uncachedInputPlusOutput": 14125
+      },
+      "actions": 83,
+      "summed_dispatch_seconds": 696.2338139999192,
+      "tokens_per_complete_success": 324076.0,
+      "full_shared_acquisition_plus_policy_tokens": {
+        "totalTokens": 1220200,
+        "inputTokens": 1193082,
+        "cachedInputTokens": 1004032,
+        "outputTokens": 27118,
+        "reasoningOutputTokens": 4750,
+        "uncachedInputPlusOutput": 216168
+      }
+    },
+    "N": {
+      "later_tasks": 3,
+      "complete_successes": 3,
+      "tokens": {
+        "totalTokens": 701630,
+        "inputTokens": 686887,
+        "cachedInputTokens": 523264,
+        "outputTokens": 14743,
+        "reasoningOutputTokens": 2376,
+        "uncachedInputPlusOutput": 178366
+      },
+      "task_tokens": {
+        "totalTokens": 701630,
+        "inputTokens": 686887,
+        "cachedInputTokens": 523264,
+        "outputTokens": 14743,
+        "reasoningOutputTokens": 2376,
+        "uncachedInputPlusOutput": 178366
+      },
+      "feedback_tokens": {
+        "totalTokens": 0,
+        "inputTokens": 0,
+        "cachedInputTokens": 0,
+        "outputTokens": 0,
+        "reasoningOutputTokens": 0,
+        "uncachedInputPlusOutput": 0
+      },
+      "actions": 77,
+      "summed_dispatch_seconds": 619.5639602000592,
+      "tokens_per_complete_success": 233876.66666666666,
+      "full_shared_acquisition_plus_policy_tokens": {
+        "totalTokens": 949602,
+        "inputTokens": 925456,
+        "cachedInputTokens": 692352,
+        "outputTokens": 24146,
+        "reasoningOutputTokens": 4132,
+        "uncachedInputPlusOutput": 257250
+      }
+    }
+  },
+  "all_new_worker_usage": {
+    "totalTokens": 3285056,
+    "inputTokens": 3214955,
+    "cachedInputTokens": 2584448,
+    "outputTokens": 70101,
+    "reasoningOutputTokens": 11555,
+    "uncachedInputPlusOutput": 700608
+  },
+  "acquisition": {
+    "totalTokens": 247972,
+    "inputTokens": 238569,
+    "cachedInputTokens": 169088,
+    "outputTokens": 9403,
+    "reasoningOutputTokens": 1756,
+    "uncachedInputPlusOutput": 78884
+  },
+  "tool_failures": {
+    "O": {
+      "python_errors": 0,
+      "tool_rejections": 3
+    },
+    "R": {
+      "python_errors": 0,
+      "tool_rejections": 2
+    },
+    "L": {
+      "python_errors": 1,
+      "tool_rejections": 4
+    },
+    "N": {
+      "python_errors": 1,
+      "tool_rejections": 3
+    }
+  },
+  "total_token_change_vs_ordinary_percent": {
+    "O": 0.0,
+    "R": 27.91695367515765,
+    "L": 62.546227872481296,
+    "N": 17.305107302164767
+  },
+  "all_outputs_match_declared_types": true,
+  "core_sha256": "f598cee5206dd415d5884f557442ec29d07dd4049bbcde23d9c9bda214f16c1b",
+  "core_files_changed": 0,
+  "bounded_workflow_observed": true,
+  "superior_later_decisions_demonstrated": false,
+  "independent_task_sequences": 1,
+  "partial_cost_unknowns": [
+    "parent model tokens",
+    "complete pre-plan research and engineering time",
+    "monetary cost",
+    "whole-machine and remote inference energy"
+  ],
+  "private_audit_sha256": "000e54a3f3355f0f8e6f1056e08065364d9b2ea00e937639cb8f044eb9d2de9e",
+  "limitations": [
+    "current code retained in all conditions",
+    "one worker per policy/stage",
+    "generated positions are coverage, not independent tasks",
+    "coordinator-readable gold",
+    "supplemental post-dispatch type check",
+    "no universal RSI or comparative efficacy claim"
+  ],
+  "decision_review": {
+    "all_first_recorded_post_edit_public_checks": "4/4 in all 13 sessions",
+    "all_final_profiles": "12/12 in all 13 sessions, including strict output types",
+    "L4_prior_lessons_read": [
+      "past/E3/LESSONS.json",
+      "past/E2/LESSONS.json"
+    ],
+    "L4_verified_change": "Per-row version dispatch: legacy-null versus token identity; delete notes only for accepted version-2 upserts.",
+    "preserved_behavior": "No final violations of in-scope revision, money, identity, annotation and rollback behavior.",
+    "regression_limit": "Current contracts intentionally replace some earlier behavior; not a claim that all old contracts remain supported.",
+    "repeated_failure": "12 host-directed lookups of a nonexistent root documentation path; not evidence of 12 independent reasoning failures.",
+    "unnecessary_actions": "Wrong-path lookups verified avoidable; other action counts are not independently classified as unnecessary.",
+    "lesson_use_limit": "Reads, scoped revisions, code changes and outputs corroborate the workflow, not causal contribution over controls.",
+    "causal_superiority": false
+  },
+  "post_study_prompt_repair": {
+    "scope": "post-study task-local prompt repair; no efficacy claim",
+    "executed_driver_sha256": "f47df9fa769933da510a6f37016a1d2af88865f2af772e51bda5d3a358eb8bf9",
+    "prospective_driver_sha256": "30ea0f37fd5024d8b3544e1ddf9b2c8941cc006b84e1ddc269fab48e7ce1ff37",
+    "cause": "COMMON_PROMPT named the workspace root; documentation was mounted under inputs/",
+    "observed_rejections": 12,
+    "affected_task_sessions": 12,
+    "old_path_rejected": true,
+    "new_path_resolves": true,
+    "model_calls": 0,
+    "original_attempts_or_scores_modified": false,
+    "limit": "Static exact-path correction; a future study still needs its own admission."
+  }
+}

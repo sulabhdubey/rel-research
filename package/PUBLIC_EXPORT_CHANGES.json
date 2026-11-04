@@ -1,0 +1,324 @@
+{
+  "source_archive_sha256": "edf171e187cac80668e09a9c7a44448fc23c2ae89ddaaf746ac4291cfda9952d",
+  "public_package_version": "0.7.1",
+  "new_empirical_results": false,
+  "transformations": [
+    {
+      "path": "component-evidence/ADDED_EXPORTS.json",
+      "source_sha256": "ab1f4cc22c9ed3fb2a98ca982a3cb11c6a80a6d08f3731fcecd101f43c1942b1",
+      "public_sha256": "bc71d987a2c8a0cf6a4c7cfb7fba32429ecfd23e006aa8bdfe1b2834629e18f5",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "component-evidence/COMPONENTS.json",
+      "source_sha256": "a5cf356108464c9412a2a37fef7997c01dacc9e35bf8542d6ebaa9f1a8551a29",
+      "public_sha256": "425cfc8d0cb02b6b877d2c7c92ee4724dcdaaae354a5fc870c082b706a1500e5",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "component-evidence/REPORT106.md",
+      "source_sha256": "4d0df0460bdfd053fb38969663123eacf01d16621c309afbab8e2fbf89212847",
+      "public_sha256": "8e54cc388964d0e0c6229a33c8a87db5253014752815f4fd1e82d706da884472",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "component-evidence/REPORT111.md",
+      "source_sha256": "49bef9e94bc1abdd9a35886c0789f093cffc5e391f30419173560672f1b2937b",
+      "public_sha256": "4b7a39ed4eefb9e205afb6246a61a21975ad5380d487881da1346eca3721220c",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "component-evidence/REPORT118.md",
+      "source_sha256": "ebe71d7b51431889b84ead447286580ae842def8d7a990385138dc8d2a3134e5",
+      "public_sha256": "49e2d04857d40ca862c06638d7944d833b637713936753d90747d7c7f66e0ac8",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "component-evidence/REPORT119.md",
+      "source_sha256": "284aa07eeb56878cfe86c47a411319862c27f375a6b5743c2f5ff638e2fe131a",
+      "public_sha256": "76022d98e809f464fe17b1273c8d6430836fc942c37a2bfcde776e47dfb906f5",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "component-evidence/REPORT120.md",
+      "source_sha256": "df987a80592275d265efed83411e364635c66c65a3040b4059448e565d482d02",
+      "public_sha256": "2166c6b0521f4f4c096392819abec2befdc494beeaf973f573900c0b2e7c631f",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE.md",
+      "source_sha256": "376574376409ef4718c68bed8aab2792fb82f341163791519ac282176cb26fcb",
+      "public_sha256": "02ff4440fbed7d5177f32105b97dd64eedd379c48eb19d23bda61a1ebe7bd726",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-17.md",
+      "source_sha256": "63dcfc22f89f946b60e961f39a8470cc4ad38e8f0287401242bd797801d51f01",
+      "public_sha256": "da1cb6737fe348b56f69f4390962ca79b5a7c040ff4639466a199ab797ce79a7",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-17_CONTINUITY.md",
+      "source_sha256": "c57bd31d222dcd01f94fceef2ca9139b7b6c194c73f300c1046e76f48f2a55cd",
+      "public_sha256": "c625f1ca9f32ffb397050e79c8c69623c8712ca1d43f868d699bc98f28cb8d0f",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-17_DELIVERABLES.md",
+      "source_sha256": "07065c7ebd8b080f3ca2cfae60682c0d136e64b6b7a7d1bc4db0a1972d827f30",
+      "public_sha256": "5a328aafb4943689a6e655a2ceec201fd333906e38f1f96a11312cfc547a07d1",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-17_OUTPUT_INTERFACE.md",
+      "source_sha256": "aab4d51132ce91b10ee1ba383b3fb7b87d9938e809dee43dd8d3a217ead4c2bc",
+      "public_sha256": "03e1c4e256d7eca81e62a083557181b27866a7eee10561a020986d4e5c696ae2",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-17_OVERHEAD.md",
+      "source_sha256": "c00d5206a0919eb09eb19128c62389d509516747301edd218174447a2148ae05",
+      "public_sha256": "58db55b246d3827e8a6e918ad7e9b8602de1132e04d05684bdf85b853a77f7aa",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-18_CHANGED_REQUIREMENTS.md",
+      "source_sha256": "bd9ff626d012413c45a9dac201d9b46497a88ee1366a33d3a98ae4230f4e0465",
+      "public_sha256": "5fa0f5c21e3edb78dc1f17bdccddab399197117376ec8cdac6a4ee727366b281",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-18_FIELD_REVIEW.md",
+      "source_sha256": "0cd50337df60be2a5a6bdadb65646feb4d78034ffbaa8f1c91cc610b01917209",
+      "public_sha256": "1c785fdd9ff8588c638f9e894e2ab4e04e543c270293c04497414c2d1800c154",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-18_RETAINED_EXPERIENCE.md",
+      "source_sha256": "ecdea037fdfcd0644a1232cbef93924bdd4460b5e13f1abf9166e497d5363371",
+      "public_sha256": "04bb2d00678558758c115010c3704ddc3034675951fef2cb0982bb419b96a948",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-19_BOUNDARY_METHOD.md",
+      "source_sha256": "3b09cde99a28e48932443f221d3f4a6129c3e180863b1d4334c4de4dd53841e6",
+      "public_sha256": "1e1adce721f79cd0e49ef866ed140108dd7df32ac99d18acf21f668ef16b1d90",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-19_FAILURE_LINKS.md",
+      "source_sha256": "a981cf6e9f22d254fd7b85c0089876084146c724b878b3c077e76b0c38bd2c8f",
+      "public_sha256": "8e090c418d2e829814c406a43d8a9a17b17a7907eb9c6de8a3a5e9e0f33242fc",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-19_LATER_DECISIONS.md",
+      "source_sha256": "e4d2d81342c93e0aea4d2b798978c12c89e457ba3be01fe2c25858bc03dc3ce9",
+      "public_sha256": "1ab94d4c23dad2876de4c60f834c0e9ef3926fe42a9b4c7f8ba7b64d2785dbbd",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-19_METHOD_SELECTION.md",
+      "source_sha256": "20f1b270075a2ccd2448d39bf81526e818fd706db307d37cb3282c76878941c8",
+      "public_sha256": "e9ea542eaee20bfa26763799297141b2eb2fb27d93cc44df21ed14abb37e1931",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-19_REQUIREMENT_CHECKS.md",
+      "source_sha256": "d8fc2edcb2ddbb8dc484db6d7ae05e4282267792e432c2b22c89a780c16f0cac",
+      "public_sha256": "d359dd4c375443eaadc1926104508a55bc7f626e6702a637ca3feee5b004ec5c",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-19_TYPED_FEEDBACK.md",
+      "source_sha256": "37690fac62e193214662a5bd11a1f519272e2aa0294c6fc202046862651a2ce5",
+      "public_sha256": "c0fa1f1eb02ca85ae2cef66d05362fa8a3f81c11de1923ea19b721576c99d9a2",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-20_INTERRUPTED_TRANSFER.md",
+      "source_sha256": "e1a07ba5d85b6349e5f79ea34e8e593c5f435a391ef9e7570ba8cf1641630d54",
+      "public_sha256": "7c12c416d99e055f116daf8c524a3ae09f2e08af72a6edd3f40ee468b4e0e988",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-20_LESSON_REVISION.md",
+      "source_sha256": "d01a52cdd9791613879d1f84df81b2a3ad06777e214ba91b70a0f6576b32f8f4",
+      "public_sha256": "32eb8583c34f162f7725754d6a6c6377d5a4c02267b7169e608567bc971a51df",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-20_PROJECT_QUALIFICATION.md",
+      "source_sha256": "c7bdfd0faea555d20ff76cf19b56509f83386625a76b40d98baa2b803bac7d76",
+      "public_sha256": "e0d96163755aade864fe2d2a84aec750fc8d401d0ea936f03fa94c163b94c1ca",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-20_REQUESTS_QUALIFICATION.md",
+      "source_sha256": "e00f80f8950f17034e82c623e26d28b7ebc56476bb540c7f1fd90a561fe506a7",
+      "public_sha256": "d8803b3a71622c15a3c45e66a22177a970bb213162d85257dbb2fb9f3b3695aa",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-20_TOOL_RECOVERY.md",
+      "source_sha256": "7718b3d8a2bd25f1cae66672a8edf1b707fe0e179cc67c3d93504796255ac489",
+      "public_sha256": "12563294be00e50657570ce2df74f73999ae380111a354a4870617f48b6584c6",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-21_HTTPCORE.md",
+      "source_sha256": "b14cb4c0542ac2fd1c053456b158d89f3ac3faf2054c8c21d0aaf8b865de9642",
+      "public_sha256": "6d92bbf7450c5ec1b05771694094ff9da5504bd9d56a9987e0f5393fb6453ce8",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-21_REAL_USE_FOLLOWUP.md",
+      "source_sha256": "66ad99f89f8fbfd5ef2c8ef3ed35c33ea9fe96f155fabc1a337caa9a46bde7c4",
+      "public_sha256": "75d677d42db26a1c8d42bf75e36413e8e8812f98e34021d4434e742efd2b826d",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-21_REAL_USE_TRANSFER.md",
+      "source_sha256": "b0bf402dee0df10e55ba4c7f7bd22d63c470ef149a87e96387817683fbfa6572",
+      "public_sha256": "5f8c28b69c1db5cff8e4dc03d7ecddf6ad9d379c7bc22c4d52a315e9ade0c5fd",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-21_REQUIREMENT_COMPLETION.md",
+      "source_sha256": "06e95a75244b48108f3859d09292586e60d5d551b2643521ab9903c7149ac6c0",
+      "public_sha256": "492ecc28adb004fb2481ee17fa03ca59551b3bb2ce82b29c1f93e6713a1b0325",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-21_RESIDUAL_EXPERIENCE.md",
+      "source_sha256": "04a1ac8b39da8b614b90765f0025fa0e640b36f0f83e1a71feefa251e8b08580",
+      "public_sha256": "07bfe1b7a5d1b064fb8a95c97f22023eb25e20eec361ad79a01dc5ac0dcfbc50",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-21_SOURCE_EFFORT.md",
+      "source_sha256": "793ae0cce1ddfa62af5ac7b0c3bb30a6086b4a855cbeef73b826721b2a1d91dc",
+      "public_sha256": "e73be41ee579bf2e26c46e70a9b64ba78e8aa31d2e885412b29eecefd95192bc",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-21_SOURCE_FIXTURES.md",
+      "source_sha256": "b1218e37e370ecdee4b60306b19a9bc062a67404dcd090360d219ca10f7e5641",
+      "public_sha256": "bdc8f01f3f9c3b86e597a12bf5847f2b03fe2c7f0b8fee3700ce5e92dff3b19f",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-21_TEST_EXPECTATIONS.md",
+      "source_sha256": "813718d51fc3bb4ca9de734831867369cd427d141c7dded54de10087cf1d0209",
+      "public_sha256": "386a11532bf69c6e3f9ca7b587221b5f3be03e343fbcbee1f8e2e65c19900471",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-22_MPMATH.md",
+      "source_sha256": "656bee2c7f49a6e35aa0c0d3a70e2c18e1f1b195fd2c455d5980e673b9b3e31a",
+      "public_sha256": "f04a54425962e0a56f86ce43382cb0eab382361e58538e29992a175921a4cbf1",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-23_RESIDUAL_QUALIFICATION.md",
+      "source_sha256": "82dce048e4f5de22ddcdf6c2410bef1367f72302b7fc48436f51a657c6c0f748",
+      "public_sha256": "1e20a83338f5ac89242daa4d6a15151f926a559ec2d9250f15822e92d80b4df7",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-24_CONNECTED_SEQUENCE.md",
+      "source_sha256": "ab1b6ef412216c563897f7c3c3d448e8fff67e7f8e716f83ecc765adb33c25d7",
+      "public_sha256": "46ac5e6cbcc189aa2c678c5acd6e1a4a10704fe434e6a46cda9f87b06cc90414",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-24_LIGHTWEIGHT_OBSERVATIONS.md",
+      "source_sha256": "05008e5dcdd1eea12e43968fe2aecd1ece8579ba74169bfffeb960e4bceff459",
+      "public_sha256": "fbe518f231f573747b14e5db80d88fa5915c119743e482197bcff25682ea9e3b",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-24_OBSERVATION_COST.md",
+      "source_sha256": "8da3002e8329c58508335973d8db9951c1887bbad0260ba76fd3bf6e8b202661",
+      "public_sha256": "f9b5e031be4b3fd3ac3bf8e300d448b066b8ff1f1550a3a64819f4f8662c1375",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "evidence/EVIDENCE_2026-10-24_RESTORED_OBSERVATIONS.md",
+      "source_sha256": "ebc4920017ee40ccf26d3061a4d75eb28dcf7e7f5e36af02356de9a8b94f4139",
+      "public_sha256": "d3739d86984d65428d721975e456683831e95c8546b2883489ea16171004e528",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "EVIDENCE_APPENDIX.md",
+      "source_sha256": "a5ce5443a63875f3c692cef5f9955fd83915a50831e9dcea4dc663b3f2a834ff",
+      "public_sha256": "2ec646cbdf2d0f61686fbe786c65c6f003110720dfd70a825c685d6b4e0f8016",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "EVIDENCE_APPENDIX.pdf",
+      "source_sha256": "5dcc3f255b992f0066a8dea6a7be71f6c6febe1c9a501f38bed41fcbe3b38111",
+      "public_sha256": "cf536d9d978eeba48b1ff2915090c390fea943edc920e5faa8a5884d6ecfbee1",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "historical-diagnostic/README.md",
+      "source_sha256": "09d52e72042d84e1fe2735e4fc2352ad7656e542332b87887b22c8582eead18d",
+      "public_sha256": "a5ce79df0be0e7a2581120aae902ec0079294dee24aa3454edfb7825674a4f0c",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "PAPER.md",
+      "source_sha256": "e6fdb6311250ef76e9d7e42d65321e3efbef88d897179144fec6b43720e0da44",
+      "public_sha256": "114e983ea8987697e8e4896ed142f99fd992b1e3b16e1540791a3f17dcd54f8c",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "PAPER.pdf",
+      "source_sha256": "372525310fb64a88ce0021b7c7f25f89ea6dff2ce312404c81fc4a1614c37360",
+      "public_sha256": "f9bfbbdd455ec9f0b918b29d2110ab4e822f091a2f7dd1028cb75711ae8b0533",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "READER_BRIEF.md",
+      "source_sha256": "691cc24ed6d5445363d07f56381070de5c4a7e4dd1f4af4c252dd501f79d436c",
+      "public_sha256": "44751c48505e389f74a9bcf634f931017b9755c2ccd95fb84b087412d724adcc",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "READER_BRIEF.pdf",
+      "source_sha256": "eda28d393585124af5e524090be03441abd3c30341391d0fbe7e1066d30fde94",
+      "public_sha256": "564a06e9b904cd29d793013377ed6da6478f304be3ae7cb198c7f2f4c238cd43",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "984ed2991417ed2ef002537329ef02eeff121b2b215c22e18e7f666d9ff4c86c",
+      "public_sha256": "735f92e251cd66c40d2bb8f3579542b0a2d5b6e992abf4e347cb9a44c4f08bf2",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "review/REVIEW_SCOPE.md",
+      "source_sha256": "d9f29953208ec04b390c3cefd419800f4904bb83b1201a4410e9b099f228427b",
+      "public_sha256": "fc5b140a498e36a04271a0e4a58d0c9503abd117cf3ea8b369f9fe8e461a7980",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "RIGHTS_AND_DEPENDENCIES.md",
+      "source_sha256": "fab4a026f038eb4af5d4bab6791294db38ec8abe827fad477cf3bfe5d633e25f",
+      "public_sha256": "0beb698e8d337fa47c7dd7cbbb3def4d114a94bcbbbbd8f7696b3e0074ca47ba",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    },
+    {
+      "path": "SHARING_DRAFTS.md",
+      "source_sha256": "5c80190b4dd2659271b9f0a7ee426bb4b321ffc1feb33a9748832e6319134cbb",
+      "action": "omitted outreach drafts"
+    },
+    {
+      "path": "VERSIONS.json",
+      "source_sha256": "19f4a214e75f5668ac9b7dc910d5c758fdb2669365d47825b7257c3f1266c9be",
+      "public_sha256": "c4994a29c42eb491e810293c02d79625af25dfc317b56e2293d6d3e155625bea",
+      "action": "public metadata/provenance label, workspace redaction, UTF-8 normalization or matching PDF regeneration; no numeric result change"
+    }
+  ]
+}

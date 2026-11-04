@@ -1,0 +1,18 @@
+--- original_pipeline.py
++++ repaired_pipeline.py
+@@ -146,13 +146,13 @@
+             if k not in out['p']:
+                 ok,a=sub(s['unevaluatedProperties'],v)
+                 if not ok:return False,out
+-                out['p'].add(k); _merge(out,a)
++                out['p'].add(k)
+     if d=='draft2020-12' and isinstance(x,list) and 'unevaluatedItems' in s:
+         for i,v in enumerate(x):
+             if i not in out['i']:
+                 ok,a=sub(s['unevaluatedItems'],v)
+                 if not ok:return False,out
+-                out['i'].add(i); _merge(out,a)
++                out['i'].add(i)
+     return True,out
+ 
+ def solve(case):

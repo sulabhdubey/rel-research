@@ -1,0 +1,190 @@
+{
+  "schema": "rel-public-aggregate-v1",
+  "date": "2026-10-19",
+  "scope": "Descriptive arithmetic for constructed cases; not a complete model-run reproduction package",
+  "baseline_commit": "c1346cd3123c9c3ec2b443a3a4ab593fd3391aa7",
+  "native_sessions": 29,
+  "native_usage": {
+    "cachedInputTokens": 10999040,
+    "inputTokens": 12245614,
+    "outputTokens": 192919,
+    "reasoningOutputTokens": 60735,
+    "totalTokens": 12438533
+  },
+  "M1": {
+    "fresh_subagent_engineering_tasks": 2,
+    "matched_control": false,
+    "subagent_cost": null
+  },
+  "M2": {
+    "unit": "Three task blocks; one shared origin/source family; one attempt per arm/block",
+    "arms": {
+      "O": {
+        "cases": {
+          "fail": 0,
+          "pass": 65,
+          "total": 65,
+          "unresolved": 0
+        },
+        "complete_correct": 3,
+        "sessions": 3,
+        "summed_worker_wall_seconds": 559.7735615999554,
+        "tokens_per_complete_correct": 411257.0,
+        "usage": {
+          "cachedInputTokens": 1072256,
+          "inputTokens": 1212982,
+          "outputTokens": 20789,
+          "reasoningOutputTokens": 8273,
+          "totalTokens": 1233771
+        }
+      },
+      "R": {
+        "cases": {
+          "fail": 0,
+          "pass": 65,
+          "total": 65,
+          "unresolved": 0
+        },
+        "complete_correct": 3,
+        "sessions": 3,
+        "summed_worker_wall_seconds": 537.1087750000297,
+        "tokens_per_complete_correct": 459034.0,
+        "usage": {
+          "cachedInputTokens": 1238784,
+          "inputTokens": 1355915,
+          "outputTokens": 21187,
+          "reasoningOutputTokens": 7009,
+          "totalTokens": 1377102
+        }
+      },
+      "S": {
+        "cases": {
+          "fail": 0,
+          "pass": 65,
+          "total": 65,
+          "unresolved": 0
+        },
+        "complete_correct": 3,
+        "sessions": 3,
+        "summed_worker_wall_seconds": 449.6575560999918,
+        "tokens_per_complete_correct": 260353.66666666666,
+        "usage": {
+          "cachedInputTokens": 662016,
+          "inputTokens": 767138,
+          "outputTokens": 13923,
+          "reasoningOutputTokens": 4218,
+          "totalTokens": 781061
+        }
+      }
+    }
+  },
+  "M3": {
+    "unit": "One matched pair of six-episode own-history sequences; six cases per episode are not independent histories",
+    "arms": {
+      "O": {
+        "cases": {
+          "fail": 7,
+          "pass": 29,
+          "total": 36,
+          "unresolved": 0
+        },
+        "complete_correct": 0,
+        "sessions": 6,
+        "summed_worker_wall_seconds": 1008.3651908999309,
+        "tokens_per_complete_correct": null,
+        "usage": {
+          "cachedInputTokens": 2348032,
+          "inputTokens": 2599120,
+          "outputTokens": 43729,
+          "reasoningOutputTokens": 11671,
+          "totalTokens": 2642849
+        }
+      },
+      "S": {
+        "cases": {
+          "fail": 6,
+          "pass": 30,
+          "total": 36,
+          "unresolved": 0
+        },
+        "complete_correct": 0,
+        "sessions": 6,
+        "summed_worker_wall_seconds": 921.4452091999701,
+        "tokens_per_complete_correct": null,
+        "usage": {
+          "cachedInputTokens": 2356992,
+          "inputTokens": 2632718,
+          "outputTokens": 31470,
+          "reasoningOutputTokens": 8975,
+          "totalTokens": 2664188
+        }
+      }
+    }
+  },
+  "M4": {
+    "unit": "One matched pair of three-episode own-history sequences, common initial origin; one source family",
+    "arms": {
+      "S": {
+        "cases": {
+          "fail": 3,
+          "pass": 21,
+          "total": 24,
+          "unresolved": 0
+        },
+        "complete_correct": 1,
+        "sessions": 3,
+        "summed_worker_wall_seconds": 528.3451132000191,
+        "tokens_per_complete_correct": 1705059.0,
+        "usage": {
+          "cachedInputTokens": 1549952,
+          "inputTokens": 1683299,
+          "outputTokens": 21760,
+          "reasoningOutputTokens": 7342,
+          "totalTokens": 1705059
+        }
+      },
+      "S2": {
+        "cases": {
+          "fail": 0,
+          "pass": 24,
+          "total": 24,
+          "unresolved": 0
+        },
+        "complete_correct": 3,
+        "sessions": 3,
+        "summed_worker_wall_seconds": 460.92635649995646,
+        "tokens_per_complete_correct": 309209.3333333333,
+        "usage": {
+          "cachedInputTokens": 800512,
+          "inputTokens": 909620,
+          "outputTokens": 18008,
+          "reasoningOutputTokens": 5834,
+          "totalTokens": 927628
+        }
+      }
+    }
+  },
+  "M5": {
+    "controller_sessions": 2,
+    "model_requests": 8,
+    "not_pooled_with_native_efficacy": true,
+    "reported_output_tokens": 236,
+    "reported_prompt_tokens": 28914,
+    "saved_method_cases_per_session": 19
+  },
+  "limits": [
+    "Parent/reviewer/preparation/human effort, currency and physical energy not fully measured",
+    "Actual acquisition counted once; counterfactual policy allocations are not extra spending",
+    "No population inference or significance claim from case counts or one history pair",
+    "Worker clocks overlap; summed worker wall times are not elapsed campaign duration",
+    "Ordinary quota used without API-credit fallback; cached tokens remain a subset of input tokens"
+  ],
+  "sha256": {
+    "analysis": "d37437ecc8c30923303cabda3a386161f9b82efcb9e8d0b19c93289c91428de9",
+    "R_manifest": "78677eaac25d134b1f4710e80bd12abce421c5f435dd4c337a2945e25c213435",
+    "S_manifest": "a66cda6b356cccf4a81db371e9ac720c8fe5f4ba30bbed47502d5d184c4369b1",
+    "S2_manifest": "acc0d329bd4d883bdb29403b5e76e9ed5fecdd1f4c1428757cabf7cd9aac031e",
+    "M4_mechanism_review": "513e23e2758f8b36adf269ffad6a1cee58773e863b16a49808c24dcf4af698dd",
+    "M3_mechanism_review": "2e6eb0fce788401001b8658844e6f5a42e0434c42cf1e8f195809b610ffb8834"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "version": "range-bearing-v1",
+  "lesson": "Test continuous inflation above normalized energy1 versus threshold4; qv/qw1, no bias. Dataset3 evidence rejects unnecessary mean state. Higher inflation may protect tails but weaken corrective information; compare objective and heading before choosing.",
+  "init": {},
+  "nodes": [
+    {
+      "name": "nr",
+      "op": "div",
+      "args": [
+        "zr",
+        1
+      ]
+    },
+    {
+      "name": "nb",
+      "op": "div",
+      "args": [
+        "zb",
+        1
+      ]
+    },
+    {
+      "name": "nrs",
+      "op": "clip",
+      "args": [
+        "nr",
+        1,
+        25
+      ]
+    },
+    {
+      "name": "nbs",
+      "op": "clip",
+      "args": [
+        "nb",
+        1,
+        100
+      ]
+    },
+    {
+      "name": "nro",
+      "op": "mul",
+      "args": [
+        "nrs",
+        4
+      ]
+    }
+  ],
+  "outputs": {
+    "r_scale": "nro",
+    "b_scale": "nbs",
+    "qv": 1,
+    "qw": 1,
+    "range_bias": 0,
+    "bearing_bias": 0,
+    "reject": 0
+  },
+  "state": {}
+}

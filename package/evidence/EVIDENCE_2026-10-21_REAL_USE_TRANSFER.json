@@ -1,0 +1,192 @@
+{
+  "actual_model_attempts": 2,
+  "prepared_but_not_run": 10,
+  "primary_comparison": "not admitted; both ordinary endpoints saturated",
+  "all_arms_common_rel": true,
+  "autonomous_learning_tested": false,
+  "worker_usage_sum": {
+    "totalTokens": 507186,
+    "inputTokens": 494358,
+    "cachedInputTokens": 402432,
+    "outputTokens": 12828,
+    "reasoningOutputTokens": 2872,
+    "uncachedInputPlusOutput": 104754
+  },
+  "recorded_worker_tokens_per_completed_task": 253593.0,
+  "uncached_worker_tokens_per_completed_task": 52377.0,
+  "outer_attempt_seconds_sum": 351.7009839999955,
+  "qualification_seconds_sum": 82.92625350004528,
+  "fairness": {
+    "workspace": {
+      "common_public_hashes": {
+        "CONTRACT.md": "c82f86078e78250c7f79efb9d38029523fe3f163baef1e44faae0a8d2554bb3d",
+        "PUBLIC_EXAMPLES.json": "d63ac53278d1976a0e839997f4f150edd3af40fb7d149ffca42b6ee25d9af116",
+        "rules.json": "97a0c4e4030b60aeba6ac4ae3f4052e11f900619a7690a18abaa75fae2f9d9ac",
+        "TOOL_DOCUMENTATION.md": "71c3207bc345400cf8055f04f5f5f4ac7244c7495764fb192671a07937b3b7cb"
+      },
+      "identical_factual_propositions": 6,
+      "history_bytes": {
+        "H": 1581,
+        "L": 1785
+      },
+      "n_has_no_history": true,
+      "declared_operations_present": [
+        "append",
+        "clone",
+        "compare",
+        "coverage",
+        "export",
+        "input",
+        "reopen",
+        "snapshot"
+      ]
+    },
+    "jobs": {
+      "common_public_hashes": {
+        "CONTRACT.md": "360fdd4c94afd4c545b19fb5e28b7b6610c98575fecfb610a150b904c733795e",
+        "PUBLIC_EXAMPLES.json": "320c5b0002c5237ebcb95086af63d04c07275d4548be0f9fb2bbcc88bc021c3b",
+        "rules.json": "e46d49bfb30c3759d4a6414764f4ea752f39fea0f8a27023bb50eaf1c063dccd",
+        "TOOL_DOCUMENTATION.md": "71c3207bc345400cf8055f04f5f5f4ac7244c7495764fb192671a07937b3b7cb"
+      },
+      "identical_factual_propositions": 6,
+      "history_bytes": {
+        "H": 1581,
+        "L": 1785
+      },
+      "n_has_no_history": true,
+      "declared_operations_present": [
+        "append",
+        "audit",
+        "contract",
+        "export",
+        "snapshot"
+      ]
+    }
+  },
+  "proposition_crosswalk": [
+    {
+      "title": "Scope versus result",
+      "identical_proposition": "Compare semantic rules, required input roles and declared coverage before treating later evidence as a replacement. Generated IDs and equal totals do not establish semantic identity. Reject missing required roles, but do not reject equivalent rules just because generated IDs differ."
+    },
+    {
+      "title": "Reuse versus fresh proof",
+      "identical_proposition": "Saved configuration may be useful when its old result is stale. Reuse the method without copying its passing outcome or live input authority. Preserve unrelated records and verify changes through exports and reopened state."
+    },
+    {
+      "title": "Coverage versus count",
+      "identical_proposition": "After changing a test runner, reconcile exact executed identities, duplicate executions and skipped or omitted tests. A green aggregate or unchanged count does not establish full execution; preserve earlier failed evidence."
+    },
+    {
+      "title": "Producer versus assumption",
+      "identical_proposition": "Inspect the actual producer schema before interpreting output. Structured text, unsupported formats and truncation require different handling. A batch exit code cannot substitute for each relevant component result."
+    },
+    {
+      "title": "Correction versus annotation",
+      "identical_proposition": "Follow a changed fact through the actual consumer decision, persisted state and exported artifact. Changing a label or citation alone does not correct an obsolete calculation or decision."
+    },
+    {
+      "title": "Applicability limit",
+      "identical_proposition": "These lessons describe prior observed corrections, not universal success rules. Use current requirements to decide applicability, retain contradictory evidence and avoid extra reflection when ordinary implementation and checks suffice."
+    }
+  ],
+  "core_files_verified_unchanged": 20,
+  "core_main_sha256": "f598cee5206dd415d5884f557442ec29d07dd4049bbcde23d9c9bda214f16c1b",
+  "unknown_costs": [
+    "parent-model research/build/analysis tokens",
+    "historical lesson acquisition",
+    "complete human effort",
+    "hardware and remote inference energy",
+    "complete orchestration wall time"
+  ],
+  "limitations": [
+    "one ordinary attempt per family; no candidate-arm outcomes",
+    "two compact coordinator-constructed task families",
+    "four parameterizations repeat related scenario patterns",
+    "coordinator-created gold, not independently authored",
+    "common REL prevents a REL-versus-no-REL causal inference",
+    "no statistical benefit, no autonomous acquisition or sustained improvement result"
+  ],
+  "decision": "retire these two profiles for correctness-benefit comparison; retain verified repairs and all costs; no core instruction promotion",
+  "tasks": [
+    {
+      "cell": "N-workspace-1",
+      "condition": "ordinary repair with current REL, no retained project history",
+      "counts": {
+        "pass": 64
+      },
+      "total": 64,
+      "primary_counts": {
+        "pass": 60
+      },
+      "primary_total": 60,
+      "starting_pass": 14,
+      "repaired": 50,
+      "regressed": 0,
+      "usage": {
+        "totalTokens": 213187,
+        "inputTokens": 205639,
+        "cachedInputTokens": 176384,
+        "outputTokens": 7548,
+        "reasoningOutputTokens": 1645,
+        "uncachedInputPlusOutput": 36803
+      },
+      "model_requests": 10,
+      "actions": 16,
+      "operations": {
+        "list": 1,
+        "python": 6,
+        "read": 8,
+        "write": 1
+      },
+      "worker_phase_seconds": 88.825000599958,
+      "outer_seconds": 182.1686660000123,
+      "guest_wall_seconds": 11.564735599677078,
+      "guest_invocations": 6,
+      "guest_failed_invocations": 2,
+      "missing_optional_reads": 1,
+      "boundaries_verified": true,
+      "source_lines": 91
+    },
+    {
+      "cell": "N-jobs-1",
+      "condition": "ordinary repair with current REL, no retained project history",
+      "counts": {
+        "pass": 68
+      },
+      "total": 68,
+      "primary_counts": {
+        "pass": 64
+      },
+      "primary_total": 64,
+      "starting_pass": 0,
+      "repaired": 68,
+      "regressed": 0,
+      "usage": {
+        "totalTokens": 293999,
+        "inputTokens": 288719,
+        "cachedInputTokens": 226048,
+        "outputTokens": 5280,
+        "reasoningOutputTokens": 1227,
+        "uncachedInputPlusOutput": 67951
+      },
+      "model_requests": 12,
+      "actions": 18,
+      "operations": {
+        "list": 1,
+        "patch": 3,
+        "python": 3,
+        "read": 10,
+        "write": 1
+      },
+      "worker_phase_seconds": 73.98597019992303,
+      "outer_seconds": 169.5323179999832,
+      "guest_wall_seconds": 5.773282300098799,
+      "guest_invocations": 3,
+      "guest_failed_invocations": 0,
+      "missing_optional_reads": 1,
+      "boundaries_verified": true,
+      "source_lines": 73
+    }
+  ],
+  "schema": "rel.real-use-transfer-public.v1"
+}

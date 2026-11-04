@@ -1,0 +1,29 @@
+[
+  {
+    "run": 86,
+    "local_relative_source": "outputs/brain-ai-run86-compiled-lifecycle-2026-10-28/REPORT.md",
+    "source_sha256": "a01ea606e9c0519e18de0c401206bcce42a998832b8b6d04f767cfa2ce980a02",
+    "delivered_path": "component-evidence/REPORT86.md",
+    "delivered_sha256": "aefa6ea21adfaaf941d5a28795508875d9079a4fe6623c6e311f73f66e657c9f",
+    "transform": "Relative historical links rendered as labelled source pointers; text/results unchanged. Original exact source SHA retained. Public export labels inaccessible provenance; numerical results unchanged.",
+    "private_review_delivered_sha256": "aefa6ea21adfaaf941d5a28795508875d9079a4fe6623c6e311f73f66e657c9f"
+  },
+  {
+    "run": 92,
+    "local_relative_source": "outputs/brain-ai-run92-procedure-evolution-2026-10-28/REPORT.md",
+    "source_sha256": "bad387dfe82af35dfad1486004fe06884dbbe59f8d377db095b86f90e91204d8",
+    "delivered_path": "component-evidence/REPORT92.md",
+    "delivered_sha256": "d467dcc3cb145d2a75d9d2495245a00385e95e5e8f578f483ee9be11a34ef71c",
+    "transform": "Relative historical links rendered as labelled source pointers; text/results unchanged. Original exact source SHA retained. Public export labels inaccessible provenance; numerical results unchanged.",
+    "private_review_delivered_sha256": "d467dcc3cb145d2a75d9d2495245a00385e95e5e8f578f483ee9be11a34ef71c"
+  },
+  {
+    "run": 114,
+    "local_relative_source": "outputs/brain-ai-run114-method-selection-2026-11-02/REPORT.md",
+    "source_sha256": "f025393f21ac3ee284b2a25e9e93e913e98635924adedb6216ecf3cceb7ad49b",
+    "delivered_path": "component-evidence/REPORT114.md",
+    "delivered_sha256": "3203a8da5365f12bec57e00a8a591a23d806752234ae3914805a0a3c2d243bfb",
+    "transform": "Relative historical links rendered as labelled source pointers; text/results unchanged. Original exact source SHA retained. Public export labels inaccessible provenance; numerical results unchanged.",
+    "private_review_delivered_sha256": "3203a8da5365f12bec57e00a8a591a23d806752234ae3914805a0a3c2d243bfb"
+  }
+]

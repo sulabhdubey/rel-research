@@ -1,0 +1,16 @@
+{
+  "study": "rel-retained-experience-2026-10-18",
+  "schema": "sanitized-study1-accounting-v1",
+  "source_files": [
+    {
+      "name": "ROWS.json",
+      "sha256": "732ea17c3ed67c45065161afd98635544ab470f4a42c158a472a55bf59f096cf"
+    },
+    {
+      "name": "ACCOUNTING.json",
+      "sha256": "a390e52154eeb7932385e2e836c36a9d49ff130881ad9756ef1a8404682dfae6"
+    }
+  ],
+  "exported_attempts": 26,
+  "scope": "Allowlisted fields only; source files and raw events are not bundled."
+}

@@ -1,0 +1,32 @@
+{
+  "A": {
+    "attempts": 8,
+    "e2_correct": 8,
+    "e3_correct": 8,
+    "both_correct": 8,
+    "new_tokens": 1235968,
+    "inclusive_tokens": 1235968,
+    "new_uncached_plus_output": 217088,
+    "inclusive_uncached_plus_output": 217088
+  },
+  "B": {
+    "attempts": 8,
+    "e2_correct": 8,
+    "e3_correct": 8,
+    "both_correct": 8,
+    "new_tokens": 1885910,
+    "inclusive_tokens": 2243327,
+    "new_uncached_plus_output": 319062,
+    "inclusive_uncached_plus_output": 378495
+  },
+  "C": {
+    "attempts": 8,
+    "e2_correct": 8,
+    "e3_correct": 8,
+    "both_correct": 8,
+    "new_tokens": 1704047,
+    "inclusive_tokens": 2061464,
+    "new_uncached_plus_output": 282863,
+    "inclusive_uncached_plus_output": 342296
+  }
+}

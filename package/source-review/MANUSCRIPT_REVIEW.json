@@ -1,0 +1,89 @@
+{
+  "schema": "rel.manuscript-review.v1",
+  "status": "PASSED_MARKDOWN_SOURCE_CLAIM_REVIEW",
+  "review_date_ist": "2026-11-05",
+  "files": [
+    {
+      "path": "outputs\\rel-consolidated-paper-2026-10-24\\PAPER.md",
+      "sha256": "eae8d96449cc452af1b53b86faf4d1257e7d99b05b4ea89ca453514d1c9e27d0"
+    },
+    {
+      "path": "outputs\\rel-consolidated-paper-2026-10-24\\EVIDENCE_APPENDIX.md",
+      "sha256": "f271f60346f5536bd1ed44c817a177c1fbf24cb887db6a024def0d96d8db590b"
+    },
+    {
+      "path": "outputs\\rel-consolidated-paper-2026-10-24\\READER_BRIEF.md",
+      "sha256": "ab291e33b8f33eae73a2887e1723683f5826436df616a512d309effbd9b496de"
+    },
+    {
+      "path": "outputs\\rel-consolidated-paper-2026-10-24\\README.md",
+      "sha256": "e79a2817813f38510577ec16be88c7051bbfcd51999f675e6032dc8c395f3dfc"
+    },
+    {
+      "path": "outputs\\rel-consolidated-paper-2026-10-24\\SHARING_DRAFTS.md",
+      "sha256": "cfefc8866c4e137c504391ac8a58c04cf618bce249e490b09b875c0968e46a3c"
+    },
+    {
+      "path": "outputs\\brain-ai-run121-range-only-qualification-2026-11-05\\SOURCE_REVIEW.md",
+      "sha256": "cddba986adf69370e0e7b0308c612e7abcf43a354af31672a920ca4af602914c"
+    },
+    {
+      "path": "outputs\\brain-ai-run121-range-only-qualification-2026-11-05\\METHODS_RESEARCH.md",
+      "sha256": "f970b4280cf48241b8b63d428f9372cd3c560f270d2ded3ccabe58ce121d67bf"
+    }
+  ],
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "medium",
+      "status": "resolved",
+      "path": "outputs\\rel-consolidated-paper-2026-10-24\\PAPER.md",
+      "section": "3",
+      "issue": "60-action/900-second model-and-limit paragraph must be scoped to S1-S6 after addition of later studies.",
+      "requested": "Name S1/S2 and S3-S6 explicitly and state distinct Run118 model/limits in section10 or appendix."
+    }
+  ],
+  "checks": {
+    "historical_sections4_to7_equal_after_newline_normalization": true,
+    "historical_characters": 7524,
+    "run119_mse_reduction_percent": 10.38909005065507,
+    "run119_above_band_reduction_percent": 9.510869565217394,
+    "run119_mean_mse_increase_vs_acquired_percent": 1.8392874531041326,
+    "source_not_admitted_consistent": true,
+    "stale_next_direction_corrected": true,
+    "core_change_required": false
+  },
+  "scope": {
+    "markdown_source_claim_review": true,
+    "new_model_execution": false,
+    "new_physical_data_scoring": false,
+    "external_source_retrieval_by_this_reviewer": false,
+    "pdf_layout_review": false,
+    "package_execution_review": false
+  },
+  "delivery_pending": [
+    "PDF regeneration/render review",
+    "New component verifier execution",
+    "Manifest/bundle/source baseline links",
+    "Current skill identity record"
+  ],
+  "rereview": {
+    "status": "PASSED",
+    "open_blockers": [],
+    "paper_sha256": "eae8d96449cc452af1b53b86faf4d1257e7d99b05b4ea89ca453514d1c9e27d0",
+    "historical_sections4_to7_unchanged": true,
+    "scope_correction_verified": true,
+    "hash_scope": "Correction landed after initial content inspection and before first hash snapshot; file bindings identify corrected rereview bytes."
+  },
+  "methods_rereview": {
+    "status": "PASSED",
+    "prior_sha256": "11b0093e4a4fb1e1c2c13f4a1b7cc99867352d2eba058abbd82992f4fb865888",
+    "current_sha256": "f970b4280cf48241b8b63d428f9372cd3c560f270d2ded3ccabe58ce121d67bf",
+    "change": "Explicit AAU affine range calibration, uncertainty dependence, terrain and motion conditions",
+    "source_review_consistent": true,
+    "equations_consistent_under_declared_conditions": true,
+    "canonical_paper_unchanged": true,
+    "external_retrieval_by_this_reviewer": false,
+    "new_blockers": []
+  }
+}

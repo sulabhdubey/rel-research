@@ -1,0 +1,94 @@
+{
+  "rows": 26,
+  "origin_attempts": 2,
+  "origin_correct_tasks": 2,
+  "acquisition_usage": {
+    "total_tokens": 357417,
+    "input_tokens": 350015,
+    "cached_input_tokens": 297984,
+    "output_tokens": 7402,
+    "reasoning_output_tokens": 944,
+    "uncached_input_plus_output": 59433
+  },
+  "actual_campaign_usage": {
+    "total_tokens": 3861892,
+    "input_tokens": 3762408,
+    "cached_input_tokens": 3204864,
+    "output_tokens": 99484,
+    "reasoning_output_tokens": 18229,
+    "uncached_input_plus_output": 657028
+  },
+  "actual_feedback_usage": {
+    "total_tokens": 145482,
+    "input_tokens": 144739,
+    "cached_input_tokens": 136192,
+    "output_tokens": 743,
+    "reasoning_output_tokens": 59,
+    "uncached_input_plus_output": 9290
+  },
+  "table": {
+    "A": {
+      "attempts": 8,
+      "correct_tasks": 7,
+      "later_usage": {
+        "total_tokens": 1270553,
+        "input_tokens": 1238955,
+        "cached_input_tokens": 1102080,
+        "output_tokens": 31598,
+        "reasoning_output_tokens": 5148,
+        "uncached_input_plus_output": 168473
+      },
+      "inclusive_usage": {
+        "total_tokens": 1270553,
+        "input_tokens": 1238955,
+        "cached_input_tokens": 1102080,
+        "output_tokens": 31598,
+        "reasoning_output_tokens": 5148,
+        "uncached_input_plus_output": 168473
+      },
+      "inclusive_tokens_per_correct_task": 181507.57142857142
+    },
+    "B": {
+      "attempts": 8,
+      "correct_tasks": 8,
+      "later_usage": {
+        "total_tokens": 1117621,
+        "input_tokens": 1085942,
+        "cached_input_tokens": 872960,
+        "output_tokens": 31679,
+        "reasoning_output_tokens": 6133,
+        "uncached_input_plus_output": 244661
+      },
+      "inclusive_usage": {
+        "total_tokens": 1475038,
+        "input_tokens": 1435957,
+        "cached_input_tokens": 1170944,
+        "output_tokens": 39081,
+        "reasoning_output_tokens": 7077,
+        "uncached_input_plus_output": 304094
+      },
+      "inclusive_tokens_per_correct_task": 184379.75
+    },
+    "C": {
+      "attempts": 8,
+      "correct_tasks": 8,
+      "later_usage": {
+        "total_tokens": 1116301,
+        "input_tokens": 1087496,
+        "cached_input_tokens": 931840,
+        "output_tokens": 28805,
+        "reasoning_output_tokens": 6004,
+        "uncached_input_plus_output": 184461
+      },
+      "inclusive_usage": {
+        "total_tokens": 1473718,
+        "input_tokens": 1437511,
+        "cached_input_tokens": 1229824,
+        "output_tokens": 36207,
+        "reasoning_output_tokens": 6948,
+        "uncached_input_plus_output": 243894
+      },
+      "inclusive_tokens_per_correct_task": 184214.75
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "total_tokens": 357417,
+  "uncached_plus_output": 59433,
+  "feedback_tokens_included": 145482,
+  "actual_new_study_cost": false,
+  "counterfactual_policy_charge": "once each for B and C; not added together into actual spending"
+}

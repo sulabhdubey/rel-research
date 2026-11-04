@@ -1,0 +1,505 @@
+{
+  "arm_totals": {
+    "C": {
+      "complete_migrations": 0,
+      "dispatch_seconds": 464.48197439988144,
+      "official_correct": 1420,
+      "primary_correct": 1216,
+      "regressions": 0,
+      "tokens": {
+        "cachedInputTokens": 2148608,
+        "inputTokens": 2266338,
+        "outputTokens": 12459,
+        "reasoningOutputTokens": 4218,
+        "totalTokens": 2278797,
+        "uncachedInputPlusOutput": 130189
+      }
+    },
+    "F": {
+      "complete_migrations": 0,
+      "dispatch_seconds": 463.67450900003314,
+      "official_correct": 1420,
+      "primary_correct": 1216,
+      "regressions": 0,
+      "tokens": {
+        "cachedInputTokens": 2500480,
+        "inputTokens": 2617927,
+        "outputTokens": 16864,
+        "reasoningOutputTokens": 6286,
+        "totalTokens": 2634791,
+        "uncachedInputPlusOutput": 134311
+      }
+    },
+    "O": {
+      "complete_migrations": 0,
+      "dispatch_seconds": 406.53001009998843,
+      "official_correct": 1415,
+      "primary_correct": 1215,
+      "regressions": 0,
+      "tokens": {
+        "cachedInputTokens": 1831424,
+        "inputTokens": 1938921,
+        "outputTokens": 13131,
+        "reasoningOutputTokens": 5167,
+        "totalTokens": 1952052,
+        "uncachedInputPlusOutput": 120628
+      }
+    }
+  },
+  "attempts": 6,
+  "contrasts": {
+    "C-F": [
+      {
+        "dispatch_seconds_delta": 12.83036479994189,
+        "official_correct_delta": 0,
+        "primary_correct_delta": 0,
+        "repeat": 1,
+        "total_token_percent": 4.282813788049955,
+        "uncached_token_percent": 26.908445751550403
+      },
+      {
+        "dispatch_seconds_delta": -12.022899400093593,
+        "official_correct_delta": 0,
+        "primary_correct_delta": 0,
+        "repeat": 2,
+        "total_token_percent": -27.9245550027032,
+        "uncached_token_percent": -29.209583675972517
+      }
+    ],
+    "C-O": [
+      {
+        "dispatch_seconds_delta": 69.98923069995362,
+        "official_correct_delta": 5,
+        "primary_correct_delta": 1,
+        "repeat": 1,
+        "total_token_percent": 89.57512349447745,
+        "uncached_token_percent": 66.1762243616576
+      },
+      {
+        "dispatch_seconds_delta": -12.037266400060616,
+        "official_correct_delta": 0,
+        "primary_correct_delta": 0,
+        "repeat": 2,
+        "total_token_percent": -19.506076229055424,
+        "uncached_token_percent": -30.27948605315177
+      }
+    ],
+    "F-O": [
+      {
+        "dispatch_seconds_delta": 57.15886590001173,
+        "official_correct_delta": 5,
+        "primary_correct_delta": 1,
+        "repeat": 1,
+        "total_token_percent": 81.78942110229228,
+        "uncached_token_percent": 30.941816659690247
+      },
+      {
+        "dispatch_seconds_delta": -0.01436699996702373,
+        "official_correct_delta": 0,
+        "primary_correct_delta": 0,
+        "repeat": 2,
+        "total_token_percent": 11.680092677837116,
+        "uncached_token_percent": -1.5113661322205152
+      }
+    ]
+  },
+  "core_sha256": "f598cee5206dd415d5884f557442ec29d07dd4049bbcde23d9c9bda214f16c1b",
+  "date": "2026-10-21",
+  "effort": "medium",
+  "helper_check_seconds": 6.243284700089134,
+  "initial_primary_failures": 2,
+  "model": "gpt-6-luna",
+  "official_positions": 712,
+  "primary_positions": 609,
+  "public_fixture_records": 41,
+  "qualification_seconds": {
+    "reference": 20.492056900053285,
+    "starter": 19.48153570003342
+  },
+  "same_REL_in_all_conditions": true,
+  "scope_limits": [
+    "Two fresh sessions per policy on one public-source family",
+    "Coordinator exposed oracle, not protected confirmation",
+    "Small residual headroom and dependent case positions",
+    "Supplied executable aid, not autonomous capability acquisition",
+    "All conditions already receive source-checked facts and current REL; no REL-versus-no-REL claim"
+  ],
+  "source_acquisition_seconds": 6.51248139992822,
+  "source_family": "TOML 1.1 in-place migration of Tomli 2.0.1",
+  "unknown_costs": [
+    "Complete coordinator research and engineering tokens/time",
+    "Full local and remote compute cost",
+    "Currency charges",
+    "Physical energy"
+  ],
+  "worker_totals": {
+    "actions": 236,
+    "cachedInputTokens": 6480512,
+    "dispatch_seconds": 1334.686493499903,
+    "inputTokens": 6823186,
+    "outputTokens": 42454,
+    "reasoningOutputTokens": 15671,
+    "requests": 179,
+    "totalTokens": 6865640,
+    "uncachedInputPlusOutput": 385128
+  },
+  "workers": {
+    "C1": {
+      "actions": 43,
+      "complete_migration": false,
+      "dispatch_seconds": 248.34504189994186,
+      "frozen_scored_files_verified": 7,
+      "helper_call_actions": [
+        14,
+        26,
+        33,
+        40
+      ],
+      "official_correct": 710,
+      "primary_correct": 608,
+      "regressions": 0,
+      "repaired_positions": 9,
+      "requests": 33,
+      "source_result_sha256": "5a0b9f52759ae2acb60ce086f48bbb80704e8409f02107d79f72a2f6e62662b7",
+      "strata": {
+        "invalid": {
+          "correct": 494,
+          "total": 494
+        },
+        "new_version": {
+          "correct": 66,
+          "total": 68
+        },
+        "primary": {
+          "correct": 608,
+          "total": 609
+        },
+        "public": {
+          "correct": 41,
+          "total": 41
+        },
+        "valid": {
+          "correct": 216,
+          "total": 218
+        }
+      },
+      "tokens": {
+        "cachedInputTokens": 1150208,
+        "inputTokens": 1223508,
+        "outputTokens": 6099,
+        "reasoningOutputTokens": 2553,
+        "totalTokens": 1229607,
+        "uncachedInputPlusOutput": 79399
+      },
+      "tool_errors": 3,
+      "unresolved": 0,
+      "wrong_ids": [
+        "valid/spec-1.1.0/common-12.toml",
+        "valid/string/hex-escape.toml"
+      ]
+    },
+    "C2": {
+      "actions": 34,
+      "complete_migration": false,
+      "dispatch_seconds": 216.13693249993958,
+      "frozen_scored_files_verified": 7,
+      "helper_call_actions": [
+        11,
+        14,
+        15,
+        19,
+        32
+      ],
+      "official_correct": 710,
+      "primary_correct": 608,
+      "regressions": 0,
+      "repaired_positions": 9,
+      "requests": 29,
+      "source_result_sha256": "2c234357be1313297caf12d0b35bd3f05fdfb30b32169b8995f870bebf2e8726",
+      "strata": {
+        "invalid": {
+          "correct": 494,
+          "total": 494
+        },
+        "new_version": {
+          "correct": 66,
+          "total": 68
+        },
+        "primary": {
+          "correct": 608,
+          "total": 609
+        },
+        "public": {
+          "correct": 41,
+          "total": 41
+        },
+        "valid": {
+          "correct": 216,
+          "total": 218
+        }
+      },
+      "tokens": {
+        "cachedInputTokens": 998400,
+        "inputTokens": 1042830,
+        "outputTokens": 6360,
+        "reasoningOutputTokens": 1665,
+        "totalTokens": 1049190,
+        "uncachedInputPlusOutput": 50790
+      },
+      "tool_errors": 4,
+      "unresolved": 0,
+      "wrong_ids": [
+        "valid/spec-1.1.0/common-12.toml",
+        "valid/string/hex-escape.toml"
+      ]
+    },
+    "F1": {
+      "actions": 40,
+      "complete_migration": false,
+      "dispatch_seconds": 235.51467709999997,
+      "frozen_scored_files_verified": 7,
+      "helper_call_actions": [
+        15,
+        16,
+        33,
+        35,
+        40
+      ],
+      "official_correct": 710,
+      "primary_correct": 608,
+      "regressions": 0,
+      "repaired_positions": 9,
+      "requests": 31,
+      "source_result_sha256": "0c56c95ab9d87cd0e32fdf000a67e165405e00f5e7f8483dde6ff8ee55ae4619",
+      "strata": {
+        "invalid": {
+          "correct": 494,
+          "total": 494
+        },
+        "new_version": {
+          "correct": 66,
+          "total": 68
+        },
+        "primary": {
+          "correct": 608,
+          "total": 609
+        },
+        "public": {
+          "correct": 41,
+          "total": 41
+        },
+        "valid": {
+          "correct": 216,
+          "total": 218
+        }
+      },
+      "tokens": {
+        "cachedInputTokens": 1116544,
+        "inputTokens": 1171011,
+        "outputTokens": 8097,
+        "reasoningOutputTokens": 3119,
+        "totalTokens": 1179108,
+        "uncachedInputPlusOutput": 62564
+      },
+      "tool_errors": 3,
+      "unresolved": 0,
+      "wrong_ids": [
+        "valid/spec-1.1.0/common-12.toml",
+        "valid/string/hex-escape.toml"
+      ]
+    },
+    "F2": {
+      "actions": 44,
+      "complete_migration": false,
+      "dispatch_seconds": 228.15983190003317,
+      "frozen_scored_files_verified": 7,
+      "helper_call_actions": [
+        13,
+        17,
+        32,
+        36,
+        40
+      ],
+      "official_correct": 710,
+      "primary_correct": 608,
+      "regressions": 0,
+      "repaired_positions": 9,
+      "requests": 34,
+      "source_result_sha256": "82af351d5ee94071de8fd2793448ce3bad14a3d49f109942a74377b5d63e508c",
+      "strata": {
+        "invalid": {
+          "correct": 494,
+          "total": 494
+        },
+        "new_version": {
+          "correct": 66,
+          "total": 68
+        },
+        "primary": {
+          "correct": 608,
+          "total": 609
+        },
+        "public": {
+          "correct": 41,
+          "total": 41
+        },
+        "valid": {
+          "correct": 216,
+          "total": 218
+        }
+      },
+      "tokens": {
+        "cachedInputTokens": 1383936,
+        "inputTokens": 1446916,
+        "outputTokens": 8767,
+        "reasoningOutputTokens": 3167,
+        "totalTokens": 1455683,
+        "uncachedInputPlusOutput": 71747
+      },
+      "tool_errors": 4,
+      "unresolved": 0,
+      "wrong_ids": [
+        "valid/spec-1.1.0/common-12.toml",
+        "valid/string/hex-escape.toml"
+      ]
+    },
+    "O1": {
+      "actions": 39,
+      "complete_migration": false,
+      "dispatch_seconds": 178.35581119998824,
+      "frozen_scored_files_verified": 7,
+      "helper_call_actions": [],
+      "official_correct": 705,
+      "primary_correct": 607,
+      "regressions": 0,
+      "repaired_positions": 4,
+      "requests": 21,
+      "source_result_sha256": "946c0e5a284df391b617837d325af3db97f94beec09db06cca904791aae07930",
+      "strata": {
+        "invalid": {
+          "correct": 494,
+          "total": 494
+        },
+        "new_version": {
+          "correct": 61,
+          "total": 68
+        },
+        "primary": {
+          "correct": 607,
+          "total": 609
+        },
+        "public": {
+          "correct": 38,
+          "total": 41
+        },
+        "valid": {
+          "correct": 211,
+          "total": 218
+        }
+      },
+      "tokens": {
+        "cachedInputTokens": 600832,
+        "inputTokens": 644899,
+        "outputTokens": 3713,
+        "reasoningOutputTokens": 990,
+        "totalTokens": 648612,
+        "uncachedInputPlusOutput": 47780
+      },
+      "tool_errors": 3,
+      "unresolved": 0,
+      "wrong_ids": [
+        "valid/inline-table/newline-comment.toml",
+        "valid/inline-table/newline.toml",
+        "valid/key/empty-05.toml",
+        "valid/spec-1.1.0/common-12.toml",
+        "valid/spec-1.1.0/common-47.toml",
+        "valid/string/escape-esc.toml",
+        "valid/string/hex-escape.toml"
+      ]
+    },
+    "O2": {
+      "actions": 36,
+      "complete_migration": false,
+      "dispatch_seconds": 228.1741989000002,
+      "frozen_scored_files_verified": 7,
+      "helper_call_actions": [],
+      "official_correct": 710,
+      "primary_correct": 608,
+      "regressions": 0,
+      "repaired_positions": 9,
+      "requests": 31,
+      "source_result_sha256": "9535ccf06339355e362784b14d0edb1a39d5c6b3daa9b89ac9851331ca1121fa",
+      "strata": {
+        "invalid": {
+          "correct": 494,
+          "total": 494
+        },
+        "new_version": {
+          "correct": 66,
+          "total": 68
+        },
+        "primary": {
+          "correct": 608,
+          "total": 609
+        },
+        "public": {
+          "correct": 41,
+          "total": 41
+        },
+        "valid": {
+          "correct": 216,
+          "total": 218
+        }
+      },
+      "tokens": {
+        "cachedInputTokens": 1230592,
+        "inputTokens": 1294022,
+        "outputTokens": 9418,
+        "reasoningOutputTokens": 4177,
+        "totalTokens": 1303440,
+        "uncachedInputPlusOutput": 72848
+      },
+      "tool_errors": 2,
+      "unresolved": 0,
+      "wrong_ids": [
+        "valid/spec-1.1.0/common-12.toml",
+        "valid/string/hex-escape.toml"
+      ]
+    }
+  },
+  "diagnostic": {
+    "fixed": [
+      "valid/spec-1.1.0/common-12.toml",
+      "valid/string/hex-escape.toml"
+    ],
+    "regressions": [],
+    "boundary_checks": {
+      "after": {
+        "correct": 13,
+        "failed": [],
+        "total": 13
+      },
+      "before": {
+        "correct": 6,
+        "failed": [
+          "x00",
+          "x1B",
+          "x7F",
+          "x80",
+          "xFF",
+          "quoted-key",
+          "multiline"
+        ],
+        "total": 13
+      }
+    },
+    "boundary_seconds": 5.291006000014022,
+    "grading_seconds": 11.397251699934714,
+    "excluded_from_worker_comparison": true
+  },
+  "diagnostic_correct": 712,
+  "entrypoint_changed": false,
+  "optional_source_claim_reference_changed": true,
+  "delivered_clarification_not_worker_input": true,
+  "clarification_benefit_unmeasured": true
+}

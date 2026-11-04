@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-20",
+  "scope": "Requests method-level ordinary repair qualification",
+  "source": {
+    "project": "psf/requests",
+    "release": "2.34.2",
+    "main_commit": "611c6162cbc4ac2020a2f91c7cfa4f3abf9bbb60",
+    "historical_merge": "084625cb3cd6bed4feeb0e65c880dc02c2fb3aa1"
+  },
+  "model": "gpt-6-luna",
+  "effort": "medium",
+  "worker_limits": {
+    "actions": 60,
+    "seconds_including_startup": 900
+  },
+  "ordinary_worker_attempts": 2,
+  "REL_comparison_attempts": 0,
+  "worker_REL_loaded": false,
+  "coordinator_REL_used": true,
+  "cases_are_dependent": true,
+  "protected_holdout": false,
+  "outcomes": {
+    "O1": {
+      "correct": 654,
+      "total": 654,
+      "starting_failures_repaired": 220,
+      "starting_passes_lost": 0
+    },
+    "O2": {
+      "correct": 654,
+      "total": 654,
+      "starting_failures_repaired": 220,
+      "starting_passes_lost": 0
+    },
+    "historical-merged": {
+      "correct": 556,
+      "total": 654,
+      "starting_failures_repaired": 196,
+      "starting_passes_lost": 74
+    },
+    "historical-port": {
+      "correct": 385,
+      "total": 654,
+      "starting_failures_repaired": 27,
+      "starting_passes_lost": 76
+    },
+    "reference": {
+      "correct": 654,
+      "total": 654,
+      "starting_failures_repaired": 220,
+      "starting_passes_lost": 0
+    },
+    "starting": {
+      "correct": 434,
+      "total": 654,
+      "starting_failures_repaired": 0,
+      "starting_passes_lost": 0
+    }
+  },
+  "worker_costs": {
+    "O1": {
+      "actions": 16,
+      "requests": 12,
+      "usage": {
+        "cachedInputTokens": 151168,
+        "inputTokens": 194530,
+        "outputTokens": 4396,
+        "reasoningOutputTokens": 1651,
+        "totalTokens": 198926,
+        "uncachedInputPlusOutput": 47758
+      },
+      "dispatch_seconds": 181.05474799999502,
+      "nonzero_python_exits": 2,
+      "broker_rejections": 0,
+      "result_sha256": "3af99ca3cea4c7c5025059dccd77d2969b2201256a2c1042c519c50d35d929e3"
+    },
+    "O2": {
+      "actions": 10,
+      "requests": 6,
+      "usage": {
+        "cachedInputTokens": 62464,
+        "inputTokens": 80365,
+        "outputTokens": 3483,
+        "reasoningOutputTokens": 1532,
+        "totalTokens": 83848,
+        "uncachedInputPlusOutput": 21384
+      },
+      "dispatch_seconds": 143.31714040006045,
+      "nonzero_python_exits": 0,
+      "broker_rejections": 0,
+      "result_sha256": "c293a5ea2b4300fb63903acd17d93451f5d0ca505b56d2035e52b2af0bfaa66c"
+    }
+  },
+  "worker_totals": {
+    "actions": 26,
+    "dispatch_seconds": 324.37188840005547,
+    "usage": {
+      "cachedInputTokens": 213632,
+      "inputTokens": 274895,
+      "outputTokens": 7879,
+      "reasoningOutputTokens": 3183,
+      "totalTokens": 282774,
+      "uncachedInputPlusOutput": 69142
+    },
+    "requests": 18,
+    "feedback_model_requests": 0
+  },
+  "comparison_decision": "not_admitted_ordinary_repair_closes_endpoint",
+  "core_changed": false,
+  "full_library_integration_tested": false,
+  "claim": "Real repair; no measured REL advantage.",
+  "unknown_costs": [
+    "complete coordinator tokens",
+    "complete investigation and engineering time",
+    "currency",
+    "whole-laptop energy",
+    "remote-inference energy"
+  ]
+}
