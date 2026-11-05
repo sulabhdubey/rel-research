@@ -37,6 +37,12 @@ The package includes selected saved summaries, two arithmetic/identity verifiers
 
 The package does **not** include original model transcripts, complete historical hosts/prompts, raw sensor recordings or private project evidence. Reconstructing the supplied numbers is different from independently replicating the original studies. [Exact boundaries and commands](package/README.md).
 
+## Run a checked example
+
+[Temporal observation controller](examples/temporal-observation-controller/README.md) · [Validation and commands](examples/temporal-observation-controller/VALIDATION.md)
+
+This standard-library Python example asks only for observations needed to justify a graph decision, retains still-valid facts across queries, and restores them in a fresh process. It returns **unknown** when the budget or evidence is insufficient. The example includes 20 unit tests and a separate time-expanded graph checker. All cases are constructed; this is reusable ordinary software, not a demonstrated learned-policy improvement. No model, account, data download or third-party dependency is needed.
+
 ## Discuss and cite
 
 We welcome specific criticism of the controls, applicability contracts, retained-state failures and the next experiment that would change a conclusion. [X discussion](https://x.com/SulabhDubey/status/2118090896885551559). Use GitHub Issues for reproducibility questions; do not post credentials or private logs.

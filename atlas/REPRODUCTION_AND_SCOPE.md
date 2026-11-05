@@ -8,6 +8,7 @@ The atlas adds navigation and original synthesis to the frozen v0.7.1 package. I
 | `verify_selected_results.py` | Check identities and reconstruct selected S1–S6 accounting | Fresh model behavior or independent authentication of source events |
 | `verify_component_results.py` | Reconstruct Run119's reported table from saved trajectory metrics | Rerun raw-sensor scoring or qualify a new dataset |
 | Constructed localization reference and tests | Run the supplied prediction/save/restart example with Python and NumPy | Live deployment, hostile-host safety or empirical superiority |
+| [Temporal observation controller](../examples/temporal-observation-controller/README.md) and [independent checker](../examples/temporal-observation-controller/VALIDATION.md) | Run source-free acquisition, unknown-answer, checkpoint and boundary checks with the Python standard library | Learned acquisition, source authentication, selective record migration or empirical superiority |
 | Generic REL snapshot | Read the version-bound instructions and supporting files | Automatic installation, weight change or enforced permissions |
 | [Research record index](STUDY_REGISTER.md) | Distinguish 15 runs with public evidence links, 92 identified private records and 14 unreconciled numbers | A publication queue, result count, complete raw archive or 121 independent trials |
 | Separate Public Agent Trace Notes repository | Inspect its annotation and release-specific verifier | Complete source availability or a newly discovered incident |
