@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "example_version": "1.0",
+  "study": "Run125",
+  "scope": "Constructed public demonstration; no new learner acquisition or empirical comparison.",
+  "bundle_file": "methods.json",
+  "bundle_sha256": "6062d92a015c4c760ee7df0a682b8643fca34f5da02a41d9d061a2a7f840b182",
+  "methods": {
+    "v1": {
+      "method_id": "energy_wh_binary_latest_v1",
+      "sql_utf8_sha256": "1a77cd7d3abb891f361af01855dca8cdba8369901f10030ad3af2f2946988961",
+      "origin_study": "Run85"
+    },
+    "v2": {
+      "method_id": "energy_calibrated_latest_v2",
+      "sql_utf8_sha256": "3b8b62230cc440094e9dbd935b2223c0f4c72412b9df6fd80df56ea07a7e3eaf",
+      "origin_study": "Run86"
+    }
+  },
+  "runtime": {
+    "file": "runtime.py",
+    "original_sha256": "1e50bd82eb604a6c2ecf3b7c3f45e98fd76adbe55b8b9c181d3f12434c064053",
+    "released_sha256": "10b224f79491805d620671ae8ab5e15246d2232578f3aa1908fcf9fd6946ce79",
+    "change": "Call enable_load_extension(False) only if the optional Python API exists. Existing API failures are not suppressed; SQL authorization and query limits remain unchanged."
+  },
+  "historical_evidence": "Original acquisition records and exact extraction checks are retained privately. They are not bundled or independently authenticated by these hashes. The public Run86 report provides the study context.",
+  "origin_delivery": "Run86 received the earlier method separately through seed/archive context; its initial compiled-method registry was empty. This is not one uninterrupted learning session or a direct populated-registry replacement.",
+  "authorship": "SQL methods were model-authored in earlier studies. Run125 routing, applicability checks, constructed rows and ordinary reference are authored demonstration code. The public runtime portability change and extra regression test are engineering changes.",
+  "semantics": "Hashes establish identity against this manifest, not truth, authentication or applicability. Physical-window bounds require declared interval support, nonnegative power, complete coverage and no peak/shape restriction; these are not claims about historical UCI data."
+}

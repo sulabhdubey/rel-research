@@ -39,6 +39,9 @@ The package does **not** include original model transcripts, complete historical
 
 ## Run a checked example
 
+**New: [Reuse, adapt, or refuse?](examples/reuse-adapt-refuse/README.md)** A five-minute walkthrough with two historically acquired SQL methods and authored routing. On constructed data it reuses a valid method (30 Wh), applies changed calibration (51.5 Wh), and refuses an exact partial-window answer while giving a conditional 0-30 Wh range from the original uncalibrated totals. It includes 23 tests, a separate nine-check verifier and three focused feedback questions. Python standard library only; no model or private files required. [Validation and compatibility scope](examples/reuse-adapt-refuse/VALIDATION.md).
+
+
 [Temporal observation controller](examples/temporal-observation-controller/README.md) · [Validation and commands](examples/temporal-observation-controller/VALIDATION.md)
 
 This standard-library Python example asks only for observations needed to justify a graph decision, retains still-valid facts across queries, and restores them in a fresh process. It returns **unknown** when the budget or evidence is insufficient. The example includes 20 unit tests and a separate time-expanded graph checker. All cases are constructed; this is reusable ordinary software, not a demonstrated learned-policy improvement. No model, account, data download or third-party dependency is needed.

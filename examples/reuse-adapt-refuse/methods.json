@@ -1,0 +1,70 @@
+{
+  "v1": {
+    "id": "energy_wh_binary_latest_v1",
+    "sql": "WITH ranked AS (SELECT sample_id, t, duration, value, quality, ROW_NUMBER() OVER (PARTITION BY sample_id ORDER BY revision DESC) AS rn FROM observations WHERE available <= :as_of), eligible AS (SELECT duration, value FROM ranked WHERE rn = 1 AND t >= :start AND t < :end AND duration > 0 AND value IS NOT NULL AND quality = 1) SELECT COALESCE(SUM(value), 0) / 1000.0 AS energy_kwh, MAX(value * 60.0 / duration) / 1000.0 AS peak_kw, COALESCE(SUM(duration), 0) AS valid_minutes, COUNT(*) AS valid_count FROM eligible",
+    "guard": {
+      "family": "energy",
+      "unit": "Wh",
+      "quality_rule": "binary",
+      "schema_version": 1,
+      "revision_policy": "latest_available_then_quality"
+    },
+    "context_fields": [
+      "family",
+      "unit",
+      "quality_rule",
+      "schema_version",
+      "revision_policy",
+      "as_of",
+      "start",
+      "end"
+    ],
+    "note": "For interval energies in Wh with binary quality. Bind as_of/start/end from authoritative current context. Filter availability before selecting highest revision; apply all eligibility only after revision selection. SUM(value)/1000 gives kWh; MAX(value*60.0/duration)/1000 gives kW. Empty sets yield zero energy/minutes/count and null peak. Reuse only under guard; adapt for W, graded quality, air, or changed schema/revision policy."
+  },
+  "v2": {
+    "id": "energy_calibrated_latest_v2",
+    "sql": "WITH ranked AS (SELECT sample_id, t, duration, value, quality, ROW_NUMBER() OVER (PARTITION BY sample_id ORDER BY revision DESC) AS rn FROM observations WHERE available <= :as_of), eligible AS (SELECT duration, :calibration_gain * value + :calibration_offset AS corrected_value FROM ranked WHERE rn = 1 AND t >= :start AND t < :end AND duration > 0 AND value IS NOT NULL AND (quality = 1 OR (:quality_rule = 'graded' AND quality = 2))) SELECT COALESCE(SUM(CASE :unit WHEN 'Wh' THEN corrected_value WHEN 'W' THEN corrected_value * duration / 60.0 END), 0) / 1000.0 AS energy_kwh, MAX(CASE :unit WHEN 'Wh' THEN corrected_value * 60.0 / duration WHEN 'W' THEN corrected_value END) / 1000.0 AS peak_kw, COALESCE(SUM(duration), 0) AS valid_minutes, COUNT(*) AS valid_count FROM eligible",
+    "guard": {
+      "family": "energy",
+      "schema_version": 1,
+      "revision_policy": "latest_available_then_quality"
+    },
+    "context_fields": [
+      "family",
+      "unit",
+      "quality_rule",
+      "schema_version",
+      "revision_policy",
+      "as_of",
+      "start",
+      "end",
+      "calibration_gain",
+      "calibration_offset"
+    ],
+    "note": "Current energy contract for documented Wh/W units and binary/graded quality. Select latest available revision before all eligibility. Calibrate in stored units before conversion. Dynamic gain, offset, unit and quality bindings; empty sets yield zero energy/minutes/count and null peak.",
+    "bindings": {
+      "unit": {
+        "field": "unit"
+      },
+      "quality_rule": {
+        "field": "quality_rule"
+      },
+      "as_of": {
+        "field": "as_of"
+      },
+      "start": {
+        "field": "start"
+      },
+      "end": {
+        "field": "end"
+      },
+      "calibration_gain": {
+        "field": "calibration_gain"
+      },
+      "calibration_offset": {
+        "field": "calibration_offset"
+      }
+    },
+    "active": true
+  }
+}

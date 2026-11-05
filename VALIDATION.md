@@ -32,3 +32,7 @@ e3dcfeb674a86cd897d30ba20c9cd2cc17366482bb90f303c8e278fdce8d4ef8
 The ZIP and standalone PDFs are supplied with `SHA256SUMS.txt` in the release. Checksums identify bytes; they do not authenticate original events or prove scientific effects. Independent model-assisted reader and privacy reviews are not external peer review. Targeted scanners may miss undiscovered sensitive content. Raw datasets, private chats and original model trajectories are excluded, so complete historical replication is unavailable.
 
 An earlier private review missed one JSON-escaped workspace path. The public export removes it and checks decoded fields. Original failure records remain preserved privately; this receipt replaces neither their historical scope nor their failures.
+
+## Separate Run125 walkthrough supplement
+
+The [reuse/adapt/refuse example](examples/reuse-adapt-refuse/README.md) is a separate reader artifact. Its [validation note](examples/reuse-adapt-refuse/VALIDATION.md), minimized provenance, 23 tests and nine-check verifier describe the shipped behavior and compatibility patch. Its checksum file identifies its own files. This addition does not alter the frozen public package v0.7.1, release ZIP or earlier receipt above.

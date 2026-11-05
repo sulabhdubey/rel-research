@@ -25,6 +25,10 @@ Source, measurement and version binding cut across all six. They are conditions 
 
 **Procedure changes:** Run92 tested procedure evolution. It added **20.12% recorded tokens** without a demonstrated later advantage. The failed candidate remains evidence; it was not promoted just because it revised itself. [Report](../package/component-evidence/REPORT92.md).
 
+## Try reuse under changed requirements
+
+The [Run125 walkthrough](../examples/reuse-adapt-refuse/README.md) makes three operations visible: reuse an acquired method, execute a retained calibration-aware method when the requirement changes, and decline an exact answer when the observations do not determine it. The rows and routing are constructed for this example; it does not learn a new method during execution. The ordinary reference uses the same facts. Readers can challenge the applicability checks with a minimal counterexample.
+
 ## Try the small public reference
 
 The [localization reference](../package/reference/README.md) supports prediction, separate evaluation and checked save/restart on constructed fixed records. The package records 17 passing engineering tests after preserved failed attempts. It needs no model API or GPU. It is not a live robot deployment or an independent sensor benchmark.
