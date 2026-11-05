@@ -14,6 +14,14 @@ This is the public reader package for *Retained Experience, Executable Methods, 
 | [Download the complete evidence package](https://github.com/sulabhdubey/rel-research/releases/tag/v0.7.1) | Versioned ZIP, standalone PDFs and SHA-256 checksums |
 | [Reproduction guide](package/README.md) | Offline saved-result checks and a constructed example |
 
+## Explore the wider research
+
+The [research atlas](atlas/README.md) connects eight topics: public agent traces, intelligence and consciousness, brain-inspired memory, mathematics, REL, executable learning, reverse engineering and unfamiliar combinations, and failures that changed the programme. Each page distinguishes results from synthesis and open questions.
+
+[Study register](atlas/STUDY_REGISTER.md) · [What readers can reproduce](atlas/REPRODUCTION_AND_SCOPE.md) · [One-topic-every-two-days discussion series](sharing/TOPIC_QUEUE.md)
+
+This 5 November supplement leaves the versioned v0.7.1 paper, selected evidence and release assets unchanged. It is a curated route through the programme, not a claim that every numbered run is an independent discovery.
+
 ## What we found
 
 - Retained observations reduced repeated database work by about **77%**. Ordinary factual handoff achieved the same benefit.

@@ -1,0 +1,32 @@
+# What this release lets you check
+
+The atlas adds navigation and original synthesis to the frozen v0.7.1 package. It does not silently upgrade that package's evidence or verification level.
+
+| Public object | What a reader can do | What it does not establish |
+|---|---|---|
+| Paper, appendix and selected study summaries | Inspect controls, reported outcomes and accounting | Independent repetition of every original model trial |
+| `verify_selected_results.py` | Check identities and reconstruct selected S1–S6 accounting | Fresh model behavior or independent authentication of source events |
+| `verify_component_results.py` | Reconstruct Run119's reported table from saved trajectory metrics | Rerun raw-sensor scoring or qualify a new dataset |
+| Constructed localization reference and tests | Run the supplied prediction/save/restart example with Python and NumPy | Live deployment, hostile-host safety or empirical superiority |
+| Generic REL snapshot | Read the version-bound instructions and supporting files | Automatic installation, weight change or enforced permissions |
+| Atlas study register | Locate which numbered records have been reconciled | A result count, complete raw archive or 121 independent trials |
+| Separate Public Agent Trace Notes repository | Inspect its annotation and release-specific verifier | Complete source availability or a newly discovered incident |
+
+See the package's [exact reconstruction coverage](../package/REPRODUCTION_COVERAGE.md), [rights and dependencies](../package/RIGHTS_AND_DEPENDENCIES.md) and [version identity](../package/VERSIONS.json) before execution or reuse.
+
+## Deliberately absent
+
+Private chats and project identifiers, email recipients, credentials, machine-specific paths, native provider transcripts, full third-party papers, unreleased raw datasets and incident payload bodies are not added by this atlas. The study register identifies withheld source records without exposing their paths. This limits independent audit of entries not supported by the released package.
+
+Historical model identities, usage and skill versions are only as complete as the receipts actually retained. An unrecorded cost is not zero. A source hash establishes byte identity, not truth, safety, authorship or a causal benefit.
+
+## Interpretation labels
+
+- **Result:** a reported scoped comparison or verified artifact behavior, with its comparator and limits.
+- **Synthesis:** an interpretation or design principle connecting sources and findings.
+- **Open question:** an unresolved proposal, not a hidden positive result.
+- **Catalogue only:** record identity or topic confirmed; outcome not independently re-audited for this atlas.
+
+No universal RSI effectiveness, consciousness result, biological equivalence, whole-system energy advantage or new algorithm priority is claimed. Original summaries are model-assisted and attributed to this programme; third-party claims remain attributed to their sources.
+
+[Back to the atlas](README.md)
