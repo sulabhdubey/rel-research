@@ -40,7 +40,7 @@ flowchart LR
 
 ## Explore or reproduce
 
-- [Study register](STUDY_REGISTER.md): a navigation record for numbered Runs 1–121, with explicit coverage gaps. Run numbers are not independent experiment counts.
+- [Research record index](STUDY_REGISTER.md): 15 runs with selected public evidence links, 92 identified private records and 14 unreconciled early run numbers, through Run121. The index is not a publication queue or an independent experiment count.
 - [What is public and reproducible](REPRODUCTION_AND_SCOPE.md): which checks can be run, and which evidence is absent.
 - [Paper](../package/PAPER.md) and [evidence appendix](../package/EVIDENCE_APPENDIX.md): controls, numerical results and limitations.
 
