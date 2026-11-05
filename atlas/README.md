@@ -43,6 +43,5 @@ flowchart LR
 - [Study register](STUDY_REGISTER.md): a navigation record for numbered Runs 1–121, with explicit coverage gaps. Run numbers are not independent experiment counts.
 - [What is public and reproducible](REPRODUCTION_AND_SCOPE.md): which checks can be run, and which evidence is absent.
 - [Paper](../package/PAPER.md) and [evidence appendix](../package/EVIDENCE_APPENDIX.md): controls, numerical results and limitations.
-- [Two-day topic series](../sharing/TOPIC_QUEUE.md): proposed public discussion drafts, with one supported idea per post.
 
 Authorship: Sulabh Dubey, with model-assisted research, analysis and drafting. The atlas contains original summaries and interpretation; linked third-party work remains the work of its respective authors. It is a technical discussion resource, not a peer-reviewed claim of a universal RSI system.

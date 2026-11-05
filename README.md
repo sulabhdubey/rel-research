@@ -18,7 +18,7 @@ This is the public reader package for *Retained Experience, Executable Methods, 
 
 The [research atlas](atlas/README.md) connects eight topics: public agent traces, intelligence and consciousness, brain-inspired memory, mathematics, REL, executable learning, reverse engineering and unfamiliar combinations, and failures that changed the programme. Each page distinguishes results from synthesis and open questions.
 
-[Study register](atlas/STUDY_REGISTER.md) · [What readers can reproduce](atlas/REPRODUCTION_AND_SCOPE.md) · [One-topic-every-two-days discussion series](sharing/TOPIC_QUEUE.md)
+[Study register](atlas/STUDY_REGISTER.md) · [What readers can reproduce](atlas/REPRODUCTION_AND_SCOPE.md)
 
 This 5 November supplement leaves the versioned v0.7.1 paper, selected evidence and release assets unchanged. It is a curated route through the programme, not a claim that every numbered run is an independent discovery.
 
